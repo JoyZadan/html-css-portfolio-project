@@ -1,108 +1,62 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Train in XR Website
 
-Welcome USER_NAME,
+## UX
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### DEVELOPER AND BUSINESS GOALS
+Train in XR is a fictional advisory services firm which help companies and the public sectors understand:
+* What is Virtual Reality and how VR differs from Augmented Reality (AR) and Mixed Reality (MR)
+* The advantages of VR/AR/MR in providing practical, engaging, and more cost-effective staff training
+* The key factors to consider when choosing the right technology stack and the right vendor(s) to implement VR/AR training
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Train in XR's website aims to:
+* Provide bite-size and easy to digest information that will help demystify VR and AR
+* Provide access to whitepapers and case studies written by leading industry players and market practitioners
+* Provide information about the best use cases of VR and AR for training
+* Establish the company's credibility as expert providers of XR services 
+* Sell our Tailored XR Training Needs Analysis Workshops
+* Sell our Vendor Selection consulting services
+* Become the leading source of insightful and unbiased information about the pros and cons of adapting VR/ AR for workforce training 
 
-## Gitpod Reminders
+### USER STORIES
+#### First Time Visitor Goals
+* As a First Time Visitor, I want to immediately understand what the website is all about.
+* As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
+* As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
+* As a First Time Visitor, I want to know that they have the experience working with my industry/ sector.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### Returning Visitor Goals
+* As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
+    - what is Virtual Reality
+    - What is Augmented Reality
+    - What is Mixed Reality
+    - What are the use cases of VR/AR/MR 
+    - Why should we implement any of these to train our staff
+* As a Returning Visitor, I want to be able to find whitepapers and case studies about Virtual Reality.
+* As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
 
-`python3 -m http.server`
+#### Frequent Visitor Goals
+* As a Frequent Visitor, I would like to be able to find the information about any webinars that the company is hosting and to be able to sign up for the event.
+* As a Frequent Visitor, I would like to be able to find out about any industry events the company is attending and to schedule a live demo meeting with their team.
+* As a Frequent Visitor, I would like to be able to sign up for their newsletters and company announcements.
 
-A blue button should appear to click: _Make Public_,
+### DESIGN
 
-Another blue button should appear to click: _Open Browser_.
+### WIREFRAMES
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### FEATURES
 
-A blue button should appear to click: _Make Public_,
+### FRAMEWORKS, LIBRARIES AND PROGRAMMES USED
 
-Another blue button should appear to click: _Open Browser_.
+### TESTING
+* HTML Validator - Results
+* CSS Validator - Results
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### TESTING USER STORIES FROM USER EXPERIENCE (UX) SECTION
 
-To log into the Heroku toolbelt CLI:
+### FURTHER TESTING
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### DEPLOYMENT
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### CREDITS
 
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### COPYRIGHT
