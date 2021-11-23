@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', 'Estebank', sans-serif;
+}
+
+/*-------------------------------------------------- header navigation, courtesy of @FollowAndrew YouTube tutorial and amended to include logo image*/
+
+.nav {
+    background-color: rgb(77, 77, 185);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav img {
+    display: block;
+    float: left;
+    max-height: 80px;
+    max-width: 30%;
+    margin-left: 10px;
+    padding-top: 10px;
+    overflow: visible;
+    background-color: inherit;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav ul a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+.nav ul a:hover {
+    border: 2px solid #fff;
+    border-radius: 18px;
+    color: #fff;
+}
+
+.nav .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.nav .menu-icon {
+    padding: 10px 10px;
+    margin: 10px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.nav .menu-icon .nav-icon {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    width: 48px;
+    position: relative;
+    transition: background-color .2s ease-out;
+}
+
+.nav .menu-icon .nav-icon:before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+
+.nav .menu-icon .nav-icon:after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+
+.nav .menu-button {
+    display: none;
+}
+
+.nav .menu-button:checked ~ .menu {
+    max-height: 240px;
+}
+
+.nav .menu-button:checked ~ .menu-icon .nav-icon {
+    background-color: transparent;
+}
+
+.nav .menu-button:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.nav .menu-button:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.nav li a {
+    color: #000000;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+@media screen and (min-width:1366px) {
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        padding: 20px 30px;
+    }
+
+    .nav .menu {
+        clear: none; 
+        float: right;
+        max-height: none;
+    }
+
+    .nav .menu-icon {
+        display: none;
+    }
+}
+
+.hero-interactive {
+    padding-top: 30px;
+}
