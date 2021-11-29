@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
 
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', 'Estebank', sans-serif;
+    font-family: 'Montserrat', 'Fira Sans', sans-serif;
 }
 
-/*-------------------------------------------------- header navigation, courtesy of @FollowAndrew YouTube tutorial and amended to include logo image*/
+/*------------------- header nav, courtesy of @FollowAndrew YouTube tutorial and amended to include logo image and button */
 
-.nav {
-    background-color: rgb(77, 77, 185);
+.nav-container {
+    background-color: #ffffff;
     position: fixed;
     width: 100%;
     z-index: 2;
 }
 
-.nav img {
+.logo {
     display: block;
     float: left;
-    max-height: 80px;
+    max-height: 78px;
     max-width: 30%;
     margin-left: 10px;
     padding-top: 10px;
@@ -26,33 +26,49 @@ body {
     background-color: inherit;
 }
 
-.nav ul {
+.nav-container ul {
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
     list-style: none;
     overflow: hidden;
 }
 
-.nav ul a {
+.nav-container ul a {
     display: block;
-    padding: 0;
     text-decoration: none;
+    text-align: center;
     line-height: 1.5rem;
+    padding-bottom: 5px;
 }
 
-.nav ul a:hover {
-    border: 2px solid #fff;
-    border-radius: 18px;
-    color: #fff;
+#demo-btn {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #c0a321;
+    border: none;
+    cursor: pointer;
 }
 
-.nav .menu {
+.nav-container ul a:hover {
+    color: #aa0047;
+    font-weight: 700;
+}
+
+.nav-container ul a #demo-btn:hover {
+    background-color: #aa0047;
+}
+
+.nav-container .menu {
     clear: both;
     max-height: 0;
-    transition: max-height .2s ease-out;
+    transition: all 0.3s ease 0s;
 }
 
-.nav .menu-icon {
+.nav-container .menu-icon {
     padding: 10px 10px;
     margin: 10px;
     position: relative;
@@ -60,86 +76,130 @@ body {
     cursor: pointer;
 }
 
-.nav .menu-icon .nav-icon {
-    background-color: #fff;
+.nav-container .menu-icon .nav-icon {
+    background-color: #aa0047;
     display: block;
     height: 2px;
     width: 48px;
     position: relative;
-    transition: background-color .2s ease-out;
+    transition: background-color 0.3s ease 0s;
 }
 
-.nav .menu-icon .nav-icon:before {
-    background-color: #fff;
+.nav-container .menu-icon .nav-icon:before {
+    background-color: #aa0047;
     content: "";
     display: block;
     height: 100%;
     width: 100%;
     position: absolute;
-    transition: all .2s ease-out;
+    transition: all 0.3s ease 0s;
     top: 5px;
 }
 
-.nav .menu-icon .nav-icon:after {
-    background-color: #fff;
+.nav-container .menu-icon .nav-icon:after {
+    background-color: #aa0047;
     content: "";
     display: block;
     height: 100%;
     width: 100%;
     position: absolute;
-    transition: all .2s ease-out;
+    transition: all 0.3s ease 0s;
     top: -5px;
 }
 
-.nav .menu-button {
+.nav-container .menu-button {
     display: none;
 }
 
-.nav .menu-button:checked ~ .menu {
+.nav-container .menu-button:checked ~ .menu {
     max-height: 240px;
 }
 
-.nav .menu-button:checked ~ .menu-icon .nav-icon {
+.nav-container .menu-button:checked ~ .menu-icon .nav-icon {
     background-color: transparent;
 }
 
-.nav .menu-button:checked ~ .menu-icon .nav-icon:before {
+.nav-container .menu-button:checked ~ .menu-icon .nav-icon:before {
     transform: rotate(-45deg);
     top: 0;
 }
 
-.nav .menu-button:checked ~ .menu-icon .nav-icon:after {
+.nav-container .menu-button:checked ~ .menu-icon .nav-icon:after {
     transform: rotate(45deg);
     top: 0;
 }
 
-.nav li a {
+.nav-container li a {
     color: #000000;
     font-size: 18px;
+    text-transform: uppercase;
     margin-top: 6px;
 }
 
 @media screen and (min-width:1366px) {
 
-    .nav li {
+    .nav-container li {
         float: left;
     }
 
-    .nav li a {
-        padding: 20px 30px;
+    .nav-container li a {
+        padding: 10px 20px;
     }
 
-    .nav .menu {
+    .nav-container .menu {
         clear: none; 
         float: right;
         max-height: none;
     }
 
-    .nav .menu-icon {
+    .nav-container .menu-icon {
         display: none;
     }
 }
 
-.hero-interactive {
-    padding-top: 30px;
+/*------------------- interactive hero */
+
+.hero-iframe {
+    position: relative;
+    top: 10px;
+    padding-bottom: 56.25%;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------- vr-cover blurb */
+
+.vr-cover {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: left;
+
+    background-image: url("assets/images/female-avatar1.jpg");
+}
+/*------------------- what we do grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 45fr 45fr;
+    grid-template-rows: 280px 280px;
+    grid-gap: 10px;
+    background-color: #C0A321;
+}
+
+.grid-item1 {
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    background-color: black;
+    justify-self: center;
 }

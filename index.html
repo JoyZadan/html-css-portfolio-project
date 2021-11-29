@@ -7,25 +7,54 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header class="nav">
+    <!------------------- header nav section-->
+    <header class="nav-container">
         <a href="#">
-                <img src="assets/images/Train-in-XR-logo2.svg" alt="Posh Cabana logo">
-        </a>        
-        <input class="menu-button" type="checkbox" id="menu-btn"/>
-        <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label> 
-        <ul class="menu">
-            <li><a href="#">OUR SERVICES</a></li>
-            <li><a href="#">CASE STUDIES</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </header>    
-    <div class="hero-interactive">
-        <iframe id="0ca1ce96-4b4c-42d5-9834-f8ad4828133d" 
-            src="https://www.vectary.com/viewer/v1/?model=0ca1ce96-4b4c-42d5-9834-f8ad4828133d&env=teufelsbergroof" 
-            frameborder="0" width="100%" height="480">
+                <img src="assets/images/TXR logo.svg" class="logo" alt="Train in XR logo">
+        </a> 
+        <nav>       
+            <input class="menu-button" type="checkbox" id="menu-btn"/>
+            <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label> 
+            <ul class="menu">
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#"><button id="demo-btn">Book a demo</button></a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <!------------------- interactive hero section-->
+    <div class="hero-iframe">
+        <iframe class="responsive-iframe" id="c807c8c6-d3b6-414b-89e0-473acdeace85" 
+            src="https://www.vectary.com/viewer/v1/?model=c807c8c6-d3b6-414b-89e0-473acdeace85&env=redwall&turntable=1" 
+            frameborder="0">
         </iframe>
     </div>
     
+    <!------------------- what we do section-->
+    <div class="vr-cover">
+        <div class="vr-cover-blurb">
+            <h1>Virtual Reality training scenarios.</h1>
+            <p>Tailored for today's learners. Future-proofed for tomorrow's new joiners.</p>
+        </div>
+    </div>
+
+    <!------------------- what we do section-->
+    <div class="grid-container">
+        <div class="grid-item1">
+            <h1>We build immersive training scenarios.</h1>
+            <h3>Tailored for today's learners. Future-proofed for tomorrow's new joiners.</h3>
+        </div>
+        <div>
+           2
+        </div>
+        <div>Some of our clients and partners</div>
+        <div>Testimonials</div>
+        <div>Contact Us</div>  
+    </div>
+
 </body>
 </html>
