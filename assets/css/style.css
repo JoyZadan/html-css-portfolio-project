@@ -9,43 +9,6 @@ body {
 
 /*------------------- navbar with hamburger menu, tutorial from @followAndrew Youtube, amended to include svg logo and CTA button */
 
-.navbar {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-} 
-
-.navlist {
-    padding: 0;
-    margin: 0;
-    gap: 2rem;
-    list-style: none;
-}
-
-.logo {
-    width: 
-    height: 
-    overflow: hidden; 
-}
-
-.navbar .logo a {
-    display: flex;
-}
-
-.navlist li {
-    display: inline-block;
-    padding: 10px;
-}
-
-.navlist .nav-items {
-    justify-self: flex-end;
-}
-
-.navlist a {
-    text-decoration: none;
-    padding: 10p;
-}
-
 .nav-container {
     background-color: #fff;
     position: fixed;
