@@ -3,7 +3,7 @@
 ## UX
 
 ### DEVELOPER AND BUSINESS GOALS
-Train in XR is a fictional advisory services firm which help companies and the public sectors understand:
+Train in XR is a fictional advisory services firm which helps companies and the public sectors understand:
 * What is Virtual Reality and how VR differs from Augmented Reality (AR) and Mixed Reality (MR)
 * The advantages of VR/AR/MR in providing practical, engaging, and more cost-effective staff training
 * The key factors to consider when choosing the right technology stack and the right vendor(s) to implement VR/AR training
