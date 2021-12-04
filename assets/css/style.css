@@ -256,7 +256,6 @@ body {
         "power power power"
         "woman consulting tna"
         "vrar hands effective";
-    gap: 15px 15px;
     background-color: whitesmoke;
     overflow: hidden;
 }
@@ -281,8 +280,6 @@ body {
     grid-area: consulting;
     align-content: center;
     text-align: center;
-    border: 1px solid #242e3d;
-    border-radius: 5px;
     background-color: #242e3d;
     color: white;
 }
@@ -296,8 +293,6 @@ body {
     grid-area: tna;
     align-content: center;
     text-align: center;
-    border: 1px solid #242e3d;
-    border-radius: 5px;
 }
 
 .tna ul {
@@ -307,8 +302,6 @@ body {
 .woman {
     grid-area: woman;
     max-width: 100%;
-    border: 1px solid #242e3d;
-    border-radius: 5px; 
 }
 
 .hands {
@@ -321,8 +314,6 @@ body {
     grid-area: vrar;
     align-content: center;
     text-align: center;
-    border: 1px solid #242e3d;
-    border-radius: 5px;
     background-color: #242e3d;
     color: white;
 }
@@ -336,9 +327,7 @@ body {
     grid-area: effective;
     align-content: center;
     text-align: center;
-    border: 1px solid #242e3d;
-    border-radius: 5px;
-    background-color: #242e3d;
+    background-color: rgba(0,0,0,.8);
     color: white;
 }
 
@@ -424,13 +413,17 @@ body {
 @media screen and (max-width: 690px) {
     .grid-container {
         grid-template-areas: 
-        "power"
-        "woman"
+        "power" 
         "consulting"
-        "tna"
+        "tna" 
         "vrar"
-        "hands"
         "effective";
+        width: 100%;
+    }
+
+    .hands,
+    .woman {
+        display: none
     }
 }
 
@@ -443,4 +436,28 @@ body {
         "vrar"
         "effective";
     }
+}
+
+/*------------------- our clients and partners section --*/
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+  /*  justify-content: stretch; */
+}
+
+.clients-intro {
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    color: #000;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.clients-logo {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
