@@ -204,7 +204,7 @@ body {
     text-align: center;
 }
 
-.about-blurb-color {
+.vrar-color {
     color: #aa0047;
 }
 
@@ -246,7 +246,7 @@ body {
     background-color: #000;
 }
 
-/*------------------- our solutions section --*/
+/*------------------- our services section --*/
 
 .grid-container {
     display: grid;
@@ -262,17 +262,24 @@ body {
 
 .power {
     grid-area: power;
-    color: #242e3d;
-    text-shadow: 4px 4px 8px #000;
+    color: #000;
     font-weight: 700;
     font-size: 25px;
     letter-spacing: 5px;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    text-transform: uppercase;
     background-color: whitesmoke;
     max-width: 100%;
     padding-top: 50px;
+
+}
+
+.services-intro {
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    color: #000;
+    padding-top: 25px;
+    text-align: center; 
 }
 
 .consulting {
@@ -280,7 +287,7 @@ body {
     grid-area: consulting;
     align-content: center;
     text-align: center;
-    background-color: #242e3d;
+    background-color: #000;
     color: white;
 }
 
@@ -314,7 +321,7 @@ body {
     grid-area: vrar;
     align-content: center;
     text-align: center;
-    background-color: #242e3d;
+    background-color: #000;
     color: white;
 }
 
@@ -327,8 +334,8 @@ body {
     grid-area: effective;
     align-content: center;
     text-align: center;
-    background-color: rgba(0,0,0,.8);
-    color: white;
+    border: 1px solid #000;
+    color: #000;
 }
 
 .effective ul {
@@ -348,7 +355,7 @@ body {
 }
 
 .find-out-btn:hover {
-    background-color: #000;
+    background-color: #f9ad1d;
 }
 
 .call-back-btn {
@@ -380,7 +387,7 @@ body {
 }
 
 .demo-grid-btn:hover {
-    background-color: #000;
+    background-color: #f9ad1d;
 }
 
 .effective-btn {
@@ -402,41 +409,90 @@ body {
 
 @media screen and (max-width: 1200px) {
     .grid-container {
-        grid-template-areas: 
-        "power woman"
-        "consulting tna"
-        "vrar hands"
-        "effective";
-    }
-}
-
-@media screen and (max-width: 690px) {
-    .grid-container {
-        grid-template-areas: 
-        "power" 
-        "consulting"
-        "tna" 
-        "vrar"
-        "effective";
-        width: 100%;
-    }
-
-    .hands,
-    .woman {
-        display: none
-    }
-}
-
-@media screen and (max-width: 280px) {
-    .grid-container {
+        display: flex;
+        flex-direction: column;
         grid-template-areas: 
         "power"
+        "woman"
         "consulting"
-        "tna"
         "vrar"
+        "hands"
         "effective";
+        margin-bottom: 2rem;
+    }
+
+    .grid-container .woman {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .grid-container .hands {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .consulting,
+    .tna,
+    .vrar,
+    .effective {
+        padding: 2rem;
     }
 }
+
+/*------------------- why VR section --*/
+
+.why-vr {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.vrar-intro {
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    color: #000;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.vrar-intro p {
+    font-size: .8rem;
+}
+
+.vrar-numbers-intro {
+    margin-left: 1rem;
+    color: #aa0047;
+}
+
+.vrar-numbers {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vrar-numbers h2 {
+    color: #aa0047;
+}
+
+.vrar-numbers p {
+    margin-left: 1rem;
+}
+
+/*------------------- why AR --*/
+
+.why-ar {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+
+/*------------------- some of our works section --*/
+
+
 
 /*------------------- our clients and partners section --*/
 
@@ -444,7 +500,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
-  /*  justify-content: stretch; */
+    background-color: #fff;
 }
 
 .clients-intro {
@@ -460,4 +516,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .why-ar,
+    .why-vr,
+    .vrar-numbers,
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 }
