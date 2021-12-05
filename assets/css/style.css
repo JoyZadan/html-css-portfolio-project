@@ -58,12 +58,15 @@ body {
     border: none;
     border-radius: 5px;
     transition: all 0.3s ease-in-out 0s;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .demo-btn:hover {
     background-color: #aa0047;
     color: #fff;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
 }
 
 .nav-container .menu a:hover {
@@ -244,6 +247,9 @@ body {
 
 .learn-more-btn:hover {
     background-color: #000;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
 }
 
 /*------------------- our services section --*/
@@ -358,6 +364,9 @@ body {
 
 .find-out-btn:hover {
     background-color: #f9ad1d;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
 }
 
 .call-back-btn {
@@ -374,6 +383,9 @@ body {
 
 .call-back-btn:hover {
     background-color: #f9ad1d;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
 }
 
 .demo-grid-btn {
@@ -390,6 +402,9 @@ body {
 
 .demo-grid-btn:hover {
     background-color: #f9ad1d;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
 }
 
 @media screen and (max-width: 1200px) {
@@ -459,7 +474,6 @@ body {
 }
 
 .vrar-numbers-intro {
-    margin-left: 1rem;
     color: #aa0047;
     margin-left: 2rem;
 }
@@ -499,16 +513,29 @@ body {
     }
 }
 
-/*------------------- some of our work section --*/
+@media screen and (max-width: 280px) {
+    .why-ar,
+    .why-vr,
+    .vrar-numbers {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
 
-.work-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 25px;
-    background-color: #fff;
-    margin: 3rem;
+    .vrar-intro h2 {
+        font-size: 25px;
+    }
+
+    .vrar-intro h3 {
+        font-size: 20px;
+    }
+
+    .vrar-intro p {
+        font-size: 16px;
+    }
 }
+
+/*------------------- some of our work section --*/
 
 .work-intro {
     display: flex;
@@ -520,6 +547,15 @@ body {
     margin: 3rem;
 }
 
+.work-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin: 3rem;
+}
+
 .work-card {
     width: 250px;
     height: 400px;
@@ -527,6 +563,12 @@ body {
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     margin: 3rem;
+}
+
+.work-card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
 }
 
 .work-one,
@@ -583,13 +625,13 @@ body {
     }
 }
 
-/*------------------- our clients and partners section --*/
+/*------------------- our clients section --*/
 
 .clients {
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
-    background-color: #fff;
+    background-color: rgb(233, 230, 230);
     margin: 2rem;
 }
 
@@ -605,14 +647,79 @@ body {
     margin: 15px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-direction: column; 
+        margin: 0 auto;
+    }
+}
+
+/*------------------- testimonials section --*/
+
+.quote {
+    display: flex;
+    justify-content: center; 
+}
+
+.quote h2 {
+    color: #aa0047;
+    font-size: 2rem;
+    margin: 3rem;
+} 
+
+.quote-mark {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Fira Sans", sans-serif;
+    color: #aa0047;
+    margin: -10px;
+}    
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    margin: 1rem;
+}
+
+.testimonials {
+    width: 400px;
+    margin: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
     .clients,
     .clients-logo {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-direction: column; 
         margin: 0 auto;
     }
 }
