@@ -723,3 +723,10 @@ body {
         margin: 0 auto;
     }
 }
+
+/*------------------- footer section --*/
+
+.footer {
+    background-color: rgb(43, 41, 41);
+    color: #fff;
+}
