@@ -58,5 +58,7 @@ Train in XR's website aims to:
 ### DEPLOYMENT
 
 ### CREDITS
+#### Codes for Responsive NavBar
+* Credit and thanks belong to tutorials on YouTube by @FlorinPop for his Responsive Navigation with Hamburger Menu - CSS and JavaScript Tutorial and @FollowAndrew for his Responsive Nav Bar Tutorial which helped me put together the responsive navbar with hamburger menu and buttons.
 
 ### COPYRIGHT

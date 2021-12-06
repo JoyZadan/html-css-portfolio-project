@@ -9,27 +9,67 @@ body {
     font-family: 'Montserrat', 'Fira Sans', sans-serif;
 }
 
-/*------------------- buttons --*/
-
-.demo-btn {
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-    background-color: #f9ad1d;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out 0s;
-    cursor: pointer; 
+h1 {
+    font-size: 3.25rem;
 }
 
-.demo-btn:hover {
-    background-color: #aa0047;
-    color: #fff;
-    transform: scale(1.1);
+h2 {
+    font-size: 2.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+/*------------------- buttons --*/
+.btn-nav-demo {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #000;
+    background: #f9ad1d;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    max-width: max-content;
     transition: all 0.3s ease-in-out 0s;
-    cursor: pointer; 
+    cursor: pointer;
+}
+
+.btn-nav-demo:hover {
+    color: #fff;
+    background: #aa0047;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    max-width: max-content;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.btn-nav-login {
+    color: #fff;
+    padding: 0.5rem;
+    background: #000;
+    border-radius: 20px;
+    max-width: max-content;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.btn-nav-login:hover {
+    text-transform: uppercase;
+    color: #fff;
+    background: #aa0047;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    max-width: max-content;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
 }
 
 .btn-large {
@@ -74,143 +114,110 @@ body {
     cursor: pointer; 
 }
 
-/*------------------- navbar with hamburger menu, tutorial from @followAndrew Youtube, amended to include svg logo and CTA button */
+/*------------------- header section --*/
 
-.nav-container {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .logo {
-    display: block;
-    float: left; 
-    max-height: 80%;
-    max-width: 30%;
-    margin-left: 10px;
-    margin-top: 5px;
-    padding-top: 15px; 
-    overflow: visible; 
-    background-color: inherit;
-}
-
-.menu {
-    margin-top: 10px;
-}
-
-.nav-container .menu {    
-    padding-top: 10px; 
-    list-style: none;
-    overflow: hidden;
-}
-
-.nav-container .menu a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    line-height: 1.25rem;
-    padding-bottom: 5px;
-    transition: all 0.1s ease-out 0s;
-}
-
-.nav-container .menu a:hover {
-    color: #aa0047;
-    font-weight: 700;
-}
-
-.nav-container .menu {
-    clear: both;
-    max-height: 0;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.nav-container .menu-icon {
-    padding-top: 30px;
-    padding-right: 15px; 
-    position: relative;
-    float: right;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.nav-container .menu-icon .nav-icon {
-    background-color: #aa0047;
-    display: block;
-    height: 2px;
-    width: 38px;
-    position: relative;
-    transition: background-color 0.3s ease 0s;
-}
-
-.nav-container .menu-icon .nav-icon:before {
-    background-color: #aa0047;
-    content: "";
-    display: block;
-    height: 100%;
     width: 100%;
-    position: absolute;
-    transition: all 0.3s ease 0s;
-    top: 10px;
-}
-
-.nav-container .menu-icon .nav-icon:after {
-    background-color: #aa0047;
-    content: "";
-    display: block;
     height: 100%;
-    width: 100%;
-    position: absolute;
-    transition: all 0.3s ease 0s;
-    top: -10px;
 }
 
-.nav-container .menu-button {
+.hamburger-icon {
+    background: transparent;
+    border: 0;
+    font-size: 2.5rem;
     display: none;
 }
 
-.nav-container .menu-button:checked ~ .menu {
-    max-height: 240px;
+.hamburger-icon:hover {
+    color: #aa0047;
 }
 
-.nav-container .menu-button:checked ~ .menu-icon .nav-icon {
-    background-color: transparent;
+.navbar ul {
+    list-style: none;
+    justify-content: center;
+    padding-top: 1rem;
 }
 
-.nav-container .menu-button:checked ~ .menu-icon .nav-icon:before {
-    transform: rotate(-45deg);
-    top: 0;
-}
-
-.nav-container .menu-button:checked ~ .menu-icon .nav-icon:after {
-    transform: rotate(45deg);
-    top: 0;
-}
-
-.nav-container li a {
-    color: #000;
-    font-size: 18px;
+.navbar ul li {
+    display: inline-block;
     text-transform: uppercase;
-    margin-top: 5px;
+    padding-right: 1rem;
 }
 
-@media screen and (min-width:1366px) {
+.navbar ul li a {
+    display: inline-block;
+    align-items: flex-end;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #000;
+}
 
-    .nav-container li {
-        float: left; 
+.navbar ul li a:hover{
+    color: #aa0047;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
+}
+
+/*------------------- media queries --*/
+
+@media screen and (max-width: 1140px) {
+    .navbar-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
     }
 
-    .nav-container li a {
-        padding: 10px 10px;
+    .navbar-ul.show {
+        display: flex;
     }
 
-    .nav-container .menu {
-        clear: none; 
-        float: right; 
-        max-height: none;
+    .navbar-ul li {
+        font-size: 1.2rem;
+        padding: 1rem 0.5rem;
+    } 
+
+    .navbar-ul a {
+        display: block;
     }
 
-    .nav-container .menu-icon {
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+    }
+
+    .hamburger-icon {
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+        order: 2;
+    }
+
+    .btn-nav-login {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        order: 1;
+    }    
+} 
+
+@media screen and (max-width: 490px) {
+    .btn-nav-login {
         display: none;
     }
 }
@@ -219,8 +226,8 @@ body {
 
 .hero-interactive {
     position: relative;
-    padding-top: 20%; 
-    padding-bottom: 46.25%;
+    padding-top: 0; 
+    padding-bottom: 56.25%;
     overflow: hidden; 
 }
 
@@ -245,10 +252,10 @@ body {
 }
 
 .about-blurb {
-    font-size: 40px;
+    font-size: 3.125rem;
     font-family: "Fira Sans", sans-serif;
     color: #000;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     text-align: center;
 }
 
@@ -257,8 +264,9 @@ body {
 }
 
 .more-about {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
+    padding: 0.8rem;
     color: #000;
     text-align: center;
 }
@@ -287,6 +295,7 @@ body {
         "vrar hands tna";
     background-color: whitesmoke;
     overflow: hidden;
+    padding-top: 2rem;
     padding-bottom: 3rem;
     margin: 2rem;
 }
@@ -294,11 +303,11 @@ body {
 .services {
     grid-area: services;
     color: #000;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "Fira Sans", sans-serif;
     text-align: center;
     background-color: whitesmoke;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
 }
 
 .consulting-text {
@@ -438,6 +447,7 @@ body {
     padding-bottom: 25px;
     background-color: #ffd6e7;
     margin: 2rem;
+    padding-top: 2rem;
 }
 
 .vrar-intro {
@@ -483,6 +493,7 @@ body {
     padding-bottom: 25px;
     background-color: thistle;
     margin: 2rem;
+    padding-top: 2rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -491,7 +502,7 @@ body {
     .vrar-numbers {
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+        margin: 1rem;
     }
 }
 
@@ -501,17 +512,16 @@ body {
     .vrar-numbers {
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+        margin: 1rem;
         padding: 2rem;
     }
 
     .vrar-intro h2 {
-        font-size: 25px;
-        margin-left: 1rem;
+        font-size: 1.5rem;
     }
 
     .vrar-intro h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin-left: 1rem;
     }
 
@@ -560,6 +570,7 @@ body {
     color: #000;
     text-align: center;
     margin: 3rem;
+    padding-top: 2rem;
 }
 
 .work-container {
@@ -572,8 +583,8 @@ body {
 }
 
 .work-card {
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
     border: 1px solid #aa0047;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     margin: 3rem;
@@ -589,22 +600,27 @@ body {
     padding: 1rem;
 }
 
+.work-one h4,
+.work-two h4,
+.work-three h4,
+.work-four h4 {
+    padding-top: 1rem;
+    font-weight: 700;
+}
+
 .img-one {
     background: url(../images/TNA-workshop.jpg) no-repeat;
-    width: 250px;
-    height: 200px;
+    height: 200px; 
     background-size: 100%;
 }
 
 .img-two {
     background: url(../images/digital-twin.jpg) no-repeat;
-    width: 250px;
     height: 200px;
     background-size: 100%;
 }
 
 .video {
-    width: 250px;
     height: 200px;
     background-size: 100%;
 }
@@ -641,6 +657,7 @@ body {
     padding-bottom: 25px;
     background-color: rgb(233, 230, 230);
     margin: 2rem;
+    padding-top: 2rem;
 }
 
 .clients-intro {
@@ -685,14 +702,15 @@ body {
     flex-direction: column;
     padding-bottom: 25px;
     margin: 2rem; 
+    padding-top: 2rem;
 }
 
 .quote-intro {
     font-size: 30px;
     font-family: "Fira Sans", sans-serif;
     color: #aa0047;
-    padding-top: 30px;
     text-align: center;
+    padding-top: 1rem;
 } 
 
 .quote-mark {
@@ -702,7 +720,7 @@ body {
     font-weight: 700;
     font-family: "Fira Sans", sans-serif;
     color: #aa0047;
-    margin: -10px;
+    margin-bottom: 2rem;
 }    
 
 .testimonials-container {
@@ -753,14 +771,19 @@ body {
     color: #fff;
 }
 
-.subscribe-container h2 {
+.subscribe-container h3 {
     color: #f9ad1d;
+}
+
+.subscribe-container p {
+    margin-bottom: 2rem;
 }
 
 .subscribe-short {
     display: flex;
     flex-direction: column;
     color:#fff;
+    padding-bottom: 1rem;
 }
 
 .contact-input {

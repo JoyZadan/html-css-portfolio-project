@@ -5,31 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Train in XR - Experts in VR and AR Learning Innovation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/cosmo/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!------------------- header section -->
+    
     <header>
-    <div class="nav-container">
-        <a href="#">
-            <img src="assets/images/TXR_logo.svg" class="logo" alt="Train in XR logo">
-        </a> 
-        <nav>       
-            <input class="menu-button" type="checkbox" id="menu-btn"/>
-            <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label> 
-            <ul class="menu">
+        <nav class="navbar">
+            <a href="#">
+                <img src="./assets/images/TXR_logo.svg" 
+                alt="Train in XR main logo" class="logo">
+            </a>
+            <button class="hamburger-icon" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="navbar-ul" id="navbar-ul">
                 <li><a href="#">Our Services</a></li>
-                <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Events</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="#"><button class="demo-btn">Book a demo</button></a></li>
+                <li><a href="#">
+                    <button class="btn-nav-demo">Book a demo</button>
+                    </a>
+                </li>
             </ul>
+            <a href="#">
+                <button class="btn-nav-login">Client Login</button>
+            </a>
         </nav>
-    </div>
-    </header>    
+    </header>
 
     <!------------------- interactive hero section -->
 
@@ -226,13 +233,17 @@
     </div>
     <div class="testimonials-container">
         <div class="testimonials">
-            <p><i>"The teams at Train in XR have been instrumental in helping us rethink our learning strategies to promptly train our workforce 
-                on rapidly changing safety procedures during the time of the pandemic. Thanks team TXR!"</i></p>
+            <p>
+                <i>"The teams at Train in XR have been instrumental in helping us rethink our learning strategies to promptly train our workforce 
+                on rapidly changing safety procedures during the time of the pandemic. Thanks team TXR!"</i>
+            </p>
             <h4>Jane Milano, Chief People Officer, Andes</h4>    
         </div>
         <div class="testimonials">
-            <p><i>"We've managed to deliver just-in-time training for our colleagues during COVID and save more than 30% on our XR budget, thanks to 
-                TXR's access to a network of VR vendors!"</i></p>
+            <p>
+                <i>"We've managed to deliver just-in-time training for our colleagues during COVID and save more than 30% on our XR budget, thanks to 
+                TXR's access to a network of VR vendors!"</i>
+            </p>
             <h4>Allan Harris, Chief Procurement Officer, NFS</h4>    
         </div>
     </div>
@@ -243,7 +254,7 @@
 <!------------------- signup section -->
     <section class="subscribe">
         <div class="subscribe-container">
-            <h2>Subscribe to Receive Updates</h2>
+            <h3>Subscribe to Receive Updates</h3>
             <p>Please fill in this form to create an account.</p>
                 <form action="#url -send to thank you page" method="post" class="subscribe-short">
                     <label for="fname">First Name</label>
@@ -307,6 +318,9 @@
         </div>          
     </div>  
 </footer>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
