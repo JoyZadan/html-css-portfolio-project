@@ -416,6 +416,20 @@ body {
     }
 }
 
+@media screen and (max-width: 280px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .consulting-text {
+        font-size: 16px;
+    }
+}
+
 /*------------------- why VR section --*/
 
 .why-vr {
@@ -488,6 +502,7 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        padding-left: 2rem;
     }
 
     .vrar-intro h2 {
@@ -515,7 +530,7 @@ body {
     }
 
     .vrar-numbers {
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     .vrar-intro h2 {
@@ -830,7 +845,7 @@ body {
 
 .copyright {
     font-size: 0.8rem;
-    text-align: end;
+    text-align: center;
     padding-top: 1rem;
 }
 
