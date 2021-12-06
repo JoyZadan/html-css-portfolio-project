@@ -502,7 +502,7 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        padding-left: 2rem;
+        padding: 2rem;
     }
 
     .vrar-intro h2 {
@@ -527,6 +527,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
+
     }
 
     .vrar-numbers {
