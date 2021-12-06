@@ -144,7 +144,7 @@ h4 {
 }
 
 .navbar ul {
-    list-style: none;
+    list-style-type: none;
     justify-content: center;
     padding-top: 1rem;
 }
