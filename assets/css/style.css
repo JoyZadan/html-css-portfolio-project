@@ -331,11 +331,10 @@ h4 {
     text-align: center;
     background-color: #000;
     color: white;
-    margin: 1rem;
-    padding: 1rem;
+    padding: 1rem; 
 }
 
-.consulting ul{
+.consulting ul {
     list-style: none;
 }
 
@@ -346,7 +345,6 @@ h4 {
     text-align: center;
     background-color: #000;
     color: white;
-    margin: 1rem;
     padding: 1rem;
 }
 
@@ -376,7 +374,6 @@ h4 {
     text-align: center;
     background-color: #000;
     color: white;
-    margin: 1rem;
     padding: 1rem;
 }
 
@@ -835,6 +832,7 @@ h4 {
     list-style-type: none;
     font-size: 1rem;
     padding-bottom: 1rem;
+    text-align: start;
 }
 
 .advisory-container {
