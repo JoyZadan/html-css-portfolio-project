@@ -26,6 +26,7 @@ h4 {
 }
 
 /*------------------- buttons --*/
+
 .btn-nav-demo {
     font-size: 1rem;
     text-transform: uppercase;
@@ -140,6 +141,10 @@ h4 {
 }
 
 .hamburger-icon:hover {
+    color: #aa0047;
+}
+
+.hamburger-icon:active {
     color: #aa0047;
 }
 
@@ -542,7 +547,6 @@ h4 {
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-
     }
 
     .vrar-numbers {
@@ -588,7 +592,7 @@ h4 {
 }
 
 .work-card {
-    width: 250px;
+    width: 280px;
     height: 450px;
     border: 1px solid #aa0047;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
@@ -645,14 +649,21 @@ h4 {
     height: 100%;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 370px) {
     .work-intro,
     .work-container {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
     }
-}
+
+    .work-one,
+    .work-two,
+    .work-three,
+    .work-four {
+        padding: 0.5rem;
+    }
+} 
 
 /*------------------- our clients section --*/
 
@@ -680,7 +691,6 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 @media screen and (max-width: 1200px) {
     .clients,
@@ -795,7 +805,7 @@ h4 {
     margin-bottom: 1rem;
 }
 
-/*------------------- Our Services Page --*/
+/*------------------- our services page --*/
 
 .services-bg {
     height: 400px;
@@ -830,7 +840,7 @@ h4 {
 }
 
 .solutions-intro p {
-    text-align: center;
+    text-align: start;
     padding-top: 2rem;
     font-size: 1rem;
 }
@@ -842,7 +852,7 @@ h4 {
     text-align: start;
 }
 
-/*------------------- Our Services Page: Advisory section --*/
+/*------------------- our services page: advisory section --*/
 
 .advisory-container {
     display: grid;
@@ -853,7 +863,7 @@ h4 {
     "advisory advisory advisory"
     "advisory-a advisory-b advisory-c";
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     width: 95%;
     background-color: whitesmoke;
 }
@@ -886,7 +896,22 @@ h4 {
     text-transform: uppercase;
 }
 
-/*------------------- Our Services Page: By Industry section --*/
+@media screen and (max-width: 560px) {
+    .advisory h2 {
+        font-size: 2rem;
+    }
+
+    .advisory,
+    .advisory-container,
+    .advisory-a,
+    .advisory-b,
+    .advisory-c {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+/*------------------- our services page: by industry section --*/
 
 .by-industry-card {
     width: 300px;
@@ -945,6 +970,80 @@ h4 {
     background-size: 100%;
 }
 
+/*------------------- our services page: by VR/AR use cases --*/
+
+.use-case-intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    color: #000;
+    text-align: center;
+    margin: 3rem;
+    padding-top: 2rem;
+    background: whitesmoke;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    margin: 2rem; 
+}
+
+.flipcard-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 1rem;
+}
+
+.flipcard {
+    position: relative;
+    width: 17rem;
+    height: 17rem;  
+    margin: 1rem;
+}
+
+.front-one,
+.front-two,
+.front-three,
+.front-four,
+.front-five,
+.front-six,
+.front-seven,
+.front-eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: 2;
+    background: #000;
+    color: #fff;
+}
+
+.back-one,
+.back-two,
+.back-three,
+.back-four,
+.back-five,
+.back-six,
+.back-seven,
+.back-eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: 1;
+    background: thistle;
+    color: #000;
+}
 
 /*------------------- footer section --*/
 
