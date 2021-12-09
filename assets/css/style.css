@@ -1137,7 +1137,8 @@ h4 {
     padding-bottom: 1rem;
 }
 
-.services-outro h3, p {
+.services-outro h3, 
+.services-outro p {
     color: #000;
 }
 
