@@ -1139,8 +1139,7 @@ h4 {
     backface-visibility: hidden;
 }
 
-
-@media screen and (max-width: 280px) {
+@media screen and (min-width: 280px) {
     .flipcard-container {
        display: flex;
        justify-content: center;
@@ -1158,7 +1157,6 @@ h4 {
         transition: transform 0.5s;
         transform-style: preserve-3d; 
     }
-    
     
     .flipcard-container:hover 
     .flipcard {
@@ -1211,7 +1209,6 @@ h4 {
         transform: rotateY(180deg);
         backface-visibility: hidden;
     }
-
 } 
 
 /*------------------- our services page closing text --*/
