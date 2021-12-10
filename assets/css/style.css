@@ -91,19 +91,21 @@ h4 {
 .btn-large {
     font-size: 1.2rem;
     text-transform: uppercase;
+    text-decoration: none;
     color: #fff;
     background-color: #aa0047;
-    padding: 0.8rem;
     border: none;
     border-radius: 50px;
     max-width: max-content;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .btn-large:hover {
     background-color: #000;
     color: #fff;
+    text-decoration: none;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer; 
@@ -112,6 +114,7 @@ h4 {
 .btn-small {
     font-size: 0.8rem;
     text-transform: uppercase;
+    text-decoration: none;
     color: #fff;
     background-color: #aa0047;
     padding: 0.5rem;
@@ -120,11 +123,13 @@ h4 {
     max-width: max-content;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .btn-small:hover {
     background-color: #f9ad1d;
     color: #000;
+    text-decoration: none;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer; 
@@ -141,6 +146,7 @@ h4 {
     max-width: max-content;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 /*------------------- header section --*/
@@ -323,7 +329,7 @@ h4 {
 
 .about-container a {
     text-align: center;
-    padding-top: 30px;
+    padding: 0.8rem;
 }
 
 /*------------------- our services section --*/
