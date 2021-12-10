@@ -1032,7 +1032,6 @@ h4 {
     background-size: 100%;
 }
 
-
 @media screen and (max-width: 390px) {
     .by-industry-card,
     .industry-list {
@@ -1066,7 +1065,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 25px;
-    margin: 2rem; 
+    margin: 0 auto;
 }
 
 .flipcard-container {
@@ -1076,6 +1075,7 @@ h4 {
     flex: 1;
     padding: 1rem;
     perspective: 1000px;
+    margin: 0 auto;
 }
 
 .flipcard {
@@ -1139,7 +1139,8 @@ h4 {
     backface-visibility: hidden;
 }
 
-@media screen and (max-width: 390px) {
+
+@media screen and (max-width: 280px) {
     .flipcard-container {
        display: flex;
        justify-content: center;
@@ -1156,8 +1157,62 @@ h4 {
         margin: 1rem;
         transition: transform 0.5s;
         transform-style: preserve-3d; 
-    }    
-}
+    }
+    
+    
+    .flipcard-container:hover 
+    .flipcard {
+        transform: rotateY(180deg);
+    }
+
+    .front-one,
+    .front-two,
+    .front-three,
+    .front-four,
+    .front-five,
+    .front-six,
+    .front-seven,
+    .front-eight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-flow: column;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        z-index: 2;
+        background: #000;
+        color: #fff;
+        backface-visibility: hidden;
+    }
+
+    .back-one,
+    .back-two,
+    .back-three,
+    .back-four,
+    .back-five,
+    .back-six,
+    .back-seven,
+    .back-eight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-flow: column;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        padding: 1rem;
+        z-index: 1;
+        background: whitesmoke;
+        color: #000;
+        border: 1px solid #aa0047;
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+    }
+
+} 
 
 /*------------------- our services page closing text --*/
 
