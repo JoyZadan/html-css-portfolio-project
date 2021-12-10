@@ -1289,6 +1289,22 @@ h4 {
     margin: 0 auto;
 }
 
+/*------------------- login page --*/
+
+.login-form {
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login_form-container {
+    max-width: 50%;
+    padding: 1rem;
+    margin: 0 auto;
+    color: #000;
+}
+
 /*------------------- footer section --*/
 
 .footer {
