@@ -868,7 +868,7 @@ h4 {
 
 .solutions-intro p {
     text-align: start;
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 1rem;
 }
 
@@ -1124,7 +1124,7 @@ h4 {
     }    
 }
 
-/*------------------- our services closing text --*/
+/*------------------- our services page closing text --*/
 
 .services-outro {
     text-align: center;
@@ -1141,6 +1141,84 @@ h4 {
 .services-outro p {
     color: #000;
 }
+
+.services-outro a {
+    color: #000;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+
+/*------------------- about us page intro --*/
+
+.about-bg {
+    height: 25rem;
+    width: 100%;
+    background-image: url("../images/txr-bg-dark4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+/*--
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+} 
+
+.about-container img {
+    max-width: 35rem;
+    height: 25rem;
+}
+----*/
+
+/*------------------- about us page meet the team --*/
+
+.team-txr {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.team-txr h2 {
+    color: #aa0047;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------- about us page outro --*/
+
+.txr-color {
+    color: #f9ad1d;
+}
+
+.events h3 {
+    color: #000;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+.events p {
+    text-transform: uppercase;
+}
+
+/*------------------- about us page intro --*/
+
+
+
+
+
 
 /*------------------- footer section --*/
 
