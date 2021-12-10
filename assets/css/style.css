@@ -242,6 +242,7 @@ h4 {
     padding-top: 0; 
     padding-bottom: 56.25%;
     overflow: hidden; 
+    text-align: center;
 }
 
 .responsive-iframe {
@@ -867,7 +868,6 @@ h4 {
 }
 
 .solutions-intro p {
-    text-align: start;
     padding-top: 1rem;
     font-size: 1rem;
 }
@@ -1159,20 +1159,6 @@ h4 {
     display: flex;
     justify-content: center;
 }
-/*--
-.about-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 2rem;
-} 
-
-.about-container img {
-    max-width: 35rem;
-    height: 25rem;
-}
-----*/
 
 /*------------------- about us page meet the team --*/
 
@@ -1181,21 +1167,21 @@ h4 {
     text-align: center;
     justify-content: center;
     margin: 2rem;
+    background-color: whitesmoke;
 }
 
 .team-txr h2 {
     color: #aa0047;
 }
 
-
-
-
-
-
-
-
-
-
+.corporate-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    border: 0;
+}
 
 /*------------------- about us page outro --*/
 
@@ -1213,12 +1199,63 @@ h4 {
     text-transform: uppercase;
 }
 
-/*------------------- about us page intro --*/
+/*------------------- contact us page intro --*/
 
+.contact-bg {
+    height: 25rem;
+    width: 100%;
+    background-image: url("../images/txr-bg-dark5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
 
+/*------------------- contact us page form --*/
 
+.contact_form-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    background-image: url(../images/neomorphic-bg-dark.png);
+    background-size: cover;
+}
 
+.contact_form-container {
+    max-width: 100%;
+    margin: 2rem;
+    padding: 1rem;
+    color: #000;
+}
 
+.contact_form-container h3 {
+    color: #f9ad1d;
+}
+
+.contact_form-container p {
+    color: #aa0047;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.contact-input,
+#message {
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+#txr-team {
+    margin-bottom: 2rem;
+}
 
 /*------------------- footer section --*/
 

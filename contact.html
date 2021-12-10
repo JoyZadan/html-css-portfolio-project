@@ -34,11 +34,49 @@
         </nav>
     </header>
 
+<!------------------- contact us page section -->
 
+    <div class="contact-bg">
+        <div class="page-container">
+            <h1 class="page-intro">How can we help?</h1>
+        </div>
+    </div>
 
+    <div class="solutions-intro">
+        <h2>Get in touch with the right people at TXR.</h2>
+        <p>Email a member of our Advisory, Sales, Finance, Technical Support or Recruitment team by completing the form below.</p>
+    </div>
 
-
-    
+    <section class="contact_form-section">
+        <div class="contact_form-container">
+            <div class="contact_form-image"></div>
+            <h3>Please fill in this form to contact a member of our team.</h3>
+                <form action="thankyou.html" method="get" class="contact-form">
+                    <label for="fname">First Name</label>
+                    <input class="contact-input" id="fname" type="text" name="first_name" placeholder="Enter your first name" required> 
+                    <label for="lname">Last Name</label>
+                    <input class="contact-input" id="lname" type="text" name="last_name" placeholder="Enter your last name" required>
+                    <label for="company">Company</label>
+                    <input class="contact-input" id="company" type="text" name="company_name" placeholder="Enter your company name" required>  
+                    <label for="email">Work Email</label>
+                    <input class="contact-input" id="email" type="email" name="email_address" placeholder="Enter your email address" required> 
+                    <label for="phone">Phone Number</label>
+                    <input class="contact-input" id="phone" type="number" name="phone_number" placeholder="Enter your phone number" required>
+                    <label for="message">Tell us how we can help</label>
+                    <textarea id="message" rows="3" cols="80" name="message" placeholder="Enter your message" required></textarea>
+                    <label for="txr-team">Contact the preferred member of our team:</label>
+                    <select id="txr-team">
+                        <option value="advisory">Advisory</option>
+                        <option value="sales">Sales</option>
+                        <option value="finance">Finance</option>
+                        <option value="technical_support">Technical Support</option>
+                        <option value="recruitment">Recruitment</option>
+                    </select>
+                    <input class="btn-large" type="submit" value="Send Message">
+                </form>
+            <p><i>By completing this form, you agree to our Terms & Privacy Policy.</i></p> 
+        </div>
+    </section>
 <!------------------- footer section -->
 
 <footer class="footer">
