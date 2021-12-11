@@ -361,10 +361,6 @@ h4 {
     padding: 1rem; 
 }
 
-.consulting ul {
-    list-style: none;
-}
-
 .tna {
     display: grid;
     grid-area: tna;
@@ -373,10 +369,6 @@ h4 {
     background-color: #000;
     color: white;
     padding: 1rem;
-}
-
-.tna ul {
-    list-style: none;
 }
 
 .woman {
@@ -404,8 +396,18 @@ h4 {
     padding: 1rem;
 }
 
-.vrar ul {
-    list-style: none;
+.consulting p,
+.vrar p,
+.tna p {
+    line-height: 1.5rem;
+    padding: 0.5rem;
+}
+
+.consulting ul,
+.vrar ul,
+.tna ul {
+    margin: 0 auto;
+    padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -607,8 +609,8 @@ h4 {
 }
 
 .work-card {
-    width: 280px;
-    height: 450px;
+    width: 17.5rem;
+    height: 28.125rem;
     border: 1px solid #aa0047;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     margin: 3rem;
@@ -634,18 +636,18 @@ h4 {
 
 .img-one {
     background: url(../images/TNA-workshop.jpg) no-repeat;
-    height: 200px; 
+    height: 12.5rem;
     background-size: 100%;
 }
 
 .img-two {
     background: url(../images/digital-twin.jpg) no-repeat;
-    height: 200px;
+    height: 12.5rem;
     background-size: 100%;
 }
 
 .video {
-    height: 200px;
+    height: 12.5rem;
     background-size: 100%;
 }
 
@@ -977,37 +979,37 @@ h4 {
 
 .hospitals-img {
     background-image: url(../images/surgery-sim.png);
-    height: 180px; 
+    height: 11.25rem; 
     background-size: 100%;
 }
 
 .life-sciences-img {
     background-image: url(../images/LifeSciences_Pharma.png);
-    height: 180px; 
+    height: 11.25rem; 
     background-size: 100%; 
 }
 
 .manufacturing-img {
     background-image: url(../images/manufacturing.png);
-    height: 180px; 
+    height: 11.25rem; 
     background-size: 100%; 
 }
 
 .mining-img {
     background-image: url(../images/mining-sim.png);
-    height: 180px; 
+    height: 11.25rem; 
     background-size: 100%;
 }
 
 .oil-img {
     background-image: url(../images/oil_gas.png);
-    height: 180px; 
+    height: 11.25rem; 
     background-size: 100%;
 }
 
 .transportation-img {
     background-image: url(../images/transport.png);
-    height: 180px; 
+    height: 11.25rem; 
     background-size: 100%;
 }
 
@@ -1111,11 +1113,12 @@ h4 {
     height: inherit;
     padding: 1rem;
     z-index: 1;
-    background: whitesmoke;
-    color: #000;
+    background: #aa0047;
+    color: #fff;
     border: 1px solid #aa0047;
     transform: rotateY(180deg);
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 @media screen and (min-width: 280px) {
@@ -1126,6 +1129,7 @@ h4 {
        flex: 1;
        padding: 1rem;
        perspective: 1000px;
+       -webkit-perspective: 1000px;
     }
 
     .flipcard {
@@ -1135,11 +1139,13 @@ h4 {
         margin: 1rem;
         transition: transform 0.5s;
         transform-style: preserve-3d; 
+        -webkit-transform-style: preserve-3d;
     }
     
     .flipcard-container:hover 
     .flipcard {
         transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
     }
 
     .front-one,
@@ -1162,6 +1168,7 @@ h4 {
         background: #000;
         color: #fff;
         backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
     }
 
     .back-one,
@@ -1182,11 +1189,13 @@ h4 {
         height: inherit;
         padding: 1rem;
         z-index: 1;
-        background: whitesmoke;
-        color: #000;
+        background: #aa0047;
+        color: #fff;
         border: 1px solid #aa0047;
         transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
         backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
     }
 } 
 
