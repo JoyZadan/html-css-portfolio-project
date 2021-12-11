@@ -28,11 +28,9 @@ h4 {
 /*------------------- buttons --*/
 
 .link-demo {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    color: #fff;
     background: #f9ad1d;
-    padding: 0.4rem;
+    padding-left: 0.4rem; 
+    padding-right: 0.4rem;
     border: none;
     border-radius: 20px;
     max-width: max-content;
@@ -114,21 +112,6 @@ h4 {
     cursor: pointer; 
 }
 
-/*
-.btn-demo {
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #000;
-    background: #f9ad1d;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 20px;
-    max-width: max-content;
-    transition: all 0.3s ease-in-out 0s;
-    cursor: pointer;
-    margin: 0 auto;
-}  --*/
-
 /*------------------- header section --*/
 
 .navbar {
@@ -142,8 +125,8 @@ h4 {
 }
 
 .logo {
-    width: 100%;
-    height: 100%;
+    width: 18.75rem;
+    height: 1.87rem;
 }
 
 .hamburger-icon {
@@ -171,7 +154,8 @@ h4 {
 .navbar ul li {
     display: inline-block;
     text-transform: uppercase;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .navbar ul li a {
