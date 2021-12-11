@@ -1071,6 +1071,7 @@ h4 {
 .flipcard-container:hover 
 .flipcard {
     transform: rotateY(180deg);
+    transform: rotateX(0deg);
 }
 
 .front-one,
