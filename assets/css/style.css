@@ -112,6 +112,30 @@ h4 {
     cursor: pointer; 
 }
 
+.btn-outro {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #aa0047;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    max-width: max-content;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.btn-outro:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer; 
+}
+
 /*------------------- header section --*/
 
 .navbar {
@@ -661,6 +685,8 @@ h4 {
         border: 1px solid #aa0047;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
         margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 390px) {
@@ -1272,6 +1298,10 @@ h4 {
     text-transform: uppercase;
 }
 
+.events a {
+    color: #fff;
+}
+
 /*------------------- contact us page intro --*/
 
 .contact-bg {
@@ -1474,4 +1504,3 @@ h4 {
     border-radius: 5px;
     margin: 1rem; 
 }    
-
