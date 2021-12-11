@@ -258,7 +258,7 @@ h4 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .about-blurb {
@@ -294,6 +294,12 @@ h4 {
     padding: 0.8rem;
 }
 
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+}
+
 /*------------------- our services section --*/
 
 .grid-container {
@@ -307,7 +313,7 @@ h4 {
     overflow: hidden;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .services {
@@ -326,11 +332,11 @@ h4 {
 }
 
 .services-intro {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Fira Sans", sans-serif;
     color: #000;
     text-align: center; 
-    margin-top: -10px;
+    margin-top: -0.625rem;
 }
 
 .consulting {
@@ -355,12 +361,12 @@ h4 {
 
 .woman {
     grid-area: woman;
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 .digital-woman {
     grid-area: digital-woman;
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 .hands {
@@ -430,21 +436,21 @@ h4 {
     .vrar {
         display: flex;
         flex-direction: column;
-        padding: 2rem;
+        padding: 1rem;
     }
 }
 
 @media screen and (max-width: 280px) {
     h2 {
-        font-size: 25px;
+        font-size: 1.5rem;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .consulting-text {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
@@ -453,7 +459,7 @@ h4 {
 .why-vr {
     display: flex;
     flex-direction: column;
-    padding-bottom: 25px;
+    padding-bottom: 1.5rem;
     background-color: #ffd6e7;
     margin: 2rem;
     padding-top: 2rem;
@@ -461,7 +467,7 @@ h4 {
 
 .vrar-intro {
     flex-direction: row;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Fira Sans", sans-serif;
     color: #000;
     text-align: center;
@@ -499,7 +505,7 @@ h4 {
 .why-ar {
     display: flex;
     flex-direction: column;
-    padding-bottom: 25px;
+    padding-bottom: 1.5rem;
     background-color: thistle;
     margin: 2rem;
     padding-top: 2rem;
@@ -522,21 +528,21 @@ h4 {
         display: flex;
         flex-direction: column;
         margin: 1rem;
-        padding: 2rem;
+        padding: rem;
     }
 
     .vrar-intro h2 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     .vrar-intro h3 {
-        font-size: 1.25rem;
-        margin-left: 1rem;
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
     }
 
     .vrar-intro p {
-        font-size: 16px;
-        margin-left: 1rem;
+        font-size: 1.25rem;
+        margin-left: 0.5rem;
     }
 }
 
@@ -549,22 +555,22 @@ h4 {
     }
 
     .vrar-numbers {
-        margin-left: 2rem;
+        margin-left: 0.5rem;
     }
 
     .vrar-intro h2 {
-        font-size: 25px;
-        margin-left: 1rem;
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
     }
 
     .vrar-intro h3 {
-        font-size: 20px;
-        margin-left: 1rem;
+        font-size: 1.25rem;
+        margin-left: 0.5rem;
     }
 
     .vrar-intro p {
-        font-size: 16px;
-        margin-left: 1rem;
+        font-size: 1rem;
+        margin-left: 0.5rem;
     }
 }
 
@@ -573,7 +579,7 @@ h4 {
 .work-intro {
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 1.875;
     font-family: "Fira Sans", sans-serif;
     color: #000;
     text-align: center;
@@ -585,9 +591,9 @@ h4 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 25px;
+    padding-bottom: 1.5rem;
     background-color: #fff;
-    margin: 3rem;
+    margin: 0 auto;
 }
 
 .work-card {
@@ -595,7 +601,7 @@ h4 {
     height: 28.125rem;
     border: 1px solid #aa0047;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
-    margin: 3rem;
+    margin: 0 auto;
 }
 
 .work-one,
@@ -654,6 +660,7 @@ h4 {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        align-items: center;
     }
 
     .work-one,
@@ -720,7 +727,7 @@ h4 {
 }
 
 .quote-intro {
-    font-size: 30px;
+    font-size: 1.875px;
     font-family: "Fira Sans", sans-serif;
     color: #aa0047;
     text-align: center;
@@ -746,7 +753,7 @@ h4 {
 }
 
 .testimonials {
-    width: 400px;
+    width: 25rem;
     margin: 1rem;
 }
 
