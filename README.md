@@ -61,7 +61,7 @@ Train in XR's website aims to:
 * Typography
     - Montserrat is main font used across the website with Fira Sans for emphasis and Sans-Serif as the fallback font. Montserrat and Fira Sans are often used together with the former known for being used frequently on technology sites.
 * Imagery 
-    Images and vector illustrations have been selected carefully for use across the site. The images used show computer generated imagery (CGI) common across VR and AR solutions. Other images also show learners from different industry sectors. The three vector illustrations used show the process of CGI creation, including a half mesh and half digital human.
+    Images and vector illustrations were carefully selected for the site. The images used show computer generated imagery (CGI) examples common across VR and AR solutions. Other images also show learners from different industry sectors. The three vector illustrations used show the stages of a CGI development, from a face and a hand in mesh to a half mesh/ half digital human face and hand.
 
 ### Wireframes
 
@@ -71,6 +71,9 @@ Train in XR's website aims to:
 * Mobile Wireframe
 
 ## Features
+* The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy fold at 280vw.
+* The site also offers interactive elements such as links, working forms and user controllable videos.
+* On its Home page, the site also offers a fully-functioning Augmented Reality experience.
 
 ## Technologies Used
 
@@ -81,20 +84,35 @@ Train in XR's website aims to:
 
 ### FRAMEWORKS, LIBRARIES AND PROGRAMMES USED
 1. Vectary
+    * Vectary was used by the developer to create a simple Augmented Reality experience.
 2. Google Fonts
+    * Google fonts were used to import the Montserrat and Fira Sans fonts into the style.css file and are used on all pages of the website.
 3. Font Awesome
+    * Font Awesome icons were mainly used for the Footer section of the page, specifically for the social media links as well as the address details of the site.
 4. Adobe Illustrator
+    * Adobe Illustrator was used to create the two versions of the Train in XR SVG logos. Adobe Illustrator was also used to create the logos of fictional clients of Train in XR.
 5. Photoshop
+    * Photoshop was used to optimize images for TXR website such as file size compression and quality enhancement. Photoshop was also used to insert the screenshot of the TXR website with the Augmented Reality feature showing on the screen.
 6. Adobe Stock
+    * The developer has an existing account with Adobe Stock and all images used on the site are all licensed for use.
 7. Biteable
+    * A Biteable template was used to create the Train in XR corporate video for the About Us page.
 8. YouTube
+    * Two video contents from YouTube (CNBC and Future Business Tech) were embedded on the site as fictional TXR sample works. 
 9. Git
+    * Git was used for version control.
 10. GitPod
+    * GitPod was used as online IDE for GitHub and the terminal was used to add and commit to Git and push to GitHub.
 11. GitHub
+    * GitHub was and is being used as repository of the project source code.
 12. Balsamiq
+    * Balsamiq was used to create the wireframes for the Train in XR website project.
 13. Chrome DevTools
+    * Chrome DevTools was used to test the code and debug the code during the development process.
 14. Microsoft Edge DevTools
+    * Microsoft Edge DevTools was used to test the code and debug the code during the development process.
 15. Safari DevTools
+    * Safari DevTools was used to test the code and debug the code during the development process.
 
 ### TESTING
 * HTML Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F)
