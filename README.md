@@ -1,7 +1,7 @@
 # Train in XR Website
 [View the live project here](https://joyzadan.github.io/html-css-portfolio-project/)
 
-Train in XR is a fictional advisory and consulting firm specialising in Virtual Reality and Augmented Reality solutions for workforce learning and development. Train in XR, or TXR for short, also offers inhouse VR and AR content development. TXR's services are geared for the enterprise, the public sector and medium to large companies.
+Train in XR is a fictional advisory and consulting firm specialising in Extended Reality (Virtual Reality and Augmented Reality) solutions for workforce learning and development. Train in XR, or TXR for short, also offers inhouse VR and AR content development. TXR's services are geared for the enterprise, the public sector and medium to large companies.
 
 ![This is a screenshot of the TXR homepage on multiple devices, including the Augmented Reality feature](assets/images/TXR_screenshots.png)
 
@@ -27,24 +27,27 @@ Train in XR's website aims to:
 * As a First Time Visitor, I want to immediately understand what the website is all about.
 * As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
 * As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
-* As a First Time Visitor, I want to know that they have the experience working with my industry/ sector.
+* As a First Time Visitor, I want to know that they have suitable solutions for my industry sector.
+* As a First Time Visitor, I would like to see some samples of their work.
+* As a First Time Visitor, I would like to be able to sign up for their newsletters and company announcements.
 
 #### Returning Visitor Goals
 * As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
     - what is Virtual Reality
     - What is Augmented Reality
-    - What is Mixed Reality
-    - What are the use cases of VR/AR/MR 
-    - Why should we implement any of these to train our staff
-* As a Returning Visitor, I want to be able to find whitepapers and case studies about Virtual Reality.
+    - What are the use cases of VR and AR
+    - How effective are VR and AR for staff training compared to other modalities
+* As a Returning Visitor, I want to be able to find case studies on Virtual Reality and Augmented Reality.
 * As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
+* As a Returning Visitor, I want to try out a TXR Augmented Reality experience.
 
 #### Frequent Visitor Goals
-* As a Frequent Visitor, I would like to be able to find the information about any webinars that the company is hosting and to be able to sign up for the event.
-* As a Frequent Visitor, I would like to be able to find out about any industry events the company is attending and to schedule a live demo meeting with their team.
-* As a Frequent Visitor, I would like to be able to sign up for their newsletters and company announcements.
+* As a Frequent Visitor, I would like to be able to find out about any industry events that Train in XR is attending and to schedule a live demo meeting with their team.
+* As a Frequent Visitor, I would like for me and my teams to be able to download a TXR AR App or demo.
+* As a Frequent Visitor, I would like to be able to 
 
 ### DESIGN
+
 
 ### WIREFRAMES
 
