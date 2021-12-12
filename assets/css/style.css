@@ -268,7 +268,11 @@ h4 {
     animation-name: slide;
     animation-duration: 5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
     animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
 }
 
 @keyframes slide {
