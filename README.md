@@ -59,9 +59,9 @@ Train in XR's website aims to:
 * Colour Scheme
     - The main colours used on the Train in XR website are magenta purple and black. A complementary shade of vivid orange is also used for buttons on hover and on outro sections of the Services and About Us pages.
 * Typography
-    - Montserrat is main font used across the website with Fira Sans for emphasis and Sans-Serif as the fallback font. Montserrat and Fira Sans are often used together with the former known for being used frequently on technology sites.
+    - Montserrat is the main font used across the website with Fira Sans for emphasis and Sans-Serif as the fallback font. Montserrat and Fira Sans are often used together with the former known for being used frequently on technology sites.
 * Imagery 
-    Images and vector illustrations were carefully selected for the site. The images used show computer generated imagery (CGI) examples common across VR and AR solutions. Other images also show learners from different industry sectors. The three vector illustrations used show the stages of a CGI development, from a face and a hand in mesh to a half mesh/ half digital human face and hand.
+    - Images and vector illustrations were carefully selected for the site. The images used show computer generated imagery (CGI) examples common across VR and AR solutions. Other images also show learners from different industry sectors. The three vector illustrations used show the stages of a CGI development, from a face and a hand in mesh to a half mesh/ half digital human face and hand.
 
 ### Wireframes
 
@@ -71,7 +71,7 @@ Train in XR's website aims to:
 * Mobile Wireframe
 
 ## Features
-* The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy fold at 280vw.
+* The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy Fold at 280vw.
 * The site also offers interactive elements such as links, working forms and user controllable videos.
 * On its Home page, the site also offers a fully-functioning Augmented Reality experience.
 
@@ -115,9 +115,9 @@ Train in XR's website aims to:
     * Safari DevTools was used to test the code and debug the code during the development process.
 
 ### TESTING
-* HTML Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F)
-* CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-* Lighthouse - Results
+* HTML Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/HTML_Validator.png)
+* CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/CSS_Validator.png)
+* Lighthouse - ![Results](assets/images/Lighthouse_Test.png)
 
 ### TESTING USER STORIES FROM USER EXPERIENCE (UX) SECTION
 
