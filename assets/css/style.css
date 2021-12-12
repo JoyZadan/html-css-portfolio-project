@@ -134,7 +134,7 @@ h4 {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer; 
-}
+} 
 
 /*------------------- header section --*/
 
@@ -1294,11 +1294,11 @@ h4 {
     padding-bottom: 1rem;
 }
 
-.events p {
-    text-transform: uppercase;
+.events a {
+    color: #000;
 }
 
-.events a {
+#plus {
     color: #fff;
 }
 
