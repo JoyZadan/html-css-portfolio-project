@@ -82,18 +82,24 @@ Train in XR's website aims to:
 ### FRAMEWORKS, LIBRARIES AND PROGRAMMES USED
 1. Vectary
 2. Google Fonts
-3. Fontawesome
+3. Font Awesome
 4. Adobe Illustrator
 5. Photoshop
-6. Biteable
-7. Git
-8. GitPod
-9. GitHub
-10. Balsamiq
+6. Adobe Stock
+7. Biteable
+8. YouTube
+9. Git
+10. GitPod
+11. GitHub
+12. Balsamiq
+13. Chrome DevTools
+14. Microsoft Edge DevTools
+15. Safari DevTools
 
 ### TESTING
-* HTML Validator - Results
-* CSS Validator - Results
+* HTML Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F)
+* CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* Lighthouse - Results
 
 ### TESTING USER STORIES FROM USER EXPERIENCE (UX) SECTION
 

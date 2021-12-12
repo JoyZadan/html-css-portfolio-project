@@ -257,6 +257,29 @@ h4 {
 
 /*------------------- hero section, created using Vectary Studio 2020, with responsive iframe --*/ 
 
+#hero-cta {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: #000;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(2rem)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
 .hero-interactive {
     position: relative;
     padding-top: 0; 
