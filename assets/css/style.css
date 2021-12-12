@@ -1117,12 +1117,18 @@ h4 {
     margin: 1rem;
     transition: transform 0.5s;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
 }
 
 .flipcard-container:hover 
 .flipcard {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
     transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-webkit-transform: rotateX(0deg);
 }
 
 .front-one,
@@ -1145,6 +1151,8 @@ h4 {
     background: #000;
     color: #fff;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 }
 
 .back-one,
@@ -1171,6 +1179,7 @@ h4 {
     transform: rotateY(180deg);
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 }
 
 @media screen and (min-width: 280px) {
@@ -1182,6 +1191,7 @@ h4 {
        padding: 1rem;
        perspective: 1000px;
        -webkit-perspective: 1000px;
+       -moz-perspective: 1000px;
     }
 
     .flipcard {
@@ -1192,12 +1202,14 @@ h4 {
         transition: transform 0.5s;
         transform-style: preserve-3d; 
         -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
     }
     
     .flipcard-container:hover 
     .flipcard {
         transform: rotateY(180deg);
         -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
     }
 
     .front-one,
@@ -1221,6 +1233,7 @@ h4 {
         color: #fff;
         backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
     }
 
     .back-one,
@@ -1246,8 +1259,10 @@ h4 {
         border: 1px solid #aa0047;
         transform: rotateY(180deg);
         -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
         backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
     }
 } 
 
