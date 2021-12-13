@@ -218,4 +218,4 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * The YouTube videos came from CNBC and Future Business Tech
 
 ### Acknowledgement
-* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
+* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating to advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
