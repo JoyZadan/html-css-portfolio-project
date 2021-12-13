@@ -202,7 +202,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 
 ## Credits
 ### Code
-* Credit and thanks belong to tutorials on YouTube by @FlorinPop for his Responsive Navigation with Hamburger Menu - CSS and JavaScript Tutorial and @FollowAndrew for his Responsive Nav Bar Tutorial, both of which helped me put together the responsive navbar with hamburger menu and buttons. 
+* Credit and thanks belong to tutorials on YouTube by @FlorinPop for his Responsive Navigation with Hamburger Menu - CSS and JavaScript tutorial and @FollowAndrew for his Responsive NavBar tutorial, both of which helped me put together the responsive navbar with hamburger menu and buttons. 
 
 ### Content
 * All of the content for the project was written by the developer.
@@ -216,4 +216,4 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * The YouTube videos came from CNBC and Future Business Tech
 
 ### Acknowledgement
-* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Also thanks to Conrad Saunders at South Devon College for this time and insights into the project assessment criteria. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating to advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
+* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Also thanks to Conrad Saunders at South Devon College for his time and insights into the project assessment criteria. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating to advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
