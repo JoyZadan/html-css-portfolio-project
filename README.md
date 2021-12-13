@@ -206,16 +206,16 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 ### Code
 * Credit and thanks belong to tutorials on YouTube by @FlorinPop for his Responsive Navigation with Hamburger Menu - CSS and JavaScript Tutorial and @FollowAndrew for his Responsive Nav Bar Tutorial, both of which helped me put together the responsive navbar with hamburger menu and buttons. 
 
-* Content
-- All of the content for the project was written by the developer.
-- The Code Institute README sample served as a guide for this project's README. 
+### Content
+* All of the content for the project was written by the developer.
+* The Code Institute README sample served as a guide for this project's README. 
 
-* Augmented Reality
-- The Augmented Reality experience was created by the developer using Vectary
+### Augmented Reality
+* The Augmented Reality experience was created by the developer using Vectary
 
-Media
-- All images were licensed from Adobe Stock
-- The YouTube videos came from CNBC and Future Business Tech
+### Media
+* All images were licensed from Adobe Stock
+* The YouTube videos came from CNBC and Future Business Tech
 
-* Acknowledgement
-- Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
+### Acknowledgement
+* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
