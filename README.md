@@ -11,7 +11,7 @@ Train in XR is a fictional advisory and consulting firm specialising in Extended
 ## User Experience (UX)
 
 ### Train in XR Business Goals
-As an advisory services firm, TXR helps companies and the public sectors understand:
+As an advisory services firm, TXR helps companies, organizations and the public sectors understand:
 * What is Virtual Reality (VR), what is Augmented Reality (AR) and how VR differs from AR
 * The advantages of VR and AR in providing practical, engaging, and more cost-effective workforce training and development
 * The key factors to consider when choosing the right technology stack and the right vendor(s) to implement VR/AR training
@@ -19,10 +19,9 @@ As an advisory services firm, TXR helps companies and the public sectors underst
 Train in XR's website aims to:
 * Establish the company's credibility as expert providers of VR and AR services 
 * Provide bite-size and easy to digest information that will help demystify VR and AR
-* Provide access to whitepapers and case studies written by leading industry players and market practitioners
+* Provide information on whitepapers and case studies written by leading industry players and market practitioners
 * Provide information about the best use cases of VR and AR for training
-* Sell the company's advisory and consulting services to relevant markets
-* Sell the company's inhouse VR and AR development services
+* Sell the company's advisory, VR and AR development services to relevant markets
 * Become the leading source of insightful and unbiased information about the pros and cons of adapting VR and AR for workforce training 
 
 ### User Stories
@@ -79,10 +78,10 @@ Train in XR's website aims to:
 
 ### Languages Used
 * HTML
-* CSS
+* CSS3
 * JavaScript (on navigation)
 
-### FRAMEWORKS, LIBRARIES AND PROGRAMMES USED
+### Frameworks, Libraries and Programmes Used
 1. Vectary
     * Vectary was used by the developer to create a simple Augmented Reality experience.
 2. Google Fonts
@@ -114,12 +113,64 @@ Train in XR's website aims to:
 15. Safari DevTools
     * Safari DevTools was used to test the code and debug the code during the development process.
 
-### TESTING
-* HTML Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/HTML_Validator.png)
-* CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/CSS_Validator.png)
-* Lighthouse - ![Results](assets/images/Lighthouse_Test.png)
+## Testing
+The W3C Markup Validator and the W3C CSS Validator were used to test and validate every all six pages of the Train in XR site project to ensure that there were no syntax errors in the code. Chrome's Lighthouse DevTool was also used to test for Performance, Accessibility, Best Practices and SEO.
+* W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/HTML_Validator.png)
+* W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/CSS_Validator.png)
+* Lighthouse ![Results](assets/images/Lighthouse_Test.png)
 
-### TESTING USER STORIES FROM USER EXPERIENCE (UX) SECTION
+### Testing User Stories from User Experience (UX) Section
+* Train in XR Business Goals
+    1. As an advisory firm, Train in XR wants to help companies, organizations and the public sectors understand:
+        - What is Virtual Reality (VR) and, what is Augmented Reality (AR) and how VR differs from AR
+            - The website provides the definition of both VR and AR to clarify their similarities and differences.
+        - The advantages of VR and AR in providing practical, engaging, and more cost-effective workforce training and development
+            - By showing the results of case studies from PwC and CapGemini on the effectiveness of VR and AR in engaging learners, increased productivity and reduction on production time at Boeing, TXR can show the proven advantages of immersive learning technologies.
+        - The key factors to consider when choosing the right technology stack and the right vendor(s) to implement VR/AR training
+            - As an advisory and consulting firm, Train in XR needs to showcase its credibility and authority in XR and by showcasing some of its work. By providing information about its record of having developed learning solutions used by over a million learners, the company is able to provide insights on key factors that corporate decision-makers and buyers must consider prior to investing in XR solutions.  
+
+    2. Train in XR's website aims to:
+        - Establish the company's credibility as expert providers of VR and AR services
+            - Establishing credibility begins with a website that is modern, user-friendly, accessible and provides a breathe of relevant and timely content for users. 
+        - Provide bite-size and easy to digest information that will help demystify VR and AR
+            - Careful attention was given to provide succint information about what are VR and AR.
+        - Provide information on whitepapers and case studies written by leading industry players and market practitioners
+            - The highlights of the case studies conducted by global consulting firms, PriceWaterhouseCoopers (PwC) and CapGemini were presented on the Home page in a succint and easy to digest format.
+        - Provide information about the best use cases of VR and AR for training
+            - The information on the best use cases of VR and AR for training were differentiated per industry and per job role.
+        - Sell the company's advisory, VR and AR development services to relevant markets
+            - Numerous call to actions on every page of the website were provided to users to prompt them to subscribe to the company's newsletters and updates, book a demo and arrange to meet up with potential buyers attending industry events were the TXR teams will be presenting. All these were meant to guide the decision-makers and buyers through the different points in their buying journey.
+        - Become the leading source of insightful and unbiased information about the pros and cons of adapting VR and AR for workforce training
+            - The About Us page also mentioned that Train in XR also works with other VR and AR developers to provide the best possible immersive learning solutions to clients. 
+
+* First Time Visitor Goals
+    1. As a First Time Visitor, I want to immediately understand what the website is all about.
+        - 
+
+* As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
+* As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
+* As a First Time Visitor, I want to be able to see testimonials from their clients.
+* As a First Time Visitor, I want to know that they have suitable solutions for my industry sector.
+* As a First Time Visitor, I would like to see samples of their work.
+* As a First Time Visitor, I would like to be able to sign up for their newsletters and company announcements.
+
+#### Returning Visitor Goals
+* As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
+    - what is Virtual Reality
+    - What is Augmented Reality
+    - What are the use cases of VR and AR
+    - How effective are VR and AR for staff training compared to other modalities
+* As a Returning Visitor, I want to be able to find case studies on Virtual Reality and Augmented Reality.
+* As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
+* As a Returning Visitor, I want to try out a TXR Augmented Reality experience.
+
+#### Frequent Visitor Goals
+* As a Frequent Visitor, I would like to be able to find out about any industry events that Train in XR is attending and to schedule a live demo meeting with their team.
+* As a Frequent Visitor, I would like for me and my teams to be able to download a TXR AR App or demo.
+* As a Frequent Visitor, I would like to be able to know more about Train in XR, their history and their track records in delivering their services.
+
+#### Frequent Visitor (Client) Goals
+* As a Frequent Visitor (Client), I want to be able to login to my TXR account.
 
 ### FURTHER TESTING
 
