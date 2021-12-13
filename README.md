@@ -71,8 +71,8 @@ Train in XR's website aims to:
 
 ### Wireframes
 
-* ![Home Page Wireframe](assets/images/desktop.png)
-* ![Mobile Wireframe](assets/images/Home_1.png)
+* Home Page Wireframes ![Home Page Wireframe](assets/images/desktop.png)
+* Mobile Wireframes ![Mobile Wireframe](assets/images/Home_1.png)
 
 ## Features
 * The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy Fold at 280vw.
@@ -216,4 +216,4 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * The YouTube videos came from CNBC and Future Business Tech
 
 ### Acknowledgement
-* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating to advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
+* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Also thanks to Conrad Saunders at South Devon College for this time and insights into the project assessment criteria. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating to advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
