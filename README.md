@@ -7,10 +7,16 @@ Train in XR is a fictional advisory and consulting firm specialising in Extended
 
 ![This is a screenshot of the TXR homepage on multiple devices, including the Augmented Reality feature](assets/images/TXR-screenshots.png)
 
+# Table of Contents
+1. Overview
+2. User Experience (UX)
+3. Features
+4. Technologies Used
+5. Testing
+6. Deployment
+7. Credits
 
-## User Experience (UX)
-
-### Train in XR Business Goals
+## Overview
 As an advisory services firm, TXR helps companies, organizations and the public sectors understand:
 * What is Virtual Reality (VR), what is Augmented Reality (AR) and how VR differs from AR
 * The advantages of VR and AR in providing practical, engaging, and more cost-effective workforce training and development
@@ -23,11 +29,12 @@ Train in XR's website aims to:
 * Provide information about the best use cases of VR and AR for training
 * Sell the company's advisory, VR and AR development services to relevant markets
 * Become the leading source of insightful and unbiased information about the pros and cons of adapting VR and AR for workforce training 
-
+    
+## User Experience (UX)
 ### User Stories
 
 #### First Time Visitor Goals
-* As a First Time Visitor, I want to immediately understand what the website is all about.
+* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Train in XR.
 * As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
 * As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
 * As a First Time Visitor, I want to be able to see testimonials from their clients.
@@ -39,8 +46,8 @@ Train in XR's website aims to:
 * As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
     - what is Virtual Reality
     - What is Augmented Reality
-    - What are the use cases of VR and AR
     - How effective are VR and AR for staff training compared to other modalities
+    - What are the use cases of VR and AR
 * As a Returning Visitor, I want to be able to find case studies on Virtual Reality and Augmented Reality.
 * As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
 * As a Returning Visitor, I want to try out a TXR Augmented Reality experience.
@@ -73,6 +80,7 @@ Train in XR's website aims to:
 * The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy Fold at 280vw.
 * The site also offers interactive elements such as links, working forms and user controllable videos.
 * On its Home page, the site also offers a fully-functioning Augmented Reality experience.
+* Aside from the Home page, the site also has Services, About Us and Contact Us pages. Two additional pages are also available: a Login page for fictional clients and a Thank You landing page. The latter are for users who subscribed to receive updates, who registered to receive a demo and for users who wanted to contact a specific department such as Advisory, Sales, Finance, Technical Support and Recruitment.
 
 ## Technologies Used
 
@@ -120,64 +128,94 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * Lighthouse ![Results](assets/images/Lighthouse_Test.png)
 
 ### Testing User Stories from User Experience (UX) Section
-* Train in XR Business Goals
-    1. As an advisory firm, Train in XR wants to help companies, organizations and the public sectors understand:
-        - What is Virtual Reality (VR) and, what is Augmented Reality (AR) and how VR differs from AR
-            - The website provides the definition of both VR and AR to clarify their similarities and differences.
-        - The advantages of VR and AR in providing practical, engaging, and more cost-effective workforce training and development
-            - By showing the results of case studies from PwC and CapGemini on the effectiveness of VR and AR in engaging learners, increased productivity and reduction on production time at Boeing, TXR can show the proven advantages of immersive learning technologies.
-        - The key factors to consider when choosing the right technology stack and the right vendor(s) to implement VR/AR training
-            - As an advisory and consulting firm, Train in XR needs to showcase its credibility and authority in XR and by showcasing some of its work. By providing information about its record of having developed learning solutions used by over a million learners, the company is able to provide insights on key factors that corporate decision-makers and buyers must consider prior to investing in XR solutions.  
-
-    2. Train in XR's website aims to:
-        - Establish the company's credibility as expert providers of VR and AR services
-            - Establishing credibility begins with a website that is modern, user-friendly, accessible and provides a breathe of relevant and timely content for users. 
-        - Provide bite-size and easy to digest information that will help demystify VR and AR
-            - Careful attention was given to provide succint information about what are VR and AR.
-        - Provide information on whitepapers and case studies written by leading industry players and market practitioners
-            - The highlights of the case studies conducted by global consulting firms, PriceWaterhouseCoopers (PwC) and CapGemini were presented on the Home page in a succint and easy to digest format.
-        - Provide information about the best use cases of VR and AR for training
-            - The information on the best use cases of VR and AR for training were differentiated per industry and per job role.
-        - Sell the company's advisory, VR and AR development services to relevant markets
-            - Numerous call to actions on every page of the website were provided to users to prompt them to subscribe to the company's newsletters and updates, book a demo and arrange to meet up with potential buyers attending industry events were the TXR teams will be presenting. All these were meant to guide the decision-makers and buyers through the different points in their buying journey.
-        - Become the leading source of insightful and unbiased information about the pros and cons of adapting VR and AR for workforce training
-            - The About Us page also mentioned that Train in XR also works with other VR and AR developers to provide the best possible immersive learning solutions to clients. 
 
 * First Time Visitor Goals
-    1. As a First Time Visitor, I want to immediately understand what the website is all about.
-        - 
+    - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Train in XR
+        - Upon first visiting the site, the users are greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath the navigation bar is a call to action (CTA) to try out an Augmented Reality experience by clicking on the AR activation icon.
+        - Beneath the CTA is a clean and fast loading interactive Hero section that users can move in circles, side to side, and up and down.
+        - Beneath the Hero section, the users can scroll down to learn more about Train in XR.
+    - As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
+        - Users are able to navigate across different pages of the site which clearly convey the information they will find. On every page of the site are strategically placed call to actions which are also clearly labelled and link to expected content.
+    - As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
+        - At various intervals across the site, users are provided content which showcases the company's experience, capabilities and credibility to provide the advisory services and VR and AR development. 
+        - On the Home page, users are given three main services that the company provides: Advisory Consulting, VR and AR Content Development and Learning & Development Transformation.
+        - Sample works are also available on the Home page and are immediately followed by logos of the companies which TXR works with. (These logos are created specifically for this project and are purely fictional.)
+    - As a First Time Visitor, I want to be able to see testimonials from their clients.
+        - Two testimonials from clients are also available for the users to see. These include the names, job titles and the organization of the clients who provided their testimonials.
+    - As a First Time Visitor, I want to know that they have suitable solutions for my industry sector.
+        - On the Services page, the content are divided into three categories: the Advisory & Consulting services of the company, the VR and AR services they offer by industry sector and company's VR and AR services by Use Cases. 
+    - As a First Time Visitor, I would like to see samples of their work.
+        - Upon entering the site, users are able to immediately see a sample of TXR's work, The Hero section of the Home page is a fully-functioning AR experience. At the click of a button, a user can try out AR.
+        - Users are also provided samples of work that the company has delivered which include: Computer Generated Imagery (CGI) 3D Environment/ digital twin of a hospital examination room with various medical equipment; a video showing VR specific content and another video specific to AR.
+        - On the Services page within the Services by Industry section, images of other 3D digital twins are also available for the users to view.
+    - As a First Time Visitor, I would like to be able to sign up for their newsletters and company announcements.
+        - A Subscribe to Receive Updates form is made available on the site's Home page, above the Footer.
 
-* As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
-* As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
-* As a First Time Visitor, I want to be able to see testimonials from their clients.
-* As a First Time Visitor, I want to know that they have suitable solutions for my industry sector.
-* As a First Time Visitor, I would like to see samples of their work.
-* As a First Time Visitor, I would like to be able to sign up for their newsletters and company announcements.
+* Returning Visitor Goals
+    -   As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
+        - what is Virtual Reality
+            - On the Home page, Users are provided the answer to this often asked question.
+        - What is Augmented Reality
+            - On the Home page, Users are provided the answer to this often asked question.
+        - How effective are VR and AR for staff training compared to other modalities
+            - On the Home page, the effectiveness of both VR and AR is clearly communicated with specific numbers and percentages in terms of training improvement and job performance of learners following using VR and/or AR for training.
+        - What are the use cases of VR and AR
+            - Users are provided information about the Use Cases of VR and of AR for each infustry sector and for which job roles are they more suitable for.
+    - As a Returning Visitor, I want to be able to find case studies on Virtual Reality and Augmented Reality.
+        - On the Home page, Users are provided the results of specific case studies conducted by PwC and by CapGemini on the effectiveness of Virtual Reality and Augmented Reality in improving staff performance and training. 
+    - As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
+        - Across all the pages of the site, users are able to click on various call to actions to contact team TXR and book a demo.
+        - On the Contact Us page, the users are able to find the fictional phone number of TXR's Customer Service team to schedule a demo.
+        - Also on the Contact Us page, a form is available for the user to complete with an option to choose between VR and AR when they are booking a demo. 
+    - As a Returning Visitor, I want to try out a TXR Augmented Reality experience.
+        - On the Homepage, users are able to try out an AR experience by clicking on the AR icon/ button on the top right side of the screen. 
+        - The option to try out an AR experience is seamless and user-friendly, no signup is required. All users need to do is click a button using their AR compatible device.
 
-#### Returning Visitor Goals
-* As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
-    - what is Virtual Reality
-    - What is Augmented Reality
-    - What are the use cases of VR and AR
-    - How effective are VR and AR for staff training compared to other modalities
-* As a Returning Visitor, I want to be able to find case studies on Virtual Reality and Augmented Reality.
-* As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
-* As a Returning Visitor, I want to try out a TXR Augmented Reality experience.
+* Frequent Visitor Goals
+    - As a Frequent Visitor, I would like to be able to find out about any industry events that Train in XR is attending and to schedule a live demo meeting with their team.
+        - A list of events that TXR will be attending and presenting at is included on the About Us page.
+        - A call to action link is also included to provide the user the option to book a face to face demo meeting at said events, ahead of time.
+    - As a Frequent Visitor, I would like for me and my teams to be able to download a TXR AR App or demo.
+        - A link to download an AR App is included on the sample of our works section.
+    - As a Frequent Visitor, I would like to be able to know more about Train in XR, their history and their track records in delivering their services.
+        - The About Us page provides the users more information about Train in XR, its track record to date as well as its brief history.
+        - A corporate video about the company is also available on the About Us page.
 
-#### Frequent Visitor Goals
-* As a Frequent Visitor, I would like to be able to find out about any industry events that Train in XR is attending and to schedule a live demo meeting with their team.
-* As a Frequent Visitor, I would like for me and my teams to be able to download a TXR AR App or demo.
-* As a Frequent Visitor, I would like to be able to know more about Train in XR, their history and their track records in delivering their services.
+* Frequent Visitor (Client) Goals
+    - As a Frequent Visitor (Client), I want to be able to login to my TXR account.
+        - Clients of TXR are able to login to their account via signup page. The link to the page is available on the site navigation bar for desktop and tablet versions of the site.
 
-#### Frequent Visitor (Client) Goals
-* As a Frequent Visitor (Client), I want to be able to login to my TXR account.
+### Further Testing
+* The Train in XR website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+* The website was viewed and tested on Alienware desktop, on several MacBooks (2012, 2014, 2017 and 2020), and on a low-end Dell laptop. 
+* The site was also viewed and various mobiles and tablets, from the newest to the oldest ipad (2011) that the developer has access to. 
+* The website was also tested for the AR and the flip cards features both on desktops and on mobiles.
+* The site navigation, links and buttons were tested multiple times to ensure that there are no broken links.
+* Friends, family members and industry contacts were also asked to review the site and to share with the developer any broken links, bugs or user experience issues they may encounter.
 
-### FURTHER TESTING
+## Deployment
+### GitHub Pages
+* The project was deployed to GitHub Pages using the following steps:
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/JoyZadan/html-css-portfolio-project)
+2. On the repository page, navigate to Settings and click on it
+3. Within the Settings page, on the left hand side, scroll down until you see Pages (second to the last), click on it
+4. On GitHub Pages page, under Source, choose Branch:main, then /root and click Save
+5. After about a minute, the site is published.
 
-### DEPLOYMENT
+## Credits
+### Code
+* Credit and thanks belong to tutorials on YouTube by @FlorinPop for his Responsive Navigation with Hamburger Menu - CSS and JavaScript Tutorial and @FollowAndrew for his Responsive Nav Bar Tutorial, both of which helped me put together the responsive navbar with hamburger menu and buttons. 
 
-### CREDITS
-#### Codes for Responsive NavBar
-* Credit and thanks belong to tutorials on YouTube by @FlorinPop for his Responsive Navigation with Hamburger Menu - CSS and JavaScript Tutorial and @FollowAndrew for his Responsive Nav Bar Tutorial, both of which helped me put together the responsive navbar with hamburger menu and buttons.
+* Content
+- All of the content for the project was written by the developer.
+- The Code Institute README sample served as a guide for this project's README. 
 
-### COPYRIGHT
+* Augmented Reality
+- The Augmented Reality experience was created by the developer using Vectary
+
+Media
+- All images were licensed from Adobe Stock
+- The YouTube videos came from CNBC and Future Business Tech
+
+* Acknowledgement
+- Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
