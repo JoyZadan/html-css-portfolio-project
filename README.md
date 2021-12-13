@@ -71,10 +71,8 @@ Train in XR's website aims to:
 
 ### Wireframes
 
-* Home Page Wireframe
-* Services Page Wireframe
-* Contact Us Wireframe
-* Mobile Wireframe
+* ![Home Page Wireframe](assets/images/desktop.png)
+* ![Mobile Wireframe](assets/images/Home_1.png)
 
 ## Features
 * The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy Fold at 280vw.
