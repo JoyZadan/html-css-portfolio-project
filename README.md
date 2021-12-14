@@ -74,7 +74,7 @@ Train in XR's website aims to:
 ### Design
 
 * Colour Scheme
-    - The main colours used on the Train in XR website are magenta purple and black. A complementary shade of vivid orange is also used for buttons on hover and on outro sections of the Services and About Us pages.
+    - The main colours used on the Train in XR website are magenta purple and black. A complementary shade of vivid orange is also used for buttons on hover and on outro sections of the Services and About Us pages. The psychology of colour used on the website can be found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/).
 * Typography
     - Montserrat is the main font used across the website with Fira Sans for emphasis and Sans-Serif as the fallback font. Montserrat and Fira Sans are often used together with the former known for being used frequently on technology sites.
 * Imagery 
@@ -87,9 +87,16 @@ Train in XR's website aims to:
 
 ## Features
 * The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy Fold at 280vw.
-* The site also offers interactive elements such as links, working forms and user controllable videos.
-* On its Home page, the site also offers a fully-functioning Augmented Reality experience.
+* The website offers interactive elements from links and buttons across the site to drop down choices on the contact form on Contact Us page.
 * Aside from the Home page, the site also has Services, About Us and Contact Us pages. Two additional pages are also available: a Login page for fictional clients and a Thank You landing page. The latter are for users who subscribed to receive updates, who registered to receive a demo and for users who wanted to contact a specific department such as Advisory, Sales, Finance, Technical Support and Recruitment.
+* The site also offers interactive elements such as links, working forms and user controllable videos.
+* The website also offers the users an interactive (movable) hero section on the Home page. The same Hero section, when the AR link is clicked, offers the users an Augmented Reality experience. See screenshots:
+
+    1. Augmented Reality feature - access from desktop: ![access from desktop](assets/images/ar/AR-access-from-desktop.png) 
+
+    2. Augmented Reality feature - using an AR compatible mobile device: ![accessed from an AR compatible mobile device](assets/images/ar/AR-accessed-from-mobile.png)
+
+    3. Augmented Reality feature - AR at work, outside the house, overlaid on a car: ![AR outside](assets/images/ar/AR-overlaid-on-a-car.png)
 
 ## Technologies Used
 
