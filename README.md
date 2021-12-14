@@ -207,10 +207,10 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
         - Clients of TXR are able to login to their account via signup page. The link to the page is available on the site navigation bar for desktop and tablet versions of the site.
 
 ### Further Testing
-* The Train in XR website was tested on Google Chrome, Microsoft Edge and Safari browsers.
-* The website was viewed and tested on Alienware desktop, on several MacBooks (2012, 2014, 2017 and 2020), and on a low-end Dell laptop. 
-* The site was also viewed and various mobiles and tablets, from the newest to the oldest ipad (2011) that the developer has access to. 
-* The website was also tested for the AR and the flip cards features both on desktops and on mobiles.
+* The Train in XR website was tested on Google Chrome, Microsoft Edge and Safari DevTools for errors on code,  responsiveness and features support.
+* The website was viewed and tested for responsiveness and features working on Alienware desktop, on several MacBooks (2012, 2014, 2017 and 2020), and on a low-end Dell laptop. 
+* The site was also viewed and various mobiles and tablets, from the newest to the oldest ipad (2011) that the developer has access to again test for responsiveness and features working.
+* The website was also tested for the Augmented Reality and the flip cards features both on desktops and on mobiles.
 * The site navigation, links and buttons were tested multiple times to ensure that there are no broken links.
 * Friends, family members and industry contacts were also asked to review the site and to share with the developer any broken links, bugs or user experience issues they may encounter.
 
