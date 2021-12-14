@@ -17,7 +17,7 @@ Train in XR is a fictional advisory and consulting firm specialising in Extended
 7. Credits
 
 ## Overview
-As an advisory services firm, TXR helps companies, organizations and the public sectors understand:
+As an advisory services and VR/AR development firm, TXR helps companies, organizations and the public sectors understand:
 * What is Virtual Reality (VR), what is Augmented Reality (AR) and how VR differs from AR
 * The advantages of VR and AR in providing practical, engaging, and more cost-effective workforce training and development
 * The key factors to consider when choosing the right technology stack and the right vendor(s) to implement VR/AR training
@@ -82,8 +82,8 @@ Train in XR's website aims to:
 
 ### Wireframes
 
-* Home Page Wireframes ![Home Page Wireframe](assets/images/desktop.png)
-* Mobile Wireframes ![Mobile Wireframe](assets/images/Home_1.png)
+* Home Page Wireframes ![Home Page Wireframe](assets/images/wireframes/desktop-lowres.png)
+* Mobile Wireframes ![Mobile Wireframe](assets/images/wireframes/mobile-lowres.png)
 
 ## Features
 * The Train in XR website is responsive on all device sizes, from the largest of viewports through to Galaxy Fold at 280vw.
