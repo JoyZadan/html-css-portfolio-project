@@ -157,7 +157,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
         - Beneath the Hero section, the users can scroll down to learn more about Train in XR. ![about TXR](assets/images/uxscreenshots/about-txr.png)
     - As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
         - Upon first visiting the site, the users are greeted with a clean and descriptive navigation bar to go to the page of their choice. ![site navigation](assets/images/uxscreenshots/site-navigation.png)
-        - Users are able to navigate across different pages of the site which clearly convey the information they will find. On every page of the site are strategically placed call to actions which are also clearly labelled and link to expected content. ![clear CTAs](assets/images/uxscreenshots/clear-CTAs.png)
+        - Users are able to navigate across different pages of the site which clearly convey the information they will find. On every page of the site are strategically placed call to actions which are also clearly labelled and link to expected content. 
     - As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
         - At various intervals across the site, users are provided content which showcases the company's experience, capabilities and credibility to provide the advisory services and VR and AR development. On the Home page, users are given three main services that the company provides: Advisory Consulting, VR and AR Content Development and Learning & Development Transformation. 
         ![TXR Services](assets/images/uxscreenshots/TXR-services.png)
@@ -181,18 +181,18 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
         - What is Augmented Reality
             - On the Home page, Users are provided the answer to this often asked question.
         - How effective are VR and AR for staff training compared to other modalities
-            - On the Home page, the effectiveness of both VR and AR is clearly communicated with specific numbers and percentages in terms of training improvement and job performance of learners following using VR and/or AR for training.
+            - On the Home page, the effectiveness of both VR and AR is clearly communicated with specific numbers and percentages in terms of training improvement and job performance of learners following using VR and/or AR for training. ![Screenshots of What is VR, What is AR and their effectiveness](assets/images/uxscreenshots/About-VR-and-AR-effectiveness.png)
         - What are the use cases of VR and AR
-            - Users are provided information about the Use Cases of VR and of AR for each infustry sector and for which job roles are they more suitable for.
+            - Users are provided information about the Use Cases of VR and of AR for each industry sector and for which job roles are they more suitable for. See also screenshot above. ![VR and AR Use Cases](assets/images/uxscreenshots/VR-AR-Use-Cases-card-cover.png)
     - As a Returning Visitor, I want to be able to find case studies on Virtual Reality and Augmented Reality.
-        - On the Home page, Users are provided the results of specific case studies conducted by PwC and by CapGemini on the effectiveness of Virtual Reality and Augmented Reality in improving staff performance and training. 
+        - On the Home page, Users are provided the results of specific case studies conducted by PwC and by CapGemini on the effectiveness of Virtual Reality and Augmented Reality in improving staff performance and training. See previous screenshot above.
     - As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
         - Across all the pages of the site, users are able to click on various call to actions to contact team TXR and book a demo.
         - On the Contact Us page, the users are able to find the fictional phone number of TXR's Customer Service team to schedule a demo.
-        - Also on the Contact Us page, a form is available for the user to complete with an option to choose between VR and AR when they are booking a demo. 
+        - Also on the Contact Us page, a form is available for the user to complete with an option to choose between VR and AR when they are booking a demo. ![Contact teams at TXR or request demo](assets/images/uxscreenshots/Contact-TXR-book-demo.png)
     - As a Returning Visitor, I want to try out a TXR Augmented Reality experience.
         - On the Homepage, users are able to try out an AR experience by clicking on the AR icon/ button on the top right side of the screen. 
-        - The option to try out an AR experience is seamless and user-friendly, no signup is required. All users need to do is click a button using their AR compatible device.
+        - The option to try out an AR experience is seamless and user-friendly, no signup is required. All users need to do is click a button using their AR compatible device. See Features section for screenshots.
 
 * Frequent Visitor Goals
     - As a Frequent Visitor, I would like to be able to find out about any industry events that Train in XR is attending and to schedule a live demo meeting with their team.
