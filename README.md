@@ -173,6 +173,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
         - On the Services page within the Services by Industry section, images of other 3D digital twins are also available for the users to view.
     - As a First Time Visitor, I would like to be able to sign up for their newsletters and company announcements.
         - A Subscribe to Receive Updates form is made available on the site's Home page, above the Footer. ![Subscribe to Receive Updates](assets/images/uxscreenshots/TXR-subscribe.png)
+        - A thank you landing page also greets users after successfully signing up to receive the company's updates. ![Thank You landing page](assets/images/uxscreenshots/thank-you-landing-page.png)
 
 * Returning Visitor Goals
     -   As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
@@ -197,16 +198,16 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * Frequent Visitor Goals
     - As a Frequent Visitor, I would like to be able to find out about any industry events that Train in XR is attending and to schedule a live demo meeting with their team.
         - A list of events that TXR will be attending and presenting at is included on the About Us page.
-        - A call to action link is also included to provide the user the option to book a face to face demo meeting at said events, ahead of time.
+        - A call to action link is also included to provide the user the option to book a face to face demo meeting at said events, ahead of time. ![Events](assets/images/uxscreenshots/Events.png)
     - As a Frequent Visitor, I would like for me and my teams to be able to download a TXR AR App or demo.
         - A link to download an AR App is included on the sample of our works section.
     - As a Frequent Visitor, I would like to be able to know more about Train in XR, their history and their track records in delivering their services.
         - The About Us page provides the users more information about Train in XR, its track record to date as well as its brief history.
-        - A corporate video about the company is also available on the About Us page.
+        - A corporate video about the company is also available on the About Us page. ![Train in XR corporate video](assets/images/uxscreenshots/TXR-corporate-video.png)
 
 * Frequent Visitor (Client) Goals
     - As a Frequent Visitor (Client), I want to be able to login to my TXR account.
-        - Clients of TXR are able to login to their account via signup page. The link to the page is available on the site navigation bar for desktop and tablet versions of the site.
+        - Clients of TXR are able to login to their account via signup page. The link to the page is available on the site navigation bar for desktop and tablet versions of the site. ![Client Login page](assets/images/uxscreenshots/TXR-client-login-page.png)
 
 ### Further Testing
 * The Train in XR website was tested on Google Chrome, Microsoft Edge and Safari DevTools for errors on code,  responsiveness and features support.
