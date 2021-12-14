@@ -7,7 +7,7 @@ Train in XR is a fictional advisory and consulting firm specialising in Extended
 
 ![This is a screenshot of the TXR homepage on multiple devices, including the Augmented Reality feature](assets/images/TXR-screenshots.png)
 
-# Table of Contents
+## Table of Contents
 1. Overview
 2. User Experience (UX)
 3. Features
@@ -21,6 +21,17 @@ As an advisory services firm, TXR helps companies, organizations and the public 
 * What is Virtual Reality (VR), what is Augmented Reality (AR) and how VR differs from AR
 * The advantages of VR and AR in providing practical, engaging, and more cost-effective workforce training and development
 * The key factors to consider when choosing the right technology stack and the right vendor(s) to implement VR/AR training
+
+Below are some of the real-world challenges and problems that companies, organisations and the public sector face when it comes to workforce learning and development:
+
+* In an article written by Dan Pontefract, a former Chief Learning Officer for Telus (10,000+ staff), and published on Forbes [The Wasted Dollars of Corporate Training Programs](https://www.forbes.com/sites/danpontefract/2019/09/15/the-wasted-dollars-of-corporate-training-programs/?sh=783e797971f9), it mentioned that in 2018, over $86.7 billion was spent on corporate training and development across the United States. Of that, a fair amount gets wasted for the following reasons: 
+    - Employees' recall of the the learning content depreciates over time (see article on employee development and the [Forgetting Curve](https://hbr.org/2019/10/where-companies-go-wrong-with-learning-and-development) published by Harvard Business Review).
+    - Additionally, staff cannot attend a face to face training session and work at the same time. Their absence from work has a direct impact on the company's productivity for that time. 
+    - In most cases, face to face training can also accommodate a small number of participants (average between 20 to 40 at most). Increasing these numbers can have a direct impact on a training session's effectiveness.
+
+* In certain job roles, training staff on dangerous, high risk or diffifult to recreate situations such as surgical procedures, mining incident/ rescue training, fire safety, undersea-cable repairs, climbing at heights training - to name a few, due to the nature of the learning content, traditional training methods do fall short of being effective,realistic or practical and cost-effective.
+
+What's the solution to the above challenges? Train in XR's Virtual Reality and Augmented Reality training solutions are able to solve real-world workforce learning and development challenges for companies, organizations and the public sector by providing more effective, highly engaging and more cost-effective learning solutions. See additional case studies on the effectiveness of VR as a learning solution [here](https://www.interplaylearning.com/blog/virtual-reality-increases-training-effectiveness-10-case-studies). 
 
 Train in XR's website aims to:
 * Establish the company's credibility as expert providers of VR and AR services 
@@ -125,10 +136,10 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/validation/CSS_Validator.png)
 * Lighthouse ![Results](assets/images/validation/Lighthouse_Test.png)
 * a11y Color Contrast Accessibility for the Visually Impaired Validator 
-    - ![Home_Results](assets/images/validation/a11y_Color_Contrast_accessibility_home-page-test-results.png)
-    - ![Services_Results](assets/images/validation/a11y_Color_Contrast_accessibility_services-page-test-results.png)
-    - ![About_Results](assets/images/validation/a11y_Color_Contrast_accessibility_about-page-test-results.png)
-    - ![Contact_Results](assets/images/validation/a11y_Color_Contrast_accessibility_contact-page-test-results.png)
+    - Home Page Test Results ![Home_Results](assets/images/validation/a11y_Color_Contrast_accessibility_home-page-test-results.png)
+    - Services Page Test Results ![Services_Results](assets/images/validation/a11y_Color_Contrast_accessibility_services-page-test-results.png)
+    - About Us Page Test Results ![About_Results](assets/images/validation/a11y_Color_Contrast_accessibility_about-page-test-results.png)
+    - Contact Us Page Test Results ![Contact_Results](assets/images/validation/a11y_Color_Contrast_accessibility_contact-page-test-results.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
