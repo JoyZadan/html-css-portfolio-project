@@ -1355,7 +1355,7 @@ h4 {
     width: 95%;
     height: 95%;
     margin: 0 auto;
-    background-image: url(../images/neomorphic-bg-dark.png);
+    background: #484747;
     background-size: cover;
 }
 
@@ -1408,7 +1408,7 @@ h4 {
 .map {
     position: relative;
     padding-top: 0; 
-    padding-bottom: 30%;
+    padding-bottom: 50%;
     overflow: hidden; 
     text-align: center;
     margin: 0 auto;
