@@ -1268,23 +1268,23 @@ h4 {
 
 /*------------------- our services page closing text --*/
 
-.services-outro {
+.page-outro {
     text-align: center;
     background: #f9ad1d;
     padding: 3rem;
 }
 
-.services-outro h2 {
-    color: #fff;
+.page-outro h2 {
+    color: #000;
     padding-bottom: 1rem;
 }
 
-.services-outro h3, 
-.services-outro p {
+.page-outro h3, 
+.page-outro p {
     color: #000;
 }
 
-.services-outro a {
+.page-outro a {
     color: #000;
     cursor: pointer;
 }
@@ -1328,16 +1328,6 @@ h4 {
 
 .txr-color {
     color: #f9ad1d;
-}
-
-.events h3 {
-    color: #000;
-    margin: 1rem;
-    padding-bottom: 1rem;
-}
-
-.events a {
-    color: #000;
 }
 
 #plus {

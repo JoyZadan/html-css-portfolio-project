@@ -124,6 +124,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/HTML_Validator.png)
 * W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/CSS_Validator.png)
 * Lighthouse ![Results](assets/images/Lighthouse_Test.png)
+* a11y Color Contrast Accessibility Validator [Results](https://color.a11y.com/Contrast/)
 
 ### Testing User Stories from User Experience (UX) Section
 
