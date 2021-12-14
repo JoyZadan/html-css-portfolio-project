@@ -121,10 +121,14 @@ Train in XR's website aims to:
 
 ## Testing
 The W3C Markup Validator and the W3C CSS Validator were used to test and validate every all six pages of the Train in XR site project to ensure that there were no syntax errors in the code. Chrome's Lighthouse DevTool was also used to test for Performance, Accessibility, Best Practices and SEO.
-* W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/HTML_Validator.png)
-* W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/CSS_Validator.png)
-* Lighthouse ![Results](assets/images/Lighthouse_Test.png)
-* a11y Color Contrast Accessibility Validator [Results](https://color.a11y.com/Contrast/)
+* W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/validation/HTML_Validator.png)
+* W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/validation/CSS_Validator.png)
+* Lighthouse ![Results](assets/images/validation/Lighthouse_Test.png)
+* a11y Color Contrast Accessibility for the Visually Impaired Validator 
+    - ![Home_Results](assets/images/validation/a11y_Color_Contrast_accessibility_home-page-test-results.png)
+    - ![Services_Results](assets/images/validation/a11y_Color_Contrast_accessibility_services-page-test-results.png)
+    - ![About_Results](assets/images/validation/a11y_Color_Contrast_accessibility_about-page-test-results.png)
+    - ![Contact_Results](assets/images/validation/a11y_Color_Contrast_accessibility_contact-page-test-results.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
