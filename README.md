@@ -25,7 +25,7 @@ As an advisory services and VR/AR development firm, TXR helps companies, organiz
 Below are some of the real-world challenges and problems that companies, organisations and the public sector face when it comes to workforce learning and development:
 
 * In an article written by Dan Pontefract, a former Chief Learning Officer for Telus (10,000+ staff), and published on Forbes [The Wasted Dollars of Corporate Training Programs](https://www.forbes.com/sites/danpontefract/2019/09/15/the-wasted-dollars-of-corporate-training-programs/?sh=783e797971f9), it mentioned that in 2018, over $86.7 billion was spent on corporate training and development across the United States. Of that, a fair amount gets wasted for the following reasons: 
-    - Employees' recall of the the learning content depreciates over time (see article on employee development and the [Forgetting Curve](https://hbr.org/2019/10/where-companies-go-wrong-with-learning-and-development) published by Harvard Business Review).
+    - Learners' recall of the learning content depreciates over time (see article on employee development and the [Forgetting Curve](https://hbr.org/2019/10/where-companies-go-wrong-with-learning-and-development) published by Harvard Business Review).
     - Additionally, staff cannot attend a face to face training session and work at the same time. Their absence from work has a direct impact on the company's productivity for that time. 
     - In most cases, face to face training can also accommodate a small number of participants (average between 20 to 40 at most). Increasing these numbers can have a direct impact on a training session's effectiveness.
 
@@ -152,25 +152,27 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 
 * First Time Visitor Goals
     - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Train in XR
-        - Upon first visiting the site, the users are greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath the navigation bar is a call to action (CTA) to try out an Augmented Reality experience by clicking on the AR activation icon.
-        - Beneath the CTA is a clean and fast loading interactive Hero section that users can move in circles, side to side, and up and down.
-        - Beneath the Hero section, the users can scroll down to learn more about Train in XR.
+        - Upon entering the site, users are greeted with a call to action (CTA) beneath the navigation bar to try out an Augmented Reality experience by clicking on the AR activation icon. 
+        - Beneath the CTA is a clean and fast loading interactive Hero section that users can move in circles, side to side, and up and down. ![interactive hero](assets/images/uxscreenshots/site-navigation-and-hero-section.png)
+        - Beneath the Hero section, the users can scroll down to learn more about Train in XR. ![about TXR](assets/images/uxscreenshots/about-txr.png)
     - As a First Time Visitor, I want to be able to easily navigate around the website to find the information I'm looking for.
-        - Users are able to navigate across different pages of the site which clearly convey the information they will find. On every page of the site are strategically placed call to actions which are also clearly labelled and link to expected content.
+        - Upon first visiting the site, the users are greeted with a clean and descriptive navigation bar to go to the page of their choice. ![site navigation](assets/images/uxscreenshots/site-navigation.png)
+        - Users are able to navigate across different pages of the site which clearly convey the information they will find. On every page of the site are strategically placed call to actions which are also clearly labelled and link to expected content. ![clear CTAs](assets/images/uxscreenshots/clear-CTAs.png)
     - As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
-        - At various intervals across the site, users are provided content which showcases the company's experience, capabilities and credibility to provide the advisory services and VR and AR development. 
-        - On the Home page, users are given three main services that the company provides: Advisory Consulting, VR and AR Content Development and Learning & Development Transformation.
-        - Sample works are also available on the Home page and are immediately followed by logos of the companies which TXR works with. (These logos are created specifically for this project and are purely fictional.)
+        - At various intervals across the site, users are provided content which showcases the company's experience, capabilities and credibility to provide the advisory services and VR and AR development. On the Home page, users are given three main services that the company provides: Advisory Consulting, VR and AR Content Development and Learning & Development Transformation. 
+        ![TXR Services](assets/images/uxscreenshots/TXR-services.png)
+        - Sample works are also available on the Home page and are immediately followed by logos of the companies which TXR works with. (These logos are created specifically for this project and are purely fictional.) ![Sample Client Logos](assets/images/uxscreenshots/TXR-client-logos.png)
     - As a First Time Visitor, I want to be able to see testimonials from their clients.
-        - Two testimonials from clients are also available for the users to see. These include the names, job titles and the organization of the clients who provided their testimonials.
+        - Two testimonials from clients are also available for the users to see. These include the names, job titles and the organization of the clients who provided their testimonials. ![Client Testimonials](assets/images/uxscreenshots/TXR-client-testimonials.png)
     - As a First Time Visitor, I want to know that they have suitable solutions for my industry sector.
-        - On the Services page, the content are divided into three categories: the Advisory & Consulting services of the company, the VR and AR services they offer by industry sector and company's VR and AR services by Use Cases. 
+        - On the Services page, the content are divided into three categories: the Advisory & Consulting services of the company, the VR and AR services they offer by industry sector and company's VR and AR services by Use Cases. ![TXR Services & Capabilities](assets/images/uxscreenshots/TXR_services-and-capabilities.png) 
     - As a First Time Visitor, I would like to see samples of their work.
-        - Upon entering the site, users are able to immediately see a sample of TXR's work, The Hero section of the Home page is a fully-functioning AR experience. At the click of a button, a user can try out AR.
+        - Upon entering the site, users are able to immediately see a sample of TXR's work - The Hero section of the Home page is a fully-functioning AR experience. At the click of a button, a user can try out AR. See Features Section detailing the Augmented Reality feature available on the site for users to experience the company's sample work.
+        - Sample works are also available on the Home page. ![Sample Works & Projects](assets/images/uxscreenshots/TXR-sample-works-and-projects.png)
         - Users are also provided samples of work that the company has delivered which include: Computer Generated Imagery (CGI) 3D Environment/ digital twin of a hospital examination room with various medical equipment; a video showing VR specific content and another video specific to AR.
         - On the Services page within the Services by Industry section, images of other 3D digital twins are also available for the users to view.
     - As a First Time Visitor, I would like to be able to sign up for their newsletters and company announcements.
-        - A Subscribe to Receive Updates form is made available on the site's Home page, above the Footer.
+        - A Subscribe to Receive Updates form is made available on the site's Home page, above the Footer. ![Subscribe to Receive Updates](assets/images/uxscreenshots/TXR-subscribe.png)
 
 * Returning Visitor Goals
     -   As a Returning Visitor, I want to be able to find out more information about Extended Reality, including: 
