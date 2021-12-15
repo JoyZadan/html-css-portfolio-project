@@ -1371,7 +1371,7 @@ h4 {
         display: flex;
         flex-direction: column;
         font-size: 1.5rem;
-        margin-left: 0 auto;
+        margin-left: auto;
     }
 
     .vrar-intro p {
