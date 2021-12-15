@@ -172,7 +172,6 @@ h4 {
 .navbar ul {
     list-style-type: none;
     justify-content: center;
-    padding-top: 1rem;
 }
 
 .navbar ul li {
@@ -185,7 +184,7 @@ h4 {
 .navbar ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #000;
 }
 
@@ -1414,7 +1413,6 @@ h4 {
     }
 }
 
-
 @media screen and (min-width: 768px) {
     .navbar {
         padding: 0.5rem;
@@ -1425,7 +1423,6 @@ h4 {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding-top: 0.5rem;
     }
 
     .navbar-ul.show {
@@ -1471,274 +1468,58 @@ h4 {
     }
 }
 
-
-
-
-/*
-@media screen and (max-width: 280px) {
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h3 {
-        font-size: 1.25rem;
-    }
-
-    .consulting-text {
-        font-size: 1rem;
-    }
-
-    .why-ar,
-    .why-vr {
+@media screen and (min-width: 992px) {
+    .navbar {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 auto;
-    }
-
-    .vrar-numbers {
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro h2 {
-        font-size: 1.5rem;
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro h3 {
-        font-size: 1.25rem;
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro p {
-        font-size: 1rem;
-        margin-left: 0.5rem;
-    }
-} */
-/*
-@media screen and (max-width: 320px) { 
-    .work-card {
-        width: 17.5rem;
-        height: 28.125rem;
-        border: 1px solid #aa0047;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .page-container {
-        width: 30rem;
-    }
-
-    h1 {
-        font-size: 2.75rem;
-    }
-
-    h2 {
-        font-size: 2.25rem;
-    }
-
-    h3 {
-        font-size: 1.75rem;
-    }
-
-    h4 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .work-intro,
-    .work-container {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
+        justify-content: space-between;
         align-items: center;
     }
 
-    .work-one,
-    .work-two,
-    .work-three,
-    .work-four {
-        padding: 0.5rem;
-    }
-
-    .by-industry-card,
-    .industry-list {
+    .logo {
         display: flex;
-        flex-direction: column;
-        margin: 0 auto;
+        justify-content: flex-start;
+        width: 80%;
     }
 
-    .industry-list {
-        width: 18rem;
-        height: 30rem
-    }  
-}
+    .navbar-ul {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        width: 55%;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        padding-inline-start: 0;
+    }
 
-/*@media screen and (max-width: 490px) {
-    .navbar {
-        padding: 0.5rem;
+    .navbar-ul li {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    } 
+
+    .navbar-ul a {
+        display: flex;
+    }
+
+    .hamburger-icon {
+        display: none;
     }
 
     .link-login {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    h1 {
-        font-size: 2.25rem;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .why-ar,
-    .why-vr,
-    .vrar-numbers {
         display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        padding: 0.5rem;
-    }
-
-    .vrar-intro h2 {
-        font-size: 1.75rem;
-    }
-
-    .vrar-intro h3 {
-        font-size: 1.5rem;
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro p {
-        font-size: 1.25rem;
-        margin-left: 0.5rem;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    .advisory,
-    .advisory-container,
-    .advisory-a,
-    .advisory-b,
-    .advisory-c {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .navbar {
-        padding: 0.5rem;
-    }
-
-    .navbar-ul {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 0.5rem;
-    }
-
-    .navbar-ul.show {
-        display: flex;
-    }
-
-    .navbar-ul li {
-        font-size: 1.2rem;
-        padding: 1rem 0.5rem;
-    } 
-
-    .navbar-ul a {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: flex-start;
-        width: 80%;
-    }
-
-    .hamburger-icon {
-        width: 10%;
-        display: flex;
-        justify-content: flex-end;
-        order: 2;
-    }
-
-    .btn-nav-login {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
         justify-content: center;
-        order: 1;
-    }    
-}
-
-@media screen and (max-width: 600px) {
-    .clients,
-    .clients-logo {
-        display: flex;
-        flex-direction: column; 
-        margin: 0 auto;
-    }
-}
-/*
-@media screen and (max-width: 1140px) {
-    .navbar {
-        padding: 0.5rem;
-    }
-
-    .navbar-ul {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 0.5rem;
-    }
-
-    .navbar-ul.show {
-        display: flex;
-    }
-
-    .navbar-ul li {
-        font-size: 1.2rem;
-        padding: 1rem 0.5rem;
-    } 
-
-    .navbar-ul a {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: flex-start;
-        width: 80%;
-    }
-
-    .hamburger-icon {
-        width: 10%;
-        display: flex;
-        justify-content: flex-end;
-        order: 2;
-    }
-
-    .btn-nav-login {
         margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-        justify-content: center;
-        order: 1;
-    }    
-} */
+    }
 
-@media screen and (max-width: 1200px) {
+    .link-login:hover {
+        color: #fff;
+        background: #aa0047;
+    }
+
+    /*
+@media screen and (max-width: 992px) {
     .grid-container {
         display: flex;
         flex-direction: column;
@@ -1784,7 +1565,7 @@ h4 {
     .vrar-numbers {
         display: flex;
         flex-direction: column;
-        margin: 1rem;
+        margin: 3rem;
     }
 
     .clients,
@@ -1793,7 +1574,7 @@ h4 {
         flex-wrap: wrap;
         margin: 0 auto;
     }
-}
+} --*/
 
 
 
