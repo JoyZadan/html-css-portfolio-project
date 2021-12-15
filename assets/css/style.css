@@ -65,7 +65,7 @@ h4 {
 }
 
 .btn-large {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -149,7 +149,7 @@ h4 {
 }
 
 .logo {
-    width: 18.75rem;
+    width: 12.75rem;
     height: 1.87rem;
 }
 
@@ -194,65 +194,6 @@ h4 {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer; 
-}
-
-/*------------------- media queries --*/
-
-@media screen and (max-width: 1140px) {
-    .navbar {
-        padding: 0.5rem;
-    }
-    .navbar-ul {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 0.5rem;
-    }
-
-    .navbar-ul.show {
-        display: flex;
-    }
-
-    .navbar-ul li {
-        font-size: 1.2rem;
-        padding: 1rem 0.5rem;
-    } 
-
-    .navbar-ul a {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: flex-start;
-        width: 80%;
-    }
-
-    .hamburger-icon {
-        width: 10%;
-        display: flex;
-        justify-content: flex-end;
-        order: 2;
-    }
-
-    .btn-nav-login {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-        justify-content: center;
-        order: 1;
-    }    
-} 
-
-@media screen and (max-width: 490px) {
-    .navbar {
-        padding: 0.5rem;
-    }
-
-    .link-login {
-        display: none;
-    }
 }
 
 /*------------------- hero section, created using Vectary Studio 2020, with responsive iframe --*/ 
@@ -313,7 +254,6 @@ h4 {
 }
 
 .about-blurb {
-    font-size: 3.125rem;
     font-family: "Fira Sans", sans-serif;
     color: #000;
     padding-top: 2.5rem;
@@ -343,12 +283,6 @@ h4 {
 .about-container a {
     text-align: center;
     padding: 0.8rem;
-}
-
-@media screen and (max-width: 500px) {
-    h1 {
-        font-size: 2.25rem;
-    }
 }
 
 /*------------------- our services section --*/
@@ -449,62 +383,6 @@ h4 {
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width: 1200px) {
-    .grid-container {
-        display: flex;
-        flex-direction: column;
-        grid-template-areas: 
-        "services"
-        "woman"
-        "consulting"
-        "digital-woman"
-        "vrar"
-        "hands"
-        "tna";
-        margin-bottom: 2rem;
-    }
-
-    .grid-container .woman {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    .grid-container .digital-woman {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    .grid-container .hands {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    .consulting,
-    .tna,
-    .vrar {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-    }
-}
-
-@media screen and (max-width: 280px) {
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h3 {
-        font-size: 1.25rem;
-    }
-
-    .consulting-text {
-        font-size: 1rem;
-    }
-}
-
 /*------------------- why VR section --*/
 
 .why-vr {
@@ -522,21 +400,22 @@ h4 {
     font-family: "Fira Sans", sans-serif;
     color: #000;
     text-align: center;
-    margin: 2rem;
+    padding-top: 1rem;
 }
 
 .vrar-intro p {
     font-size: .8rem;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding-top: 1rem;
 }
 
 .vrar-numbers-intro {
     color: #aa0047;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .vrar-numbers {
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -560,69 +439,6 @@ h4 {
     background-color: thistle;
     margin: 2rem;
     padding-top: 2rem;
-}
-
-@media screen and (max-width: 1200px) {
-    .why-ar,
-    .why-vr,
-    .vrar-numbers {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .why-ar,
-    .why-vr,
-    .vrar-numbers {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        padding: 0.5rem;
-    }
-
-    .vrar-intro h2 {
-        font-size: 1.75rem;
-    }
-
-    .vrar-intro h3 {
-        font-size: 1.5rem;
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro p {
-        font-size: 1.25rem;
-        margin-left: 0.5rem;
-    }
-}
-
-@media screen and (max-width: 280px) {
-    .why-ar,
-    .why-vr {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-
-    .vrar-numbers {
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro h2 {
-        font-size: 1.5rem;
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro h3 {
-        font-size: 1.25rem;
-        margin-left: 0.5rem;
-    }
-
-    .vrar-intro p {
-        font-size: 1rem;
-        margin-left: 0.5rem;
-    }
 }
 
 /*------------------- some of our work section --*/
@@ -705,34 +521,6 @@ h4 {
     height: 100%;
 }
 
-@media screen and (max-width: 320px) { 
-    .work-card {
-        width: 17.5rem;
-        height: 28.125rem;
-        border: 1px solid #aa0047;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
-        margin: 0 auto;
-    }
-
-}
-
-@media screen and (max-width: 390px) {
-    .work-intro,
-    .work-container {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-    }
-
-    .work-one,
-    .work-two,
-    .work-three,
-    .work-four {
-        padding: 0.5rem;
-    }
-} 
-
 /*------------------- our clients section --*/
 
 .clients {
@@ -758,24 +546,6 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-@media screen and (max-width: 1200px) {
-    .clients,
-    .clients-logo {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .clients,
-    .clients-logo {
-        display: flex;
-        flex-direction: column; 
-        margin: 0 auto;
-    }
 }
 
 /*------------------- testimonials section --*/
@@ -817,24 +587,6 @@ h4 {
 .testimonials {
     width: 25rem;
     margin: 1rem;
-}
-
-@media screen and (max-width: 1200px) {
-    .clients,
-    .clients-logo {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .clients,
-    .clients-logo {
-        display: flex;
-        flex-direction: column; 
-        margin: 0 auto;
-    }
 }
 
 /*------------------- signups section --*/
@@ -898,31 +650,6 @@ h4 {
     color: #fff;
 }
 
-@media screen and (max-width: 380px) {
-    .page-container {
-        width: 30rem;
-    }
-
-    h1 {
-        font-size: 2.75rem;
-    }
-    h2 {
-        font-size: 2.25rem;
-    }
-
-    h3 {
-        font-size: 1.75rem;
-    }
-
-    h4 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-}
-
 /*------------------- our services page intro --*/
 
 .solutions-intro {
@@ -931,7 +658,7 @@ h4 {
     color: #000;
     padding-top: 2rem;
     text-align: center;
-    margin: 3rem;
+    margin: 1.5rem;
 }
 
 .solutions-intro p {
@@ -990,21 +717,6 @@ h4 {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 560px) {
-    .advisory h2 {
-        font-size: 2rem;
-    }
-
-    .advisory,
-    .advisory-container,
-    .advisory-a,
-    .advisory-b,
-    .advisory-c {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
 /*------------------- our services page: by industry section --*/
 
 .by-industry-card {
@@ -1064,20 +776,6 @@ h4 {
     background-size: 100%;
 }
 
-@media screen and (max-width: 390px) {
-    .by-industry-card,
-    .industry-list {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    .industry-list {
-        width: 18rem;
-        height: 30rem
-    }  
-}
-
 /*------------------- our services page: by VR/AR use cases --*/
 
 .use-case-intro {
@@ -1105,7 +803,6 @@ h4 {
     justify-content: center;
     flex-wrap: wrap;
     flex: 1;
-    padding: 1rem;
     perspective: 1000px;
     margin: 0 auto;
 }
@@ -1181,90 +878,6 @@ h4 {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
 }
-
-@media screen and (min-width: 280px) {
-    .flipcard-container {
-       display: flex;
-       justify-content: center;
-       flex-wrap: wrap;
-       flex: 1;
-       padding: 1rem;
-       perspective: 1000px;
-       -webkit-perspective: 1000px;
-       -moz-perspective: 1000px;
-    }
-
-    .flipcard {
-        position: relative;
-        width: 15rem;
-        height: 22rem;
-        margin: 1rem;
-        transition: transform 0.5s;
-        transform-style: preserve-3d; 
-        -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
-    }
-    
-    .flipcard-container:hover 
-    .flipcard {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-    }
-
-    .front-one,
-    .front-two,
-    .front-three,
-    .front-four,
-    .front-five,
-    .front-six,
-    .front-seven,
-    .front-eight {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-flow: column;
-        position: absolute;
-        width: inherit;
-        height: inherit;
-        z-index: 2;
-        background: #000;
-        color: #fff;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-    }
-
-    .back-one,
-    .back-two,
-    .back-three,
-    .back-four,
-    .back-five,
-    .back-six,
-    .back-seven,
-    .back-eight {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-flow: column;
-        position: absolute;
-        width: inherit;
-        height: inherit;
-        padding: 1rem;
-        z-index: 1;
-        background: #aa0047;
-        color: #fff;
-        border: 1px solid #aa0047;
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-    }
-} 
 
 /*------------------- our services page closing text --*/
 
@@ -1536,3 +1149,1131 @@ h4 {
     border-radius: 5px;
     margin: 1rem; 
 }    
+
+/*------------------- media queries --*/
+
+@media screen and (min-width: 280px) {
+    body {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+        overflow-x: hidden; 
+    }   
+
+    h1 {
+        font-size: 2.25rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        padding-top: 0.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+    }
+
+    .navbar-ul.show {
+        display: flex;
+    }
+
+    .navbar-ul li {
+        font-size: 1.2rem;
+        padding: 1rem 0.5rem;
+    } 
+
+    .navbar-ul a {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .hamburger-icon {
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+        order: 2;
+    }
+
+    .btn-nav-login {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        order: 1;
+    }    
+
+    .link-login {
+        display: none;
+    }
+
+    .consulting-text {
+        font-size: 1rem;
+    }
+
+    .why-ar,
+    .why-vr {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .vrar-numbers {
+        margin: 0 auto;
+    }
+
+    .vrar-intro h2 {
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .vrar-intro h3 {
+        font-size: 1.25rem;
+        margin: 0 auto;
+    }
+
+    .vrar-intro p {
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .work-card {
+        width: 17.5rem;
+        height: 28.125rem;
+        border: 1px solid #aa0047;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+
+    .work-intro,
+    .work-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .work-one,
+    .work-two,
+    .work-three,
+    .work-four {
+        padding: 0.5rem;
+    }
+
+    .advisory,
+    .advisory-container,
+    .advisory-a,
+    .advisory-b,
+    .advisory-c {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .by-industry-card,
+    .industry-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .industry-list {
+        width: 16rem;
+        height: 32rem;
+        margin: 0.5rem;
+    }  
+
+    .flipcard-container {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       flex: 1;
+       perspective: 1000px;
+       -webkit-perspective: 1000px;
+       -moz-perspective: 1000px;
+    }
+
+    .flipcard {
+        position: relative;
+        width: 15rem;
+        height: 22rem;
+        margin: 1rem;
+        transition: transform 0.5s;
+        transform-style: preserve-3d; 
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+    }
+    
+    .flipcard-container:hover 
+    .flipcard {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    }
+
+    .front-one,
+    .front-two,
+    .front-three,
+    .front-four,
+    .front-five,
+    .front-six,
+    .front-seven,
+    .front-eight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-flow: column;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        z-index: 2;
+        background: #000;
+        color: #fff;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+    }
+
+    .back-one,
+    .back-two,
+    .back-three,
+    .back-four,
+    .back-five,
+    .back-six,
+    .back-seven,
+    .back-eight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-flow: column;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        padding: 1rem;
+        z-index: 1;
+        background: #aa0047;
+        color: #fff;
+        border: 1px solid #aa0047;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .vrar-intro p {
+        padding: 0.5rem;
+    }
+
+    .industry-list {
+        width: 22rem;
+        height: 30rem;
+        margin: 0.5rem;
+    } 
+    
+    .use-case-intro {
+        margin: 1rem;
+    }
+
+    .work-card {
+        width: 22rem;
+    }
+
+    .clients {
+        padding: 0.5rem;
+    }
+
+    .flipcard {
+        width: 21rem;
+    }
+}
+
+/*
+@media screen and (max-width: 280px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .consulting-text {
+        font-size: 1rem;
+    }
+
+    .why-ar,
+    .why-vr {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .vrar-numbers {
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro h2 {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro h3 {
+        font-size: 1.25rem;
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro p {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+} */
+/*
+@media screen and (max-width: 320px) { 
+    .work-card {
+        width: 17.5rem;
+        height: 28.125rem;
+        border: 1px solid #aa0047;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .page-container {
+        width: 30rem;
+    }
+
+    h1 {
+        font-size: 2.75rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .work-intro,
+    .work-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .work-one,
+    .work-two,
+    .work-three,
+    .work-four {
+        padding: 0.5rem;
+    }
+
+    .by-industry-card,
+    .industry-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .industry-list {
+        width: 18rem;
+        height: 30rem
+    }  
+}
+
+/*@media screen and (max-width: 490px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .link-login {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .why-ar,
+    .why-vr,
+    .vrar-numbers {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .vrar-intro h2 {
+        font-size: 1.75rem;
+    }
+
+    .vrar-intro h3 {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro p {
+        font-size: 1.25rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .advisory,
+    .advisory-container,
+    .advisory-a,
+    .advisory-b,
+    .advisory-c {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+    }
+
+    .navbar-ul.show {
+        display: flex;
+    }
+
+    .navbar-ul li {
+        font-size: 1.2rem;
+        padding: 1rem 0.5rem;
+    } 
+
+    .navbar-ul a {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+    }
+
+    .hamburger-icon {
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+        order: 2;
+    }
+
+    .btn-nav-login {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        order: 1;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-direction: column; 
+        margin: 0 auto;
+    }
+}
+/*
+@media screen and (max-width: 1140px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+    }
+
+    .navbar-ul.show {
+        display: flex;
+    }
+
+    .navbar-ul li {
+        font-size: 1.2rem;
+        padding: 1rem 0.5rem;
+    } 
+
+    .navbar-ul a {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+    }
+
+    .hamburger-icon {
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+        order: 2;
+    }
+
+    .btn-nav-login {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        order: 1;
+    }    
+} */
+
+@media screen and (max-width: 1200px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        grid-template-areas: 
+        "services"
+        "woman"
+        "consulting"
+        "digital-woman"
+        "vrar"
+        "hands"
+        "tna";
+        margin-bottom: 2rem;
+    }
+
+    .grid-container .woman {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .grid-container .digital-woman {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .grid-container .hands {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .consulting,
+    .tna,
+    .vrar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .why-ar,
+    .why-vr,
+    .vrar-numbers {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------- media queries --
+
+@media screen and (min-width: 280px) {
+    body {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+        overflow-x: hidden; 
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .consulting-text {
+        font-size: 1rem;
+    }
+
+    .why-ar,
+    .why-vr {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .vrar-numbers {
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro h2 {
+        font-size: 1.75rem;
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro h3 {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro p {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .work-card {
+        width: 17.5rem;
+        height: 28.125rem;
+        border: 1px solid #aa0047;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+        margin: 0 auto;
+    }
+
+    .work-one,
+    .work-two,
+    .work-three,
+    .work-four {
+        padding: 0.5rem;
+    }
+
+    .by-industry-card,
+    .industry-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .by-industry-card,
+    .industry-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .page-container {
+        width: 30rem;
+    }
+
+    .flipcard-container {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       flex: 1;
+       padding: 1rem;
+       perspective: 1000px;
+       -webkit-perspective: 1000px;
+       -moz-perspective: 1000px;
+    }
+
+    .flipcard {
+        position: relative;
+        width: 15rem;
+        height: 22rem;
+        margin: 1rem;
+        transition: transform 0.5s;
+        transform-style: preserve-3d; 
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+    }
+    
+    .flipcard-container:hover 
+    .flipcard {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    }
+
+    .front-one,
+    .front-two,
+    .front-three,
+    .front-four,
+    .front-five,
+    .front-six,
+    .front-seven,
+    .front-eight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-flow: column;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        z-index: 2;
+        background: #000;
+        color: #fff;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+    }
+
+    .back-one,
+    .back-two,
+    .back-three,
+    .back-four,
+    .back-five,
+    .back-six,
+    .back-seven,
+    .back-eight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-flow: column;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        padding: 1rem;
+        z-index: 1;
+        background: #aa0047;
+        color: #fff;
+        border: 1px solid #aa0047;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+    }
+} 
+/*
+@media screen and (min-width: 320px) { 
+    .work-card {
+        width: 17.5rem;
+        height: 28.125rem;
+        border: 1px solid #aa0047;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+        margin: 0 auto;
+    }
+} 
+
+@media screen and (max-width: 380px) {
+    .page-container {
+        width: 30rem;
+    } 
+
+    h1 {
+        font-size: 2.75rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+        
+    .by-industry-card,
+    .industry-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .industry-list {
+        width: 18rem;
+        height: 30rem
+    }  
+} 
+
+@media screen and (max-width: 390px) {
+    .work-intro,
+    .work-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .work-one,
+    .work-two,
+    .work-three,
+    .work-four {
+        padding: 0.5rem;
+    }
+}  
+
+@media screen and (min-width: 490px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .link-login {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 2.75rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-direction: column; 
+        margin: 0 auto;
+    }
+
+    .advisory h2 {
+        font-size: 2rem;
+    }
+
+    .advisory,
+    .advisory-container,
+    .advisory-a,
+    .advisory-b,
+    .advisory-c {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+} 
+
+@media screen and (max-width: 540px) {
+    .why-ar,
+    .why-vr,
+    .vrar-numbers {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .vrar-intro h2 {
+        font-size: 1.75rem;
+    }
+
+    .vrar-intro h3 {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .vrar-intro p {
+        font-size: 1.25rem;
+        margin-left: 0.5rem;
+    }
+
+    .advisory h2 {
+        font-size: 2rem;
+    }
+
+    .advisory,
+    .advisory-container,
+    .advisory-a,
+    .advisory-b,
+    .advisory-c {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+    }
+
+    .navbar-ul.show {
+        display: flex;
+    }
+
+    .navbar-ul li {
+        font-size: 1.2rem;
+        padding: 1rem 0.5rem;
+    } 
+
+    .navbar-ul a {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+    }
+
+    .hamburger-icon {
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+        order: 2;
+    }
+
+    .btn-nav-login {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        order: 1;
+    }    
+
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-direction: column; 
+        margin: 0 auto;
+    }
+
+    .advisory h2 {
+        font-size: 2rem;
+    }
+
+    .advisory,
+    .advisory-container,
+    .advisory-a,
+    .advisory-b,
+    .advisory-c {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+} 
+/*
+@media screen and (min-width: 1140px) {
+    h1 {
+        font-size: 2.75rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+    }
+
+    .navbar-ul.show {
+        display: flex;
+    }
+
+    .navbar-ul li {
+        font-size: 1.2rem;
+        padding: 1rem 0.5rem;
+    } 
+
+    .navbar-ul a {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 80%;
+    }
+
+    .hamburger-icon {
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+        order: 2;
+    }
+
+    .btn-nav-login {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        order: 1;
+    }    
+} 
+
+@media screen and (min-width: 1200px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        grid-template-areas: 
+        "services"
+        "woman"
+        "consulting"
+        "digital-woman"
+        "vrar"
+        "hands"
+        "tna";
+        margin-bottom: 2rem;
+    }
+
+    .grid-container .woman {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .grid-container .digital-woman {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .grid-container .hands {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .consulting,
+    .tna,
+    .vrar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .why-ar,
+    .why-vr,
+    .vrar-numbers {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+}
+
+
+
+
+
+
+
