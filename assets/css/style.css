@@ -1413,7 +1413,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
     .navbar {
         padding: 0.5rem;
     }
@@ -1460,6 +1460,132 @@ h4 {
         background: #aa0047;
     }
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+            "services services services"
+            "woman consulting digital-woman"
+            "vrar hands tna";
+        background-color: whitesmoke;
+        overflow: hidden;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin: 1rem;
+    }
+
+    .services {
+        grid-area: services;
+        color: #000;
+        font-size: 2.5rem;
+        font-family: "Fira Sans", sans-serif;
+        text-align: center;
+        background-color: whitesmoke;
+        padding-top: 2.5rem;
+    }
+
+    .consulting-text {
+        color: #f9ad1d;
+        text-transform: uppercase;
+    }
+
+    .services-intro {
+        font-size: 1.25rem;
+        font-family: "Fira Sans", sans-serif;
+        color: #000;
+        text-align: center; 
+        margin-top: -0.625rem;
+    }
+
+    .consulting {
+        display: grid;
+        grid-area: consulting;
+        align-content: center;
+        text-align: center;
+        background-color: #000;
+        color: white;
+        padding: 1rem; 
+    }
+
+    .tna {
+        display: grid;
+        grid-area: tna;
+        align-content: center;
+        text-align: center;
+        background-color: #000;
+        color: white;
+        padding: 1rem;
+    }
+
+    .woman {
+        grid-area: woman;
+        max-width: 100%; 
+    }
+
+    .digital-woman {
+        grid-area: digital-woman;
+        max-width: 100%; 
+    }
+
+    .hands {
+        grid-area: hands;
+        max-width: 100%;
+    }
+
+    .consulting p,
+    .vrar p,
+    .tna p {
+        line-height: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .consulting ul,
+    .vrar ul,
+    .tna ul {
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .vrar {
+        display: grid;
+        grid-area: vrar;
+        align-content: center;
+        text-align: center;
+        background-color: #000;
+        color: white;
+        padding: 1rem;
+    }
+    
+    .why-ar,
+    .why-vr {
+        display: flex;
+        margin: 1rem;
+    }
+    .vrar-intro h2 {
+        font-size: 2.75rem;
+    }
+
+    .vrar-intro h3 {
+        font-size: 1.75rem;
+    }
+
+    .vrar-intro p{
+        padding: 2rem;
+    }
+
+    .vrar-numbers-intro,
+    .vrar-numbers {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .clients,
+    .clients-logo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
     .work-container {
         display: flex;
         flex-direction: row;
@@ -1469,6 +1595,23 @@ h4 {
 }
 
 @media screen and (min-width: 992px) {
+        
+    h1 {
+        font-size: 3.25rem;
+    }
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
     .navbar {
         display: flex;
         flex-wrap: wrap;
@@ -1517,6 +1660,129 @@ h4 {
         color: #fff;
         background: #aa0047;
     }
+    
+  /*  .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+            "services services services"
+            "woman consulting digital-woman"
+            "vrar hands tna";
+        background-color: whitesmoke;
+        overflow: hidden;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin: 1rem;
+    }
+
+    .services {
+        grid-area: services;
+        color: #000;
+        font-size: 2.5rem;
+        font-family: "Fira Sans", sans-serif;
+        text-align: center;
+        background-color: whitesmoke;
+        padding-top: 2.5rem;
+    }
+
+    .consulting-text {
+        color: #f9ad1d;
+        text-transform: uppercase;
+    }
+
+    .services-intro {
+        font-size: 1.25rem;
+        font-family: "Fira Sans", sans-serif;
+        color: #000;
+        text-align: center; 
+        margin-top: -0.625rem;
+    }
+
+    .consulting {
+        display: grid;
+        grid-area: consulting;
+        align-content: center;
+        text-align: center;
+        background-color: #000;
+        color: white;
+        padding: 1rem; 
+    }
+
+    .tna {
+        display: grid;
+        grid-area: tna;
+        align-content: center;
+        text-align: center;
+        background-color: #000;
+        color: white;
+        padding: 1rem;
+    }
+
+    .woman {
+        grid-area: woman;
+        max-width: 100%; 
+    }
+
+    .digital-woman {
+        grid-area: digital-woman;
+        max-width: 100%; 
+    }
+
+    .hands {
+        grid-area: hands;
+        max-width: 100%;
+    }
+
+    .vrar {
+        display: grid;
+        grid-area: vrar;
+        align-content: center;
+        text-align: center;
+        background-color: #000;
+        color: white;
+        padding: 1rem;
+    }
+
+    .consulting p,
+    .vrar p,
+    .tna p {
+        line-height: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .consulting ul,
+    .vrar ul,
+    .tna ul {
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .vrar-intro h2 {
+        font-size: 2.75rem;
+    }
+
+    .vrar-intro h3 {
+        font-size: 1.5rem;
+    }
+
+    .why-ar,
+    .why-vr {
+        display: flex;
+        margin: 1rem;
+    }
+ */
+
+
+
+
+
+
+
+
+
+
+
+}    
 
     /*
 @media screen and (max-width: 992px) {
