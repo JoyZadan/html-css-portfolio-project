@@ -5,7 +5,7 @@
 Train in XR is a fictional advisory and consulting firm specialising in Extended Reality (Virtual Reality and Augmented Reality) services for workforce learning and development. Train in XR, or TXR for short, also offers inhouse VR and AR content development. TXR's services are geared for the enterprise, the public sector and medium to large companies.
 
 
-![This is a screenshot of the TXR homepage on multiple devices, including the Augmented Reality feature](assets/images/TXR-screenshots.png)
+![This is a screenshot of the TXR homepage on multiple devices, including the Augmented Reality feature](/assets/images/txr-screenshots.png)
 
 ## Table of Contents
 1. Overview
