@@ -130,11 +130,13 @@ Train in XR's website aims to:
     * GitHub was and is being used as repository of the project source code.
 12. Balsamiq
     * Balsamiq was used to create the wireframes for the Train in XR website project.
-13. Chrome DevTools
+13. Favicon
+    * Favicon was used to create favicon.    
+14. Chrome DevTools
     * Chrome DevTools was used to test the code and debug the code during the development process.
-14. Microsoft Edge DevTools
+15. Microsoft Edge DevTools
     * Microsoft Edge DevTools was used to test the code and debug the code during the development process.
-15. Safari DevTools
+16. Safari DevTools
     * Safari DevTools was used to test the code and debug the code during the development process.
 
 ## Testing
@@ -160,7 +162,10 @@ At every stage of the development, testing were carried out to check for potenti
     * Removed the unnecessary script tags for libraries such as JQuery, Popper and Bootstrap.
     * Included in the Credits section the screenshots of the code snippets for the navigation menu from FlorinPop and for the use of rem instead of pixel that was learned from Kevin Powell's YouTube tutorials.
     * Renamed some of the assets (images) to remove capitalization to allow for cross-platform compatibility.
-    * Tested the JavaScript code snippet on jslint.com and found errors because they do not test for arrow function (ES6). 
+    * Tested the JavaScript code snippet on jslint.com and found errors, specifically on the arrow function (ES6) syntax. It could be that JSLint does not support some aspects of ES6. I decided to borrow an [arrow function syntax code snippet from W3 Schools](https://www.w3schools.com/js/js_arrow_function.asp) to test. The code from W3Schools also showed errors on JSLint. 
+    - ![See screenshots: my borrowed js code snippet](assets/images/validation/jslint.png)
+    - ![W3Schools arrow function syntax example](assets/images/validation/w3-schools-arrow-function-syntax-example.png)
+    - ![Same code snippet from W3Schools (comments deleted) showing errors on jslint validation](assets/images/validation/w3-schools-js-snippet.png)
 
 11. Added favicon to satisfy error warnings on Chrome DevTools console.
 12. The navbar jumps slightly when hovering on the client login link. This was fixed by changing the padding sizes to be the same on normal state and on hover.
@@ -176,6 +181,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
     - Services Page Test Results ![Services_Results](assets/images/validation/a11y_Color_Contrast_accessibility_services-page-test-results.png)
     - About Us Page Test Results ![About_Results](assets/images/validation/a11y_Color_Contrast_accessibility_about-page-test-results.png)
     - Contact Us Page Test Results ![Contact_Results](assets/images/validation/a11y_Color_Contrast_accessibility_contact-page-test-results.png)
+* 
 
 ### Testing User Stories from User Experience (UX) Section
 
