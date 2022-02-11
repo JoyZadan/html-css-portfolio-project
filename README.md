@@ -138,10 +138,12 @@ Train in XR's website aims to:
     * Microsoft Edge DevTools was used to test the code and debug the code during the development process.
 16. Safari DevTools
     * Safari DevTools was used to test the code and debug the code during the development process.
+17. Firefox DevTools
+    * Fire refox DevTools was used to test the code and debug the code during the development process.    
 
 ## Testing
 
-At every stage of the development, testing were carried out to check for potential issues with the code, responsiveness, design and accessibility. I used the developer tools from Chrome, Safari and Microsoft Edge and Firefox.
+At every stage of the development, testings were carried out to check for potential issues with the code, responsiveness, design and accessibility. I used the developer tools from Chrome, Safari and Microsoft Edge and Firefox.
 
 ### Bugs and Corrections
 1. Problems with the navbar and the AR iframe overlapping and discovered that using CSS float property on the nav container with an iframe right below it was causinf the issue. The solution was to rewrite the code for the entire header area. This solution includes snippets of JavaScript code from FlorinPop (see Credits section for the screenshot of the borrowed code snippet). 
@@ -162,6 +164,7 @@ At every stage of the development, testing were carried out to check for potenti
     * Removed the unnecessary script tags for libraries such as JQuery, Popper and Bootstrap.
     * Included in the Credits section the screenshots of the code snippets for the navigation menu from FlorinPop and for the use of rem instead of pixel that was learned from Kevin Powell's YouTube tutorials.
     * Renamed some of the assets (images) to remove capitalization to allow for cross-platform compatibility.
+    * Added comments above custom code files, especially on CSS files to explain the purpose of the code segmentt
     * Tested the JavaScript code snippet on jslint.com and found errors, specifically on the arrow function (ES6) syntax. It could be that JSLint does not support some aspects of ES6. I decided to borrow an [arrow function syntax code snippet from W3 Schools](https://www.w3schools.com/js/js_arrow_function.asp) to test. The code from W3Schools also showed errors on JSLint. 
     - ![See screenshots: my borrowed js code snippet](assets/images/validation/jslint.png)
     - ![W3Schools arrow function syntax example](assets/images/validation/w3-schools-arrow-function-syntax-example.png)

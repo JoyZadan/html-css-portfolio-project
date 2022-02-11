@@ -812,6 +812,8 @@ h4 {
     flex-wrap: wrap;
     flex: 1;
     perspective: 1000px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000ox;
     margin: 0 auto;
 }
 
@@ -1507,6 +1509,9 @@ h4 {
         transform: rotateY(180deg);
         -webkit-transform: rotateY(180deg);
         -moz-transform: rotateY(180deg);
+        transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -moz-webkit-transform: rotateX(0deg);
     }
 
     .front-one,
