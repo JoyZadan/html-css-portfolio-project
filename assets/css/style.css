@@ -635,7 +635,7 @@ h4 {
 /* styles for services page hero section using flex */
 .services-bg {
     height: 25rem;
-    background-image: url("../images/txr-bg-dark3.png");
+    background-image: url("../images/txr-bg-dark3.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -748,31 +748,31 @@ h4 {
 
 /* styles for the images used on the cards */
 .hospitals-img {
-    background-image: url(../images/surgery-sim.png);
+    background-image: url(../images/surgery-sim.webp);
     height: 11.25rem; 
     background-size: 100%;
 }
 
 .life-sciences-img {
-    background-image: url(../images/life_sciences_pharma.png);
+    background-image: url(../images/life_sciences_pharma.webp);
     height: 11.25rem; 
     background-size: 100%; 
 }
 
 .manufacturing-img {
-    background-image: url(../images/manufacturing.png);
+    background-image: url(../images/manufacturing.webp);
     height: 11.25rem; 
     background-size: 100%; 
 }
 
 .mining-img {
-    background-image: url(../images/mining-sim.png);
+    background-image: url(../images/mining-sim.webp);
     height: 11.25rem; 
     background-size: 100%;
 }
 
 .oil-img {
-    background-image: url(../images/oil_gas.png);
+    background-image: url(../images/mining-sim.webp);
     height: 11.25rem; 
     background-size: 100%;
 }
