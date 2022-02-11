@@ -835,6 +835,9 @@ h4 {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-webkit-transform: rotateX(0deg);
 }
 
 /* styling for the front of the cards 
