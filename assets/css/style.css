@@ -927,7 +927,7 @@ h4 {
 .about-bg {
     height: 25rem;
     width: 100%;
-    background-image: url("../images/txr-bg-dark4.png");
+    background-image: url("../images/txr-bg-dark4.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
