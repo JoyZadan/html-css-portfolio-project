@@ -245,7 +245,7 @@ h4 {
     width: 100%;
     height: 100%;
     border: 0;
-    background-image: url("../images/neomorphic-bg.png");
+    background-image: url("../images/neomorphic-bg.webp");
 }
 
 /* styles for the about us section using flex for responsiveness */
@@ -495,13 +495,13 @@ h4 {
 
 /* styles for the images on the first two cards */
 .img-one {
-    background: url(../images/training-workshop.jpg) no-repeat;
+    background: url(../images/training-workshop.webp) no-repeat;
     height: 12.5rem;
     background-size: 100%;
 }
 
 .img-two {
-    background: url(../images/digital-twin.jpg) no-repeat;
+    background: url(../images/digital-twin.webp) no-repeat;
     height: 12.5rem;
     background-size: 100%;
 }
