@@ -92,11 +92,11 @@ Train in XR's website aims to:
 * The site also offers interactive elements such as links, working forms and user controllable videos.
 * The website also offers the users an interactive (movable) hero section on the Home page. The same Hero section, when the AR link is clicked, offers the users an Augmented Reality experience. See screenshots:
 
-    1. Augmented Reality feature - access from desktop: ![access from desktop](assets/images/ar/AR-access-from-desktop.png) 
+    1. Augmented Reality feature - access from desktop: ![access from desktop](assets/images/ar/ar-access-from-desktop.png) 
 
-    2. Augmented Reality feature - using an AR compatible mobile device: ![accessed from an AR compatible mobile device](assets/images/ar/AR-accessed-from-mobile.png)
+    2. Augmented Reality feature - using an AR compatible mobile device: ![accessed from an AR compatible mobile device](assets/images/ar/ar-on-mobile.png)
 
-    3. Augmented Reality feature - AR at work, outside the house, overlaid on a car: ![AR outside](assets/images/ar/AR-overlaid-on-a-car.png)
+    3. Augmented Reality feature - AR at work, outside the house, overlaid on a car: ![AR outside](assets/images/ar/ar-overlaid-on-a-car.png)
 
 ## Technologies Used
 
@@ -138,6 +138,32 @@ Train in XR's website aims to:
     * Safari DevTools was used to test the code and debug the code during the development process.
 
 ## Testing
+
+At every stage of the development, testing were carried out to check for potential issues with the code, responsiveness, design and accessibility. I used the developer tools from Chrome, Safari and Microsoft Edge and Firefox.
+
+### Bugs and Corrections
+1. Problems with the navbar and the AR iframe overlapping and discovered that using CSS float property on the nav container with an iframe right below it was causinf the issue. The solution was to rewrite the code for the entire header area. This solution includes snippets of JavaScript code from FlorinPop (see Credits section for the screenshot of the borrowed code snippet). 
+2. On one of my calls with my mentor, he raised the issues from the Nu Html Checker results such as:
+    * button must not appear as descendant of the a element (these errors were on all the buttons on all pages except on the subscribe form)
+    * errors from the youtube videos iframe
+    * indent errors and unclosed elements (navlinks error: no li element in scope but a li end tag seen)
+   To fix the above, I removed the button tags from the a elements and applied CSS styling to the latter so the links look like buttons. I also fixed the YouTube videos iframe issues by deleting the frameborder and alt text properties. The indent errors and unclosed elements were also fixed by indenting the code uniformly and also removed the extra li closing tag.
+3. On Firefox browser, the Book a Demo link on the navigation was not aligning with the rest of the navlinks. This was fixed by shortening the call to action from book a demo to Get Demo.
+4. on Firefox, some of the text on homepage were misaligned. The text misalignment issues were fixed by replacing pixels with rem. I found this solution from watching Kevin Powell's YouTube video CSS tutorials. Please see the Credits section. 
+5. Feedback from some family members and friends showed that on Firefox and on Safari, the front face and the backface text on the flipcards were overlapping. This was fixed by adding -moz and webkits autoprefixes.
+6. Testing the site on Lighthouse showed issues with accessibility, performance and best practices such as wrong placement of the aria labels inside the Font Awesome icons links and focusable elements. This was fixed by moving said aria labels inside the a tags. Alt texts were also added inside the social media a tags and the hamburger menu icon. Lastly, missing keywords were added to the metatags on the header section of all the website pages.
+7. W3C CSS Validation showed two missing units to paddings. This was quickly fixed by adding the missing units. Re-testing showed that all errors were gone.
+8. W3C Markup Validation showed errors on YouTube video iframes. This was fixed by deleting the obsolete frameborder. 
+9. W3C Markup Validation also showed warnings that the document is not mappable to XML 1.0 due to consecutive hyphens in a comment. These warnings were fixed by adjusting the comments above the code for all the sections of all the site pages.
+10. Based on the feedback from the team at South Devon College, the following errors were corrected:
+    * Fixed all the errors on the about us page (corporate video iframe) by deleting the alt text and the obsolete frameborder CSS property.
+    * Removed the unnecessary script tags for libraries such as JQuery, Popper and Bootstrap.
+    * Included in the Credits section the screenshots of the code snippets for the navigation menu from FlorinPop and for the use of rem instead of pixel that was learned from Kevin Powell's YouTube tutorials.
+    * Renamed some of the assets (images) to remove capitalization to allow for cross-platform compatibility.
+    * Tested the JavaScript code snippet on jslint.com and found errors because they do not test for arrow function (ES6). 
+
+11. Added favicon to satisfy error warnings on Chrome DevTools console.
+
 The W3C Markup Validator and the W3C CSS Validator were used to test and validate every all six pages of the Train in XR site project to ensure that there were no syntax errors in the code. Chrome's Lighthouse DevTool was also used to test for Performance, Accessibility, Best Practices and SEO.
 * W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/validation/HTML_Validator.png)
 * W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/validation/CSS_Validator.png)
@@ -160,19 +186,19 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
         - Users are able to navigate across different pages of the site which clearly convey the information they will find. On every page of the site are strategically placed call to actions which are also clearly labelled and link to expected content. 
     - As a First Time Visitor, I want to know that the company, Train in XR, has the experience, capability and credibility to provide the services they offer by being able to easily find information about other companies they are already working with.
         - At various intervals across the site, users are provided content which showcases the company's experience, capabilities and credibility to provide the advisory services and VR and AR development. On the Home page, users are given three main services that the company provides: Advisory Consulting, VR and AR Content Development and Learning & Development Transformation. 
-        ![TXR Services](assets/images/uxscreenshots/TXR-services.png)
-        - Sample works are also available on the Home page and are immediately followed by logos of the companies which TXR works with. (These logos are created specifically for this project and are purely fictional.) ![Sample Client Logos](assets/images/uxscreenshots/TXR-client-logos.png)
+        ![TXR Services](assets/images/uxscreenshots/txr-services.png)
+        - Sample works are also available on the Home page and are immediately followed by logos of the companies which TXR works with. (These logos are created specifically for this project and are purely fictional.) ![Sample Client Logos](assets/images/uxscreenshots/txr-client-logos.png)
     - As a First Time Visitor, I want to be able to see testimonials from their clients.
-        - Two testimonials from clients are also available for the users to see. These include the names, job titles and the organization of the clients who provided their testimonials. ![Client Testimonials](assets/images/uxscreenshots/TXR-client-testimonials.png)
+        - Two testimonials from clients are also available for the users to see. These include the names, job titles and the organization of the clients who provided their testimonials. ![Client Testimonials](assets/images/uxscreenshots/txr-client-testimonials.png)
     - As a First Time Visitor, I want to know that they have suitable solutions for my industry sector.
-        - On the Services page, the content are divided into three categories: the Advisory & Consulting services of the company, the VR and AR services they offer by industry sector and company's VR and AR services by Use Cases. ![TXR Services & Capabilities](assets/images/uxscreenshots/TXR_services-and-capabilities.png) 
+        - On the Services page, the content are divided into three categories: the Advisory & Consulting services of the company, the VR and AR services they offer by industry sector and company's VR and AR services by Use Cases. ![TXR Services & Capabilities](assets/images/uxscreenshots/txr-services-capabilities.png) 
     - As a First Time Visitor, I would like to see samples of their work.
         - Upon entering the site, users are able to immediately see a sample of TXR's work - The Hero section of the Home page is a fully-functioning AR experience. At the click of a button, a user can try out AR. See Features Section detailing the Augmented Reality feature available on the site for users to experience the company's sample work.
-        - Sample works are also available on the Home page. ![Sample Works & Projects](assets/images/uxscreenshots/TXR-sample-works-and-projects.png)
+        - Sample works are also available on the Home page. ![Sample Works & Projects](assets/images/uxscreenshots/txr-projects.png)
         - Users are also provided samples of work that the company has delivered which include: Computer Generated Imagery (CGI) 3D Environment/ digital twin of a hospital examination room with various medical equipment; a video showing VR specific content and another video specific to AR.
         - On the Services page within the Services by Industry section, images of other 3D digital twins are also available for the users to view.
     - As a First Time Visitor, I would like to be able to sign up for their newsletters and company announcements.
-        - A Subscribe to Receive Updates form is made available on the site's Home page, above the Footer. ![Subscribe to Receive Updates](assets/images/uxscreenshots/TXR-subscribe.png)
+        - A Subscribe to Receive Updates form is made available on the site's Home page, above the Footer. ![Subscribe to Receive Updates](assets/images/uxscreenshots/subscribe.png)
         - A thank you landing page also greets users after successfully signing up to receive the company's updates. ![Thank You landing page](assets/images/uxscreenshots/thank-you-landing-page.png)
 
 * Returning Visitor Goals
@@ -182,15 +208,15 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
         - What is Augmented Reality
             - On the Home page, Users are provided the answer to this often asked question.
         - How effective are VR and AR for staff training compared to other modalities
-            - On the Home page, the effectiveness of both VR and AR is clearly communicated with specific numbers and percentages in terms of training improvement and job performance of learners following using VR and/or AR for training. ![Screenshots of What is VR, What is AR and their effectiveness](assets/images/uxscreenshots/About-VR-and-AR-effectiveness.png)
+            - On the Home page, the effectiveness of both VR and AR is clearly communicated with specific numbers and percentages in terms of training improvement and job performance of learners following using VR and/or AR for training. ![Screenshots of What is VR, What is AR and their effectiveness](assets/images/uxscreenshots/ar-vr-effectiveness.png)
         - What are the use cases of VR and AR
-            - Users are provided information about the Use Cases of VR and of AR for each industry sector and for which job roles are they more suitable for. See also screenshot above. ![VR and AR Use Cases](assets/images/uxscreenshots/VR-AR-Use-Cases-card-cover.png)
+            - Users are provided information about the Use Cases of VR and of AR for each industry sector and for which job roles are they more suitable for. See also screenshot above. ![VR and AR Use Cases](assets/images/uxscreenshots/ar-vr-use-cases.png)
     - As a Returning Visitor, I want to be able to find case studies on Virtual Reality and Augmented Reality.
         - On the Home page, Users are provided the results of specific case studies conducted by PwC and by CapGemini on the effectiveness of Virtual Reality and Augmented Reality in improving staff performance and training. See previous screenshot above.
     - As a Returning Visitor, I want to be able to contact the team at Train in VR and schedule a virtual demo.
         - Across all the pages of the site, users are able to click on various call to actions to contact team TXR and book a demo.
         - On the Contact Us page, the users are able to find the fictional phone number of TXR's Customer Service team to schedule a demo.
-        - Also on the Contact Us page, a form is available for the user to complete with an option to choose between VR and AR when they are booking a demo. ![Contact teams at TXR or request demo](assets/images/uxscreenshots/Contact-TXR-book-demo.png)
+        - Also on the Contact Us page, a form is available for the user to complete with an option to choose between VR and AR when they are booking a demo. ![Contact teams at TXR or request demo](assets/images/uxscreenshots/book-demo.png)
     - As a Returning Visitor, I want to try out a TXR Augmented Reality experience.
         - On the Homepage, users are able to try out an AR experience by clicking on the AR icon/ button on the top right side of the screen. 
         - The option to try out an AR experience is seamless and user-friendly, no signup is required. All users need to do is click a button using their AR compatible device. See Features section for screenshots.
@@ -198,7 +224,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * Frequent Visitor Goals
     - As a Frequent Visitor, I would like to be able to find out about any industry events that Train in XR is attending and to schedule a live demo meeting with their team.
         - A list of events that TXR will be attending and presenting at is included on the About Us page.
-        - A call to action link is also included to provide the user the option to book a face to face demo meeting at said events, ahead of time. ![Events](assets/images/uxscreenshots/Events.png)
+        - A call to action link is also included to provide the user the option to book a face to face demo meeting at said events, ahead of time. ![Events](assets/images/uxscreenshots/events.png)
     - As a Frequent Visitor, I would like for me and my teams to be able to download a TXR AR App or demo.
         - A link to download an AR App is included on the sample of our works section.
     - As a Frequent Visitor, I would like to be able to know more about Train in XR, their history and their track records in delivering their services.
@@ -207,7 +233,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 
 * Frequent Visitor (Client) Goals
     - As a Frequent Visitor (Client), I want to be able to login to my TXR account.
-        - Clients of TXR are able to login to their account via signup page. The link to the page is available on the site navigation bar for desktop and tablet versions of the site. ![Client Login page](assets/images/uxscreenshots/TXR-client-login-page.png)
+        - Clients of TXR are able to login to their account via signup page. The link to the page is available on the site navigation bar for desktop and tablet versions of the site. ![Client Login page](assets/images/uxscreenshots/client-login.png)
 
 ### Further Testing
 * The Train in XR website was tested on Google Chrome, Microsoft Edge and Safari DevTools for errors on code,  responsiveness and features support.
@@ -228,7 +254,9 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 
 ## Credits
 ### Code
-* Credit and thanks belong to tutorials on YouTube by @FlorinPop for his Responsive Navigation with Hamburger Menu - CSS and JavaScript tutorial and @FollowAndrew for his Responsive NavBar tutorial, both of which helped me put together the responsive navbar with hamburger menu and buttons. 
+* Credit and thanks belong to tutorials on YouTube by @FlorinPop for his [Responsive Navigation with Hamburger Menu - CSS and JavaScript tutorial](https://www.youtube.com/watch?v=ydZc17rlR5E) and @FollowAndrew for his [Responsive NavBar tutorial](https://www.youtube.com/watch?v=6pidsgeLLzE&t=891s), both of which helped me put together the responsive navbar with hamburger menu and buttons. Kevin Powell's YouTube tutorial on [CSS units](https://www.youtube.com/watch?v=N5wpD9Ov_To) helped me understand the benefits of using rem instead of pixels for a more responsive website.
+    - [JS code snippet from FlorinPop](/assets/images/code-snippets/js-hamburger-menu.png)
+    - [CSS units code snippets](/assets/images/code-snippets/code-snippets-influenced-by-kevin-powell.png)
 
 ### Content
 * All of the content for the project was written by the developer.
