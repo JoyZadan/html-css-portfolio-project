@@ -27,9 +27,9 @@ Below are some of the real-world challenges and problems that companies, organis
 * In an article written by Dan Pontefract, a former Chief Learning Officer for Telus (10,000+ staff), and published on Forbes [The Wasted Dollars of Corporate Training Programs](https://www.forbes.com/sites/danpontefract/2019/09/15/the-wasted-dollars-of-corporate-training-programs/?sh=783e797971f9), it mentioned that in 2018, over $86.7 billion was spent on corporate training and development across the United States. Of that, a fair amount gets wasted for the following reasons: 
     - Learners' recall of the learning content depreciates over time (see article on employee development and the [Forgetting Curve](https://hbr.org/2019/10/where-companies-go-wrong-with-learning-and-development) published by Harvard Business Review).
     - Additionally, staff cannot attend a face to face training session and work at the same time. Their absence from work has a direct impact on the company's productivity for that time. 
-    - In most cases, face to face training can also accommodate a small number of participants (average between 20 to 40 at most). Increasing these numbers can have a direct impact on a training session's effectiveness.
+    - In most cases, face to face training can also only accommodate a small number of participants (average between 20 to 40 at most). Increasing these numbers can have a direct impact on a training session's effectiveness.
 
-* In certain job roles, training staff on dangerous, high risk or diffifult to recreate situations such as surgical procedures, mining incident/ rescue training, fire safety, undersea-cable repairs, climbing at heights training - to name a few, due to the nature of the learning content, traditional training methods do fall short of being effective,realistic or practical and cost-effective.
+* In certain job roles, training staff on dangerous, high risk or diffifult to recreate situations such as surgical procedures, mining incident/ rescue training, fire safety, undersea-cable repairs, climbing at heights training - to name a few, due to the nature of the learning content, traditional training methods do fall short of being effective, realistic or practical and cost-effecient.
 
 What's the solution to the above challenges? Train in XR's Virtual Reality and Augmented Reality training solutions are able to solve real-world workforce learning and development challenges for companies, organizations and the public sector by providing more effective, highly engaging and more cost-effective learning solutions. See additional case studies on the effectiveness of VR as a learning solution [here](https://www.interplaylearning.com/blog/virtual-reality-increases-training-effectiveness-10-case-studies). 
 
@@ -76,7 +76,7 @@ Train in XR's website aims to:
 * Colour Scheme
     - The main colours used on the Train in XR website are magenta purple and black. A complementary shade of vivid orange is also used for buttons on hover and on outro sections of the Services and About Us pages. The psychology of colour used on the website can be found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/).
 * Typography
-    - Montserrat is the main font used across the website with Fira Sans for emphasis and Sans-Serif as the fallback font. Montserrat and Fira Sans are often used together with the former known for being used frequently on technology sites.
+    - Montserrat is the main font used across the website with Sans-Serif as the fallback font. Montserrat is known for being used frequently on technology sites.
 * Imagery 
     - Images and vector illustrations were carefully selected for the site. The images used show computer generated imagery (CGI) examples common across VR and AR solutions. Other images also show learners from different industry sectors. The three vector illustrations used show the stages of a CGI development, from a face and a hand in mesh to a half mesh/ half digital human face and hand.
 
@@ -143,14 +143,15 @@ Train in XR's website aims to:
 
 ## Testing
 
-At every stage of the development, testings were carried out to check for potential issues with the code, responsiveness, design and accessibility. I used the developer tools from Chrome, Safari and Microsoft Edge and Firefox.
+At every stage of the development, testings were carried out to check for potential issues with the code, responsiveness, design and accessibility. The developer tools from Chrome, Safari and Microsoft Edge and Firefox were used for testings.
 
 ### Bugs and Corrections
-1. Problems with the navbar and the AR iframe overlapping and discovered that using CSS float property on the nav container with an iframe right below it was causinf the issue. The solution was to rewrite the code for the entire header area. This solution includes snippets of JavaScript code from FlorinPop (see Credits section for the screenshot of the borrowed code snippet). 
+1. Problems with the navbar and the AR iframe overlapping and discovered that using CSS float property on the nav container with an iframe right below it was causing the issue. The solution was to rewrite the code for the entire header area. This solution includes snippets of JavaScript code from FlorinPop (see Credits section for the screenshot of the borrowed code snippet). 
 2. On one of my calls with my mentor, he raised the issues from the Nu Html Checker results such as:
     * button must not appear as descendant of the a element (these errors were on all the buttons on all pages except on the subscribe form)
     * errors from the YouTube videos iframe
     * indent errors and unclosed elements (navlinks error: no li element in scope but a li end tag seen)
+
    To fix the above, I removed the button tags from the a elements and applied CSS styling to the latter so the links look like buttons. I also fixed the YouTube videos iframe issues by deleting the frameborder and alt text properties. The indent errors and unclosed elements were also fixed by indenting the code uniformly and also removed the extra li closing tag.
 3. On Firefox browser, the Book a Demo link on the navigation was not aligning with the rest of the navlinks. This was fixed by shortening the call to action from book a demo to Get Demo.
 4. on Firefox, some of the text on homepage were misaligned. The text misalignment issues were fixed by replacing pixels with rem. I found this solution from watching Kevin Powell's YouTube video CSS tutorials. Please see the Credits section. 
@@ -158,26 +159,27 @@ At every stage of the development, testings were carried out to check for potent
 6. Testing the site on Lighthouse showed issues with accessibility, performance and best practices such as wrong placement of the aria labels inside the Font Awesome icons links and focusable elements. This was fixed by moving said aria labels inside the a tags. Alt texts were also added inside the social media a tags and the hamburger menu icon. Lastly, missing keywords were added to the metatags on the header section of all the website pages.
 7. W3C CSS Validation showed two missing units to paddings. This was quickly fixed by adding the missing units. Re-testing showed that all errors were gone.
 8. W3C Markup Validation showed errors on YouTube video iframes. This was fixed by deleting the obsolete frameborder. 
-9. W3C Markup Validation also showed warnings that the document is not mappable to XML 1.0 due to consecutive hyphens in a comment. These warnings were fixed by adjusting the comments above the code for all the sections of all the site pages.
+9. W3C Markup Validation also showed warnings that the document is not mappable to XML 1.0 due to consecutive hyphens in a comment. These warnings were fixed by adjusting the comments above the code for all the sections of the site's pages.
 10. Based on the feedback from the team at South Devon College, the following errors were corrected:
     * Fixed all the errors on the about us page (corporate video iframe) by deleting the alt text and the obsolete frameborder CSS property.
     * Removed the unnecessary script tags for libraries such as JQuery, Popper and Bootstrap.
     * Included in the Credits section the screenshots of the code snippets for the navigation menu from FlorinPop and for the use of rem instead of pixel that was learned from Kevin Powell's YouTube tutorials.
     * Renamed some of the assets (images) to remove capitalization to allow for cross-platform compatibility.
-    * Added comments above custom code files, especially on CSS files to explain the purpose of the code segmentt
+    * Added comments above custom code files, especially on CSS files to explain the purpose of the code segment
     * Tested the JavaScript code snippet on jslint.com and found errors, specifically on the arrow function (ES6) syntax. It could be that JSLint does not support some aspects of ES6. I decided to borrow an [arrow function syntax code snippet from W3 Schools](https://www.w3schools.com/js/js_arrow_function.asp) to test. The code from W3Schools also showed errors on JSLint. 
-    - ![See screenshots: my borrowed js code snippet](assets/images/validation/jslint.png)
+    - ![See screenshots: my borrowed js code snippet from FlorinPop for the navbar](assets/images/validation/jslint.png)
     - ![W3Schools arrow function syntax example](assets/images/validation/w3-schools-arrow-function-syntax-example.png)
     - ![Same code snippet from W3Schools (comments deleted) showing errors on jslint validation](assets/images/validation/w3-schools-js-snippet.png)
-    - Replaced the png images with webp versions to pass all of Lighthouse tests for all the pages, on mobile and on desktop 
+    - Replaced the png images with webp versions to pass all of Lighthouse tests for mobile and desktop. 
     - Used <article> tags for the .by-industry-card elements instead of <div> tags on the Services page.
 
 11. Added favicon to satisfy error warnings on Chrome DevTools console.
 12. The navbar jumps slightly when hovering on the client login link. This was fixed by changing the padding sizes to be the same on normal state and on hover.
-13. The backs and faces/ fronts of the flipcards on the services page were not aligned. The bug was caused by a 1rem padding on the media queries for min-280px screen sizes. This was fixed by deleting the errant 1rem padding. After several attempts to fix this bug and taking into consideration the time constraints, the solution was to replace this feature with a simpler cards with enhanced with a simple transition on hover effect. 
+13. The flipcards on the services page are still buggy with the cards not flipping on some smaller screen devices. After a hard refresh of the browser, they work again. In addition, using Firefox on my iPhone 11, the cards also flip 180deg with no issues and no overlapping content/ front face showing. But the cards do not flip using Safari on the same phone. The Firefox browser on desktop shows the front content when the cards flip. No issues were encountered using Chrome on desktop and Android phones. 
+14. In relation to above (#13), the backs and faces/ fronts of the flipcards on the services page were not aligned. The bug was caused by a 1rem padding on the media queries for min-280px screen sizes. This was part fixed by deleting the errant 1rem padding. Still, after several attempts to fix all these bugs and taking into consideration the time constraints, the solution was to replace this feature with a simpler cards enhanced with transition on hover effect. 
 
 ### Remaining Bugs 
-1. The flipcards on the services page are still buggy with the cards not flipping on some smaller screen devices. After a hard refresh of the broser, they work again. In addition, using Firefox on my iPhone 11, the cards also flip 180deg with no issues and no overlapping content/ front face showing. But the cards do not flip using Safari on the same phone. The Firefox browser on desktop shows the front content when the cards flip. No issues were encountered using Chrome on desktop and Android phones. 
+No more remaining bugs identified.
 
 ### Validation Results
 The W3C Markup Validator and the W3C CSS Validator were used to test and validate every all six pages of the Train in XR site project to ensure that there were no syntax errors in the code. Chrome's Lighthouse DevTool was also used to test for Performance, Accessibility, Best Practices and SEO.
@@ -284,7 +286,7 @@ Lighthouse Test Results (desktop):
         - Clients of TXR are able to login to their account via signup page. The link to the page is available on the site navigation bar for desktop and tablet versions of the site. ![Client Login page](assets/images/uxscreenshots/client-login.png)
 
 ### Further Testing
-* The Train in XR website was tested on Google Chrome, Microsoft Edge and Safari DevTools for errors on code,  responsiveness and features support.
+* The Train in XR website was tested on Google Chrome, Microsoft Edge and Safari DevTools for errors on code, responsiveness and features support.
 * The website was viewed and tested for responsiveness and features working on Alienware desktop, on several MacBooks (2012, 2014, 2017 and 2020), and on a low-end Dell laptop. 
 * The site was also viewed and various mobiles and tablets, from the newest to the oldest ipad (2011) that the developer has access to again test for responsiveness and features working.
 * The website was also tested for the Augmented Reality and the flip cards features both on desktops and on mobiles.
@@ -292,7 +294,9 @@ Lighthouse Test Results (desktop):
 * Friends, family members and industry contacts were also asked to review the site and to share with the developer any broken links, bugs or user experience issues they may encounter.
 
 ### Future Developments
-* 
+* Additional features and content to showcase the benefits of VR and AR would be benefit for the visitors.
+* Regular updating of contents, including case studies and industry trends will also benefit returning visitors.
+* Lastly, more resources about the technology stack requirements, the pros and cons of adopting immersive learning for staff training. 
 
 ## Deployment
 ### GitHub Pages
