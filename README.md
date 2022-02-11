@@ -5,7 +5,7 @@
 Train in XR is a fictional advisory and consulting firm specialising in Extended Reality (Virtual Reality and Augmented Reality) services for workforce learning and development. Train in XR, or TXR for short, also offers inhouse VR and AR content development. TXR's services are geared for the enterprise, the public sector and medium to large companies.
 
 
-![This is a screenshot of the TXR homepage on multiple devices, including the Augmented Reality feature](/assets/images/txr-screenshots.png)
+![This is a screenshot of the TXR homepage on multiple devices](/assets/images/txr-screenshots.png)
 
 ## Table of Contents
 1. Overview
@@ -145,7 +145,7 @@ At every stage of the development, testing were carried out to check for potenti
 1. Problems with the navbar and the AR iframe overlapping and discovered that using CSS float property on the nav container with an iframe right below it was causinf the issue. The solution was to rewrite the code for the entire header area. This solution includes snippets of JavaScript code from FlorinPop (see Credits section for the screenshot of the borrowed code snippet). 
 2. On one of my calls with my mentor, he raised the issues from the Nu Html Checker results such as:
     * button must not appear as descendant of the a element (these errors were on all the buttons on all pages except on the subscribe form)
-    * errors from the youtube videos iframe
+    * errors from the YouTube videos iframe
     * indent errors and unclosed elements (navlinks error: no li element in scope but a li end tag seen)
    To fix the above, I removed the button tags from the a elements and applied CSS styling to the latter so the links look like buttons. I also fixed the YouTube videos iframe issues by deleting the frameborder and alt text properties. The indent errors and unclosed elements were also fixed by indenting the code uniformly and also removed the extra li closing tag.
 3. On Firefox browser, the Book a Demo link on the navigation was not aligning with the rest of the navlinks. This was fixed by shortening the call to action from book a demo to Get Demo.
@@ -163,7 +163,10 @@ At every stage of the development, testing were carried out to check for potenti
     * Tested the JavaScript code snippet on jslint.com and found errors because they do not test for arrow function (ES6). 
 
 11. Added favicon to satisfy error warnings on Chrome DevTools console.
+12. The navbar jumps slightly when hovering on the client login link. This was fixed by changing the padding sizes to be the same on normal state and on hover.
+13. The backs and faces/ fronts of the flipcards on the services page were not aligned. The bug was caused by a 1rem padding on the media queries for min-280px screen sizes. This was fixed by deleting the errant 1rem padding.
 
+### Validation Results
 The W3C Markup Validator and the W3C CSS Validator were used to test and validate every all six pages of the Train in XR site project to ensure that there were no syntax errors in the code. Chrome's Lighthouse DevTool was also used to test for Performance, Accessibility, Best Practices and SEO.
 * W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/validation/HTML_Validator.png)
 * W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/validation/CSS_Validator.png)

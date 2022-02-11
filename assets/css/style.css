@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+/* Global styling for the body and font sizes */
 body {
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: border-box;
-    overflow-x: hidden; 
+    box-sizing: border-box; 
+    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,8 +26,7 @@ h4 {
     font-size: 1.25rem;
 }
 
-/*------------------- buttons --*/
-
+/* Styles for the link and buttons */
 .link-demo {
     background: #f9ad1d;
     padding-left: 0.4rem; 
@@ -54,7 +55,7 @@ h4 {
     text-decoration: none;
     color: #fff;
     background: #aa0047;
-    padding: 0.5rem;
+    padding: 0.4rem;
     border: none;
     border-radius: 20px;
     max-width: max-content;
@@ -133,8 +134,8 @@ h4 {
     cursor: pointer; 
 } 
 
-/*------------------- header section --*/
-
+/* header and navigation section styling */
+/* navbar styling using flex for responsiveness */
 .navbar {
     display: flex;
     align-items: center;
@@ -143,27 +144,6 @@ h4 {
     margin: 0 auto;
     padding-top: 0;
     padding-bottom: 0;
-}
-
-.logo {
-    width: 12.75rem;
-    height: 1.87rem;
-}
-
-.hamburger-icon {
-    background: transparent;
-    border: 0;
-    font-size: 1.5rem;
-    display: none;
-    text-decoration: none;
-}
-
-.hamburger-icon:hover {
-    color: #aa0047;
-}
-
-.hamburger-icon:active {
-    color: #aa0047;
 }
 
 .navbar ul {
@@ -192,8 +172,31 @@ h4 {
     cursor: pointer; 
 }
 
-/*------------------- hero section, created using Vectary Studio 2020, with responsive iframe --*/ 
+/* style to size the logo */
+.logo {
+    width: 12.75rem;
+    height: 1.87rem;
+}
 
+/* style for the hamburger icon menu for smaller screens*/
+.hamburger-icon {
+    background: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    display: none;
+    text-decoration: none;
+}
+
+.hamburger-icon:hover {
+    color: #aa0047;
+}
+
+.hamburger-icon:active {
+    color: #aa0047;
+}
+
+/* hero section, created using Vectary Studio 2020, with responsive iframe */ 
+/* call to action above the augmented reality hero with autoprefixes */
 #hero-cta {
     display: flex;
     justify-content: center;
@@ -212,6 +215,8 @@ h4 {
     -moz-animation-iteration-count: 1;
 }
 
+/* animation for the call to action above the hero section */
+
 @keyframes slide {
     from {
         transform: translateY(2rem)
@@ -221,6 +226,7 @@ h4 {
     }
 }
 
+/* styling for the hero section */
 .hero-interactive {
     position: relative;
     padding-top: 0; 
@@ -229,6 +235,9 @@ h4 {
     text-align: center;
 }
 
+/* styling for the embedded iframe 
+*  with background image for devices with no augmented reality capability
+*/
 .responsive-iframe {
     position: absolute;
     top: 0;
@@ -239,8 +248,7 @@ h4 {
     background-image: url("../images/neomorphic-bg.png");
 }
 
-/*------------------- about us section --*/
-
+/* styles for the about us section using flex for responsiveness */
 .about-container {
     display: flex;
     justify-content: center;
@@ -256,6 +264,7 @@ h4 {
     text-align: center;
 }
 
+/* additional styling to emphasize the vr and ar text */
 .vrar-color {
     color: #aa0047;
 }
@@ -281,8 +290,8 @@ h4 {
     padding: 0.8rem;
 }
 
-/*------------------- our services section --*/
-
+/* styles for the services section on the home page */
+/* styling for the grid container */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -295,6 +304,7 @@ h4 {
     padding-bottom: 3rem;
 }
 
+/* styling for the contents of the grid container */
 .services {
     grid-area: services;
     color: #000;
@@ -376,8 +386,7 @@ h4 {
     padding-bottom: 1rem;
 }
 
-/*------------------- why VR section --*/
-
+/* styles for the why vr section using flex for responsiveness */
 .why-vr {
     display: flex;
     flex-direction: column;
@@ -387,6 +396,17 @@ h4 {
     padding-top: 2rem;
 }
 
+/* styles for the why ar section using flex for responsiveness */
+.why-ar {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    background-color: thistle;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+/* styles for both the vr and ar sections using flex */
 .vrar-intro {
     flex-direction: row;
     font-size: 1.875rem;
@@ -423,19 +443,7 @@ h4 {
     padding-right: 0.5rem;
 } 
 
-/*------------------- why AR --*/
-
-.why-ar {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1.5rem;
-    background-color: thistle;
-    margin: 2rem;
-    padding-top: 2rem;
-}
-
-/*------------------- some of our work section --*/
-
+/* styles for the sample works section on the home page using flex for responsiveness */
 .work-intro {
     display: flex;
     flex-direction: column;
@@ -447,6 +455,7 @@ h4 {
     padding-top: 2rem;
 }
 
+/* styles for the cards container using fles for responsiveness */
 .work-container {
     display: flex;
     justify-content: center;
@@ -456,6 +465,7 @@ h4 {
     margin: 0 auto;
 }
 
+/* styles for each of the four cards */
 .work-card {
     width: 18.5rem;
     height: 28.125rem;
@@ -464,6 +474,7 @@ h4 {
     margin: 0 auto;
 }
 
+/* styles for content of each of the cards */
 .work-one,
 .work-two,
 .work-three,
@@ -482,6 +493,7 @@ h4 {
     font-weight: 700;
 }
 
+/* styles for the images on the first two cards */
 .img-one {
     background: url(../images/training-workshop.jpg) no-repeat;
     height: 12.5rem;
@@ -494,6 +506,7 @@ h4 {
     background-size: 100%;
 }
 
+/* styles for the embedded videos on the last two cards */
 .video {
     height: 12.5rem;
     background-size: 100%;
@@ -514,8 +527,7 @@ h4 {
     height: 100%;
 }
 
-/*------------------- our clients section --*/
-
+/* styles for the sample clients section using flex for responsiveness */
 .clients {
     display: flex;
     flex-direction: column;
@@ -533,6 +545,7 @@ h4 {
     text-align: center;
 }
 
+/* styles for the sample clients' logos using flex */
 .clients-logo {
     margin: 15px;
     display: flex;
@@ -541,8 +554,7 @@ h4 {
     justify-content: space-between;
 }
 
-/*------------------- testimonials section --*/
-
+/* styles for the client testimonials section using flex */
 .quote {
     display: flex;
     flex-direction: column;
@@ -551,6 +563,7 @@ h4 {
     padding-top: 2rem;
 }
 
+/* this centers the quotes intro section and adds padding to the top */
 .quote-intro {
     font-size: 1.875px;
     font-family: "Fira Sans", sans-serif;
@@ -559,6 +572,7 @@ h4 {
     padding-top: 1rem;
 } 
 
+/* this centers the quotation marks around the testimonials quotes and uses flex */
 .quote-mark {
     display: flex;
     justify-content: center;
@@ -582,8 +596,7 @@ h4 {
     margin: 1rem;
 }
 
-/*------------------- signups section --*/
-
+/*styles for the signups container using flex for responsivness */
 .subscribe {
     display: flex;
     justify-content: center; 
@@ -618,8 +631,8 @@ h4 {
     margin-bottom: 1rem;
 }
 
-/*------------------- our services page hero section --*/
-
+/* this begins the styling for the services page */
+/* styles for services page hero section using flex */
 .services-bg {
     height: 25rem;
     background-image: url("../images/txr-bg-dark3.png");
@@ -644,8 +657,7 @@ h4 {
     font-family: "Montserrat", sans-serif;
 }
 
-/*------------------- our services page intro --*/
-
+/* this centers the text and adds padding and margin for the intro */
 .solutions-intro {
     font-size: 1.2rem;
     font-family: "Fira Sans", sans-serif;
@@ -667,8 +679,7 @@ h4 {
     text-align: start;
 }
 
-/*------------------- our services page: advisory section --*/
-
+/* styles for the advisory services container using grid */
 .advisory-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -683,6 +694,7 @@ h4 {
     background-color: whitesmoke;
 }
 
+/* styles for the advisory services grid contents */
 .advisory {
     grid-area: advisory;
     text-align: center;
@@ -711,8 +723,8 @@ h4 {
     text-transform: uppercase;
 }
 
-/*------------------- our services page: by industry section --*/
-
+/* styles for the content of the card used for services by industry section */
+/* note that the card containers reused code used on the sample works section on the home page */
 .by-industry-card {
     width: 22rem;
     height: 30rem;
@@ -734,6 +746,7 @@ h4 {
     color: #aa0047;
 }
 
+/* styles for the images used on the cards */
 .hospitals-img {
     background-image: url(../images/surgery-sim.png);
     height: 11.25rem; 
@@ -770,8 +783,7 @@ h4 {
     background-size: 100%;
 }
 
-/*------------------- our services page: by VR/AR use cases --*/
-
+/* styles for the vr/ar use cases using flex for responsiveness */
 .use-case-intro {
     display: flex;
     flex-direction: column;
@@ -784,6 +796,7 @@ h4 {
     background: whitesmoke;
 }
 
+/* styles for the cards section using flex */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -792,6 +805,7 @@ h4 {
     margin: 0 auto;
 }
 
+/* styles for the cards container using flex and adding perspective for 3d effect */
 .flipcard-container {
     display: flex;
     justify-content: center;
@@ -801,6 +815,8 @@ h4 {
     margin: 0 auto;
 }
 
+/* styles for the cards container using flex and adding perspective for 3d effect */
+/* autoprefixes are used to fix 3d effect browser incompatibilities */
 .flipcard {
     position: relative;
     width: 17rem;
@@ -811,6 +827,7 @@ h4 {
     -moz-transform-style: preserve-3d;
 }
 
+/* autoprefixes are used for hover state to fix 3d effect browser incompatibilities */
 .flipcard-container:hover 
 .flipcard {
     transform: rotateY(180deg);
@@ -821,6 +838,11 @@ h4 {
     -moz-webkit-transform: rotateX(0deg);
 }
 
+/* styling for the front of the cards 
+*  autoprefixes are used to fix 3d effect browser incompatibilities 
+*  flex and z-index ensure the face of the cards will display their content 
+*  and the content of the back remains hidden 
+*/
 .front-one,
 .front-two,
 .front-three,
@@ -845,6 +867,11 @@ h4 {
     -moz-backface-visibility: hidden;
 }
 
+/* styling for the back of the cards 
+*  autoprefixes are used to fix 3d effect browser incompatibilities 
+*  flex and z-index ensure the back of the cards will display their content 
+*  and the content of the front remains hidden 
+*/
 .back-one,
 .back-two,
 .back-three,
@@ -856,6 +883,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: row;
     flex-flow: column;
     position: absolute;
@@ -872,8 +900,7 @@ h4 {
     -moz-backface-visibility: hidden;
 }
 
-/*------------------- our services page closing text --*/
-
+/* styling for the services page closing text */
 .page-outro {
     text-align: center;
     background: #f9ad1d;
@@ -895,8 +922,8 @@ h4 {
     cursor: pointer;
 }
 
-/*------------------- about us page intro --*/
-
+/* this starts the styles for the about us page*/
+/* styles for the hero section of the about us page using flex */
 .about-bg {
     height: 25rem;
     width: 100%;
@@ -907,8 +934,7 @@ h4 {
     justify-content: center;
 }
 
-/*------------------- about us page meet the team --*/
-
+/* styles for the introduction section on the about us page using flex for responsiveness */
 .team-txr {
     display: flex;
     text-align: center;
@@ -921,6 +947,10 @@ h4 {
     color: #aa0047;
 }
 
+/* note that the video container reused code used on the hero section of the home page */
+/* style to fix the corporate video to the container 
+*  this also satisfies the iframe aspect ratio requirements
+*/
 .corporate-video {
     position: absolute;
     top: 0;
@@ -930,18 +960,20 @@ h4 {
     border: 0;
 }
 
-/*------------------- about us page outro --*/
-
+/* styles for the about us page outro */
 .txr-color {
     color: #f9ad1d;
 }
 
+/* additional styling to the outro button font colour 
+* so that text provides better contrast with background on hover
+*/
 #plus {
     color: #fff;
 }
 
-/*------------------- contact us page intro --*/
-
+/* start of styling for the contact us page */
+/* styling for the hero section of contact us page using flex for responsiveness */
 .contact-bg {
     height: 25rem;
     width: 100%;
@@ -952,8 +984,8 @@ h4 {
     justify-content: center;
 }
 
-/*------------------- contact us page form --*/
-
+/* styles for the contact us page form begins here */
+/* using flex, the form is responsive on smaller device up to 280px screen size */
 .contact_form-section {
     display: flex;
     justify-content: center; 
@@ -965,6 +997,7 @@ h4 {
     background-size: cover;
 }
 
+/* styling for the form container */
 .contact_form-container {
     max-width: 90%;
     margin: 2rem;
@@ -972,6 +1005,7 @@ h4 {
     color: #000;
 }
 
+/* styling for the form container contents */
 .contact_form-container h3 {
     color: #f9ad1d;
 }
@@ -1009,14 +1043,14 @@ h4 {
     margin-bottom: 2rem;
 }
 
-/*------------------- contact us page google map section --*/
-
+/* styling for google map section */
 .map-header {
     text-align: center;
     padding: 2rem;
     margin: 1rem auto;
 }
 
+/* container styling for the embedded google map */
 .map {
     position: relative;
     padding-top: 0; 
@@ -1036,7 +1070,8 @@ h4 {
     margin: 1rem auto;
 }
 
-/*------------------- login page --*/
+/* start of the styling for the login page */
+/* login-form styling using flex for responsiveness */
 
 .login-form {
     height: 25rem;
@@ -1052,8 +1087,8 @@ h4 {
     color: #000;
 }
 
-/*------------------- footer section --*/
-
+/* start of the footer section styling */
+/* used autoprefix to hide overflow on Firefox browser on mobile */
 .footer {
     background-color: #000;
     color: #fff;
@@ -1061,29 +1096,43 @@ h4 {
     overflow: -moz-hidden-unscrollable; 
 }
 
+/* footer container styling using flex for responsiveness and aligning items */
 .footer-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }    
 
-.footer-about p {
-    font-size: 0.8rem;
-    text-align: left;
-    margin: 1rem;
-}
-
+/* svg logo on the footer styling */
 .footer-logo {
     background-size: 100%;
     max-width: 100%;
     margin: 1rem;
 }
 
+/* this centers the social media Font Awesome icons and provides contrast with the black background */
 .social-networks i {
     text-decoration: none;
     color: whitesmoke;
     margin: 1rem;
     justify-content: space-evenly;
+}
+
+/* footer jeaders styling to add margin and set width */
+.footer-about,
+.footer-services,
+.footer-contact {
+    width: 19rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 1rem; 
+}  
+
+/* footer fonts styling */
+.footer-about p {
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 1rem;
 }
 
 .footer-services h3,
@@ -1096,6 +1145,7 @@ h4 {
     color: #f9ad1d;
 }
 
+/*  links styling to align items and remove text decoration */
 .footer-services ul {
     list-style: none;
     padding-inline-start: 1rem;
@@ -1134,22 +1184,14 @@ h4 {
     padding-right: 1rem; 
 }
 
+/*  copyright section styling */
 .copyright {
     font-size: 0.8rem;
     text-align: center;
     padding-top: 1rem;
 }
-
-.footer-about,
-.footer-services,
-.footer-contact {
-    width: 19rem;
-    border: 1px solid #000;
-    border-radius: 5px;
-    margin: 1rem; 
-}    
-
-/*------------------- media queries --*/
+  
+/* media queries for screen sizes ranging from 280px to 1100px and above */
 
 @media screen and (min-width: 280px) {
     body {
@@ -1507,7 +1549,7 @@ h4 {
         position: absolute;
         width: inherit;
         height: inherit;
-        padding: 1rem;
+        padding: 0;
         z-index: 1;
         border: 1px solid #aa0047;
         color: #000;
