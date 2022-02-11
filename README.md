@@ -170,10 +170,14 @@ At every stage of the development, testings were carried out to check for potent
     - ![W3Schools arrow function syntax example](assets/images/validation/w3-schools-arrow-function-syntax-example.png)
     - ![Same code snippet from W3Schools (comments deleted) showing errors on jslint validation](assets/images/validation/w3-schools-js-snippet.png)
     - Replaced the png images with webp versions to pass all of Lighthouse tests for all the pages, on mobile and on desktop 
+    - Used <article> tags for the .by-industry-card elements instead of <div> tags on the Services page.
 
 11. Added favicon to satisfy error warnings on Chrome DevTools console.
 12. The navbar jumps slightly when hovering on the client login link. This was fixed by changing the padding sizes to be the same on normal state and on hover.
-13. The backs and faces/ fronts of the flipcards on the services page were not aligned. The bug was caused by a 1rem padding on the media queries for min-280px screen sizes. This was fixed by deleting the errant 1rem padding.
+13. The backs and faces/ fronts of the flipcards on the services page were not aligned. The bug was caused by a 1rem padding on the media queries for min-280px screen sizes. This was fixed by deleting the errant 1rem padding. After several attempts to fix this bug and taking into consideration the time constraints, the solution was to replace this feature with a simpler cards with enhanced with a simple transition on hover effect. 
+
+### Remaining Bugs 
+1. The flipcards on the services page are still buggy with the cards not flipping on some smaller screen devices. After a hard refresh of the broser, they work again. In addition, using Firefox on my iPhone 11, the cards also flip 180deg with no issues and no overlapping content/ front face showing. But the cards do not flip using Safari on the same phone. The Firefox browser on desktop shows the front content when the cards flip. No issues were encountered using Chrome on desktop and Android phones. 
 
 ### Validation Results
 The W3C Markup Validator and the W3C CSS Validator were used to test and validate every all six pages of the Train in XR site project to ensure that there were no syntax errors in the code. Chrome's Lighthouse DevTool was also used to test for Performance, Accessibility, Best Practices and SEO.
@@ -286,6 +290,9 @@ Lighthouse Test Results (desktop):
 * The website was also tested for the Augmented Reality and the flip cards features both on desktops and on mobiles.
 * The site navigation, links and buttons were tested multiple times to ensure that there are no broken links.
 * Friends, family members and industry contacts were also asked to review the site and to share with the developer any broken links, bugs or user experience issues they may encounter.
+
+### Future Developments
+* 
 
 ## Deployment
 ### GitHub Pages

@@ -461,7 +461,7 @@ h4 {
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 1.5rem;
-    background-color: #fff;
+    background-color: whitesmoke;
     margin: 0 auto;
 }
 
@@ -469,8 +469,8 @@ h4 {
 .work-card {
     width: 18.5rem;
     height: 28.125rem;
-    border: 1px solid #aa0047;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    border: 1px solid rgb(161, 161, 161);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
     margin: 0 auto;
 }
 
@@ -718,7 +718,7 @@ h4 {
 .advisory-b,
 .advisory-c {
     text-align: center;
-    border: 1px solid #f9ad1d;
+    border: 1px solid rgb(161, 161, 161);
     padding: 1rem;
     text-transform: uppercase;
 }
@@ -728,9 +728,10 @@ h4 {
 .by-industry-card {
     width: 22rem;
     height: 30rem;
-    border: 1px solid #000;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5); 
+    border: 1px solid rgb(161, 161, 161);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2); 
     margin: 3rem;
+    background-color: #fff;
 }
 
 .industry-list {
@@ -793,113 +794,37 @@ h4 {
     text-align: center;
     margin: 3rem;
     padding-top: 2rem;
-    background: whitesmoke;
 }
 
-/* styles for the cards section using flex */
-.cards {
+/* styles for the use cases card container */
+.use-case-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 1rem;
+    background-color: #b3718c;
+    margin: 0 auto;
+    padding-top: 2rem;;
+}
+
+.use-case-card {
+    width: 16.5rem;
+    height: 19.25rem;
+    background-color: #fff;
+    margin: 0 auto;
     justify-content: space-between;
-    padding-bottom: 25px;
-    margin: 0 auto;
 }
 
-/* styles for the cards container using flex and adding perspective for 3d effect */
-.flipcard-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex: 1;
-    perspective: 1000px;
-    -webkit-perspective: 1000px;
-    -moz-perspective: 1000ox;
-    margin: 0 auto;
+.use-case-card:hover {
+    transform: scale(1.025);
+    transition: all 0.5s ease-in 0s;
+    cursor: pointer;   
 }
 
-/* styles for the cards container using flex and adding perspective for 3d effect */
-/* autoprefixes are used to fix 3d effect browser incompatibilities */
-.flipcard {
-    position: relative;
-    width: 17rem;
-    height: 18rem;  
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-}
-
-/* autoprefixes are used for hover state to fix 3d effect browser incompatibilities */
-.flipcard-container:hover 
-.flipcard {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    transform: rotateX(0deg);
-    -webkit-transform: rotateX(0deg);
-    -moz-webkit-transform: rotateX(0deg);
-}
-
-/* styling for the front of the cards 
-*  autoprefixes are used to fix 3d effect browser incompatibilities 
-*  flex and z-index ensure the face of the cards will display their content 
-*  and the content of the back remains hidden 
-*/
-.front-one,
-.front-two,
-.front-three,
-.front-four,
-.front-five,
-.front-six,
-.front-seven,
-.front-eight {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-flow: column;
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    z-index: 2;
-    background: #000;
-    color: #fff;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-}
-
-/* styling for the back of the cards 
-*  autoprefixes are used to fix 3d effect browser incompatibilities 
-*  flex and z-index ensure the back of the cards will display their content 
-*  and the content of the front remains hidden 
-*/
-.back-one,
-.back-two,
-.back-three,
-.back-four,
-.back-five,
-.back-six,
-.back-seven,
-.back-eight {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-    flex-flow: column;
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    padding: 0;
-    z-index: 1;
-    border: 1px solid #aa0047;
-    color: #000;
-    
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
+/* styles for content of each of the cards */
+.use-case-text {
+    margin: 1rem;
+    padding: 1rem;
 }
 
 /* styling for the services page closing text */
@@ -1435,8 +1360,8 @@ h4 {
     .work-card {
         width: 17.5rem;
         height: 28.125rem;
-        border: 1px solid #aa0047;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+        border: 1px solid rgb(161, 161, 161);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
         margin: 0 auto;
         padding: 0.5rem;
     }
@@ -1481,86 +1406,6 @@ h4 {
 
     .clients-logo {
         margin: 0 auto;
-    }
-
-    .flipcard-container {
-       display: flex;
-       justify-content: center;
-       flex-wrap: wrap;
-       flex: 1;
-       perspective: 1000px;
-       -webkit-perspective: 1000px;
-       -moz-perspective: 1000px;
-    }
-
-    .flipcard {
-        position: relative;
-        width: 15rem;
-        height: 22rem;
-        margin: 1rem;
-        transition: transform 0.5s;
-        transform-style: preserve-3d; 
-        -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
-    }
-    
-    .flipcard-container:hover 
-    .flipcard {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-    }
-
-    .front-one,
-    .front-two,
-    .front-three,
-    .front-four,
-    .front-five,
-    .front-six,
-    .front-seven,
-    .front-eight {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-flow: column;
-        position: absolute;
-        width: inherit;
-        height: inherit;
-        z-index: 2;
-        background: #000;
-        color: #fff;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-    }
-
-    .back-one,
-    .back-two,
-    .back-three,
-    .back-four,
-    .back-five,
-    .back-six,
-    .back-seven,
-    .back-eight {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-flow: column;
-        position: absolute;
-        width: inherit;
-        height: inherit;
-        padding: 0;
-        z-index: 1;
-        border: 1px solid #aa0047;
-        color: #000;
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
     }
 
     .login_form-container {
@@ -1786,7 +1631,7 @@ h4 {
     .advisory-b,
     .advisory-c {
         text-align: center;
-        border: 1px solid #f9ad1d;
+        border: 1px solid rgb(161, 161, 161);
         padding: 1rem;
         text-transform: uppercase;
     }
