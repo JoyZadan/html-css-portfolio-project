@@ -1106,7 +1106,8 @@ h4 {
 /* svg logo on the footer styling */
 .footer-logo {
     background-size: 100%;
-    max-width: 100%;
+    width: 17rem;
+    height: 1.7rem;
     margin: 1rem;
 }
 
