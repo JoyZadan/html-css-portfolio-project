@@ -5,7 +5,7 @@
 Train in XR is a fictional advisory and consulting firm specialising in Extended Reality (Virtual Reality and Augmented Reality) services for workforce learning and development. Train in XR, or TXR for short, also offers inhouse VR and AR content development. TXR's services are geared for the enterprise, the public sector and medium to large companies.
 
 
-![This is a screenshot of the TXR homepage on multiple devices](/assets/images/txr-screenshots.png)
+![This is a screenshot of the TXR homepage on multiple devices](/assets/images/uxscreenshots/txr-am-i-responsive.png)
 
 ## Table of Contents
 1. Overview
@@ -166,6 +166,7 @@ At every stage of the development, testing were carried out to check for potenti
     - ![See screenshots: my borrowed js code snippet](assets/images/validation/jslint.png)
     - ![W3Schools arrow function syntax example](assets/images/validation/w3-schools-arrow-function-syntax-example.png)
     - ![Same code snippet from W3Schools (comments deleted) showing errors on jslint validation](assets/images/validation/w3-schools-js-snippet.png)
+    - Replaced the png images with webp versions to pass all of Lighthouse tests for all the pages, on mobile and on desktop 
 
 11. Added favicon to satisfy error warnings on Chrome DevTools console.
 12. The navbar jumps slightly when hovering on the client login link. This was fixed by changing the padding sizes to be the same on normal state and on hover.
@@ -173,18 +174,49 @@ At every stage of the development, testing were carried out to check for potenti
 
 ### Validation Results
 The W3C Markup Validator and the W3C CSS Validator were used to test and validate every all six pages of the Train in XR site project to ensure that there were no syntax errors in the code. Chrome's Lighthouse DevTool was also used to test for Performance, Accessibility, Best Practices and SEO.
-* W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F) ![Test_Results](assets/images/validation/HTML_Validator.png)
-* W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) ![Test_Results](assets/images/validation/CSS_Validator.png)
-* Lighthouse ![Results](assets/images/validation/Lighthouse_Test.png)
-* a11y Color Contrast Accessibility for the Visually Impaired Validator 
-    - Home Page Test Results ![Home_Results](assets/images/validation/a11y_Color_Contrast_accessibility_home-page-test-results.png)
-    - Services Page Test Results ![Services_Results](assets/images/validation/a11y_Color_Contrast_accessibility_services-page-test-results.png)
-    - About Us Page Test Results ![About_Results](assets/images/validation/a11y_Color_Contrast_accessibility_about-page-test-results.png)
-    - Contact Us Page Test Results ![Contact_Results](assets/images/validation/a11y_Color_Contrast_accessibility_contact-page-test-results.png)
-* 
+* W3C Markup Validator Test Results: 
+    [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F)
+    [Home](assets/images/validation/w3c-markup-validator-homepage.png)
+    [Services](assets/images/validation/w3c-markup-validator-services.png)
+    [About](assets/images/validation/w3c-markup-validator-about.png)
+    [Contact](assets/images/validation/w3c-markup-validator-contact.png)
+    [Login](assets/images/validation/w3c-markup-validator-login.png)
+    [Thankyou](assets/images/validation/w3c-markup-validator-thankyou.png)
 
+* W3C CSS Validator Test Results: 
+    [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoyzadan.github.io%2Fhtml-css-portfolio-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    [Home](assets/images/validation/w3c-css-validator-homepage.png)
+    [Services](assets/images/validation/w3c-css-validator-services.png)
+    [About](assets/images/validation/w3c-css-validator-about.png)
+    [Contact](assets/images/validation/w3c-css-validator-contacts.png)
+    [Login](assets/images/validation/w3c-css-validator-login.png)
+    [Thankyou](assets/images/validation/w3c-css-validator-thankyou.png)
+    Although there are 36 warnings on the page, 34 of them are warnings that each of the autoprefixes is a vendor extension. The other two are warnings that the property clip which came with Font Awesome are deprecated. All 36 are warning level 0.
+
+* Lighthouse Test Results (pages on mobile):
+    [Home](assets/images/validation/lighthouse-mobile-homepage.png)
+    [Services](assets/images/validation/lighthouse-mobile-services-page.png)
+    [About](assets/images/validation/lighthouse-mobile-about-page.png)
+    [Contact](assets/images/validation/lighthouse-mobile-contact-page.png)
+    [Login](assets/images/validation/lighthouse-mobile-login-page.png)
+    [Thankyou](assets/images/validation/lighthouse-mobile-thankyou-page.png)
+Lighthouse Test Results (desktop):
+    [Home](assets/images/validation/lighthouse-desktop-homepage.png)   
+    [Services](assets/images/validation/lighthouse-desktop-services-page.png) 
+    [About](assets/images/validation/lighthouse-desktop-contact-page.png)
+    [Contact](assets/images/validation/lighthouse-desktop-contact-page.png)
+    [Login](assets/images/validation/lighthouse-desktop-login-page.png)
+    [Thankyou](assets/images/validation/lighthouse-desktop-thankyou-page.png)
+
+* a11y Color Contrast Accessibility for the Visually Impaired Validator Test Results:
+    [Home](assets/images/validation/a11y-accessibility-validator-homepage.png)
+    [Services](assets/images/validation/a11y-accessibility-validator-services.png)
+    [About](assets/images/validation/a11y-accessibility-validator-about.png)
+    [Contact](assets/images/validation/a11y-accessibility-validator-contact.png)
+    [Login](assets/images/validation/a11y-accessibility-validator-login.png)
+    [Thankyou](assets/images/validation/a11y-accessibility-validator-thankyou.png)
+    
 ### Testing User Stories from User Experience (UX) Section
-
 * First Time Visitor Goals
     - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Train in XR
         - Upon entering the site, users are greeted with a call to action (CTA) beneath the navigation bar to try out an Augmented Reality experience by clicking on the AR activation icon. 
@@ -238,7 +270,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
         - A link to download an AR App is included on the sample of our works section.
     - As a Frequent Visitor, I would like to be able to know more about Train in XR, their history and their track records in delivering their services.
         - The About Us page provides the users more information about Train in XR, its track record to date as well as its brief history.
-        - A corporate video about the company is also available on the About Us page. ![Train in XR corporate video](assets/images/uxscreenshots/TXR-corporate-video.png)
+        - A corporate video about the company is also available on the About Us page. ![Train in XR corporate video](assets/images/uxscreenshots/txr-corporate-video.png)
 
 * Frequent Visitor (Client) Goals
     - As a Frequent Visitor (Client), I want to be able to login to my TXR account.
@@ -279,4 +311,4 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 * The YouTube videos came from CNBC and Future Business Tech
 
 ### Acknowledgement
-* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Also thanks to Conrad Saunders at South Devon College for his time and insights into the project assessment criteria. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating to advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
+* Thanks to Code Institute's highly effective teaching method and the user-friendly LMS, both of which combined make for a pleasurable learning experience. Also thanks to the team at South Devon College for your time and insights into the project assessment criteria. Special mention and thanks to my mentor, Dario Carrasquel, for his support, invaluable insights and for also not hesitating to advise that I may want to pare down my ideas and focus my priorities to the critical and the essential parts of this project's development.
