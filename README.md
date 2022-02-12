@@ -168,10 +168,10 @@ At every stage of the development, testings were carried out to check for potent
     * Added comments above custom code files, especially on CSS files to explain the purpose of the code segment
     * Replaced the png images with webp versions to pass all of Lighthouse tests for mobile and desktop. 
     * Used <article> tags for the .by-industry-card elements instead of <div> tags on the Services page.
-    * Tested the JavaScript code snippet on jslint.com and found errors, specifically [on the arrow function (ES6) syntax](assets/images/validation/jslint.png). It could be that JSLint does not support some aspects of ES6. To test this theory, I did the the following:
-        * Borrow a code snippet from W3 Schools: [arrow function syntax code snippet](https://www.w3schools.com/js/js_arrow_function.asp) 
+    * Tested the JavaScript code snippet on jslint.com and found errors, specifically [on the arrow function (ES6) syntax](assets/images/validation/jslint.png). It could be that JSLint does not support some aspects of ES6. To test this theory, I did the following:
+        * Borrowed a code snippet from W3 Schools: [arrow function syntax](https://www.w3schools.com/js/js_arrow_function.asp) 
         * Tested said [code snippet](assets/images/validation/w3-schools-arrow-function-syntax-example.png) on JSLint
-        * The code from W3Schools also showed errors on JSLint: [See line 1:](assets/images/validation/w3-schools-js-snippet.png).
+        * The code from W3Schools also showed arrow function error on JSLint: [See line 1](assets/images/validation/w3-schools-js-snippet.png)
         * The same code I used for the hamburger menu passed using another linter: [JSHint Linting Report](assets/images/validation/jshint-report.png)
    
 11. Added favicon to satisfy error warnings on Chrome DevTools console.
@@ -210,7 +210,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
     [Contact](assets/images/validation/lighthouse-mobile-contact-page.png)
     [Login](assets/images/validation/lighthouse-mobile-login-page.png)
     [Thankyou](assets/images/validation/lighthouse-mobile-thankyou-page.png)
-Lighthouse Test Results (desktop):
+* Lighthouse Test Results (desktop):
     [Home](assets/images/validation/lighthouse-desktop-homepage.png)   
     [Services](assets/images/validation/lighthouse-desktop-services-page.png) 
     [About](assets/images/validation/lighthouse-desktop-contact-page.png)
