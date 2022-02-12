@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
-
+/* Use of CSS unit rem instead of pixels learned from Kevin Powell's YouTube tutorial (see README Credits section) */
 h1 {
     font-size: 2.75rem;
 }
@@ -26,7 +26,7 @@ h4 {
     font-size: 1.25rem;
 }
 
-/* Styles for the link and buttons */
+/* Styles for the links and buttons */
 .link-demo {
     background: #f9ad1d;
     padding-left: 0.4rem; 
@@ -216,7 +216,6 @@ h4 {
 }
 
 /* animation for the call to action above the hero section */
-
 @keyframes slide {
     from {
         transform: translateY(2rem)
@@ -690,7 +689,7 @@ h4 {
     "advisory-a advisory-b advisory-c";
     margin: 0 auto;
     padding: 1rem;
-    width: 95%;
+    width: 90%;
     background-color: whitesmoke;
 }
 
@@ -1209,7 +1208,6 @@ h4 {
             "tna";
         background-color: whitesmoke;
         overflow: hidden;
-        padding-top: 2rem;
         padding-bottom: 3rem;
         margin: 0 auto;
     }
@@ -1723,5 +1721,4 @@ h4 {
         height: 30rem;
         margin: 1rem;
     }
-
 }
